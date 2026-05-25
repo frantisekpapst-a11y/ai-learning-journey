@@ -84,7 +84,5 @@ Cílem tohoto repozitáře je:
 🎯 Aktuální cíle
 Zlepšit prompt engineering
 Naučit se AI automatizace
-Tvořit AI mini aplikace
 Naučit se Python pro AI a datovou analýzu
 Propojit AI nástroje s Power BI a Excelem
-Vytvářet praktické portfolio projekty
