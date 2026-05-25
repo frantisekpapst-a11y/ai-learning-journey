@@ -1,11 +1,13 @@
 # AI Learning Journey 🤖
 
-Repozitář dokumentující moji cestu učením umělé inteligence, AI nástrojů, promptingu, automatizace a vibe codingu.
+Repozitář dokumentující moji cestu učením umělé inteligence, AI nástrojů, promptingu, AI-assisted analytics, automatizace a vibe codingu.
 
 Cílem tohoto repozitáře je:
+
 - sledovat svůj progres,
-- ukládat poznámky a mini projekty,
+- ukládat poznámky, mini projekty a case studies,
 - procvičovat AI workflow,
+- učit se moderní analytické postupy,
 - budovat veřejné portfolio.
 
 ---
@@ -67,22 +69,98 @@ Cílem tohoto repozitáře je:
 
 ---
 
+## 3. AI a datová analytika
+
+📂 Samostatný repozitář:
+
+👉 <https://github.com/frantisekpapst-a11y/data-analytics-learning-journey>
+
+### Procvičené oblasti
+
+- AI-assisted analytics
+- Data cleaning
+- Business analysis
+- Sentiment analysis
+- Trend analysis
+- Forecasting
+- AI risk review
+- Excel pro datovou analytiku
+- Power Query
+- Kontingenční tabulky
+- SQL základy
+- Business reporting
+- Validace AI výstupů
+
+---
+
 # 🛠 Naučené nástroje a platformy
 
+## AI nástroje
 - ChatGPT
 - Claude
 - Gemini
 - Perplexity AI
+
+## Produktivita a automatizace
 - Zapier
-- Midjourney
 - Gamma
 - Grain
 - Text Blaze
 
+## Data analytics
+- Microsoft Excel
+- Kontingenční tabulky
+- Power Query
+- Základy SQL
+- Základy business reportingu
+
+## Kreativní AI
+- Midjourney
+
 ---
 
-🎯 Aktuální cíle
-Zlepšit prompt engineering
-Naučit se AI automatizace
-Naučit se Python pro AI a datovou analýzu
-Propojit AI nástroje s Power BI a Excelem
+# 🎯 Aktuální cíle
+
+- Zlepšit prompt engineering
+- Naučit se Python pro AI a datovou analýzu
+- Propojit AI nástroje s Power BI a Excelem
+- Rozšířit znalosti SQL a business analytiky
+- Budovat portfolio case studies z datové analytiky
+
+---
+
+# 📌 Lessons Learned
+
+- AI výrazně urychluje analytickou práci.
+- AI není náhrada analytika.
+- Human review je stále klíčový.
+- Kvalitní prompt výrazně ovlivňuje kvalitu výstupu.
+- Malý dataset může vést ke zkresleným závěrům.
+- Business kontext je zásadní pro správnou interpretaci dat.
+- AI je velmi silný pomocník pro:
+  - data cleaning,
+  - reporting,
+  - brainstorming,
+  - interpretaci trendů,
+  - tvorbu dokumentace,
+  - automatizaci rutinních úloh.
+
+---
+
+# 📂 Struktura repozitáře
+
+```text
+ai-learning-journey/
+│
+├── README.md
+├── ai-certificates-starterpack.pdf
+├── ai-certificates-vibecoding-basic.pdf
+├── ai-starterpack.md
+└── ai-vibecoding-basic.md
+```
+
+---
+
+# ⚠️ Poznámka
+
+Repozitář používá pouze anonymizovaná nebo ukázková data určená pro studijní a portfolio účely.
