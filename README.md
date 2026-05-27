@@ -71,9 +71,13 @@ Cílem tohoto repozitáře je:
 
 ## 3. AI a datová analytika
 
-📂 Samostatný repozitář:
+📂 Samostatné repozitáře:
 
+## Data Analytics Learning Journey
 👉 <https://github.com/frantisekpapst-a11y/data-analytics-learning-journey>
+
+## Power BI Learning Journey
+👉 <https://github.com/frantisekpapst-a11y/power-bi-learning-journey>
 
 ### Procvičené oblasti
 
@@ -90,6 +94,10 @@ Cílem tohoto repozitáře je:
 - SQL základy
 - Business reporting
 - Validace AI výstupů
+- Q&A vizualizace
+- Automated Insights
+- AI-assisted analytics
+- Základy prediktivní analytiky
 
 ---
 
@@ -111,8 +119,9 @@ Cílem tohoto repozitáře je:
 - Microsoft Excel
 - Kontingenční tabulky
 - Power Query
-- Základy SQL
+- SQL
 - Základy business reportingu
+- Power BI
 
 ## Kreativní AI
 - Midjourney
@@ -124,7 +133,7 @@ Cílem tohoto repozitáře je:
 - Zlepšit prompt engineering
 - Naučit se Python pro AI a datovou analýzu
 - Propojit AI nástroje s Power BI a Excelem
-- Rozšířit znalosti SQL a business analytiky
+- Rozšířit znalosti SQL, Power BI a business analytiky
 - Budovat portfolio case studies z datové analytiky
 
 ---
