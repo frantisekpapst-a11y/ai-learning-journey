@@ -1,6 +1,6 @@
 # AI Prompt Engineering Cheatsheet
 
-> Vlastní tahák vytvořený během studia AI se zaměřením na datovou analytiku, Business Intelligence a profesionální práci s LLM.
+Vlastní tahák vytvořený během studia AI se zaměřením na datovou analytiku, Business Intelligence a profesionální práci s LLM.
 
 ---
 
@@ -16,9 +16,9 @@ Jde o navrhování kvalitního business zadání pro AI.
 
 # Základní princip
 
-**Čím lepší zadání, tím lepší výstup.**
+> **Čím lepší zadání, tím lepší výstup.**
 
-Garbage In → Garbage Out
+**Garbage In → Garbage Out**
 
 ---
 
@@ -26,22 +26,26 @@ Garbage In → Garbage Out
 
 | Vrstva | Otázka | Příklad |
 |---------|---------|----------|
-| **Role** | Kdo je AI? | Jsi senior datový analytik. |
-| **Cíl** | Co má AI vytvořit? | Navrhni Power BI dashboard. |
-| **Kontext** | Co AI ví o problému? | Máme data z e-shopu: datum, produkt, zákazník, region... |
-| **Omezení** | Co AI nesmí nebo musí dodržet? | Nepoužívej Python. Pokud něco chybí, napiš předpoklady. |
-| **Formát výstupu** | Jak má výsledek vypadat? | Markdown, tabulka, checklist, JSON... |
-| **Zdůvodnění** | Má AI vysvětlit své návrhy? | Zdůvodni každý návrh. |
+| Role | Kdo je AI? | Jsi senior datový analytik. |
+| Cíl | Co má AI vytvořit? | Navrhni Power BI dashboard. |
+| Kontext | Co AI ví o problému? | Máme data z e-shopu: datum, produkt, zákazník, region... |
+| Omezení | Co AI nesmí nebo musí dodržet? | Nepoužívej Python. Pokud něco chybí, napiš předpoklady. |
+| Formát výstupu | Jak má výsledek vypadat? | Markdown, tabulka, checklist, JSON... |
+| Zdůvodnění | Má AI vysvětlit své návrhy? | Zdůvodni každý návrh. |
+| Kontrola | Má AI provést vlastní revizi? | Zkontroluj své řešení a navrhni zlepšení. |
 
 ---
 
 # Profesionální struktura promptu
 
+```
 Role
 ↓
 Cíl
 ↓
 Kontext
+↓
+Data
 ↓
 Omezení
 ↓
@@ -49,7 +53,11 @@ Formát výstupu
 ↓
 Zdůvodnění
 ↓
+Kontrola
+↓
 Iterace
+```
+
 ---
 
 # Role
@@ -57,8 +65,10 @@ Iterace
 Role určuje způsob uvažování AI.
 
 Příklady:
+
 - senior datový analytik
-- Power BI konzultant
+- BI konzultant
+- Power BI specialista
 - SQL developer
 - Business analytik
 - Projektový manažer
@@ -73,24 +83,52 @@ Bez kontextu AI pouze odhaduje.
 Čím více relevantních informací dostane, tím lepší bude výstup.
 
 Například:
+
 - obor
 - cílová skupina
-- dostupná data
-- použité technologie
 - business problém
+- dostupná data
+- technologie
+- cíl analýzy
+
+---
+
+# Data
+
+Pokud AI pracuje s daty, vždy specifikuj:
+
+- dostupné sloupce
+- granularitu dat
+- časové období
+- případná omezení datasetu
+
+Například:
+
+```
+Máme tato data:
+
+- datum objednávky
+- produkt
+- zákazník
+- region
+- cena
+- množství
+```
 
 ---
 
 # Omezení
 
-Profesionální prompt vždy obsahuje omezení.
+Profesionální prompt téměř vždy obsahuje omezení.
 
 Například:
+
 - nepoužívej Python
 - pracuj pouze s Power BI
-- používej pouze informace ze zadaných dat
-- pokud něco chybí, napiš to
-- nevymýšlej si informace
+- používej pouze zadaná data
+- nevymýšlej si chybějící informace
+- pokud něco chybí, napiš předpoklady
+- pokud si nejsi jistý, polož doplňující otázky
 
 ---
 
@@ -99,12 +137,14 @@ Například:
 AI by měla vědět, jak má odpověď vypadat.
 
 Například:
+
 - Markdown
 - Tabulka
-- JSON
 - Checklist
-- Seznam kroků
+- JSON
 - Executive Summary
+- Seznam kroků
+- Business report
 
 ---
 
@@ -115,9 +155,11 @@ Nechtěj pouze výsledek.
 Chtěj také vysvětlení.
 
 Například:
+
 - Zdůvodni každý návrh.
 - Popiš výhody a nevýhody.
-- Uveď alternativní řešení.
+- Navrhni alternativní řešení.
+- Uveď možná rizika.
 
 ---
 
@@ -125,10 +167,11 @@ Například:
 
 Prompt se běžně upravuje.
 
-První odpověď nebývá finální.
+První odpověď téměř nikdy není finální.
 
 Typický postup:
 
+```
 Prompt
 ↓
 Výsledek
@@ -139,7 +182,8 @@ Lepší výsledek
 ↓
 Další zpřesnění
 ↓
-Finální výstup
+Finální řešení
+```
 
 ---
 
@@ -147,162 +191,312 @@ Finální výstup
 
 Google
 
+```
 Dotaz
 ↓
 Vyhledání
 ↓
 Výsledek
+```
 
 AI
 
+```
 Prompt
 ↓
 Návrh
 ↓
 Iterace
 ↓
-Lepší návrh
-↓
 Kontrola
 ↓
 Finální řešení
+```
+
+---
+
+# Prompt Hacks
+
+## Maximum detailů
+
+Poskytuj maximum relevantních informací.
+
+Nezahlcuj ale prompt zbytečnostmi ani si neprotiřeč.
+
+---
+
+## Rozděl úlohu na kroky
+
+Místo jednoho velkého úkolu vytvoř workflow.
+
+Například:
+
+1. Analyzuj data.
+2. Najdi problémy.
+3. Navrhni KPI.
+4. Navrhni dashboard.
+5. Zdůvodni návrhy.
+6. Proveď vlastní kontrolu.
+
+---
+
+## Používej oddělovače
+
+Odděluj jednotlivé části promptu.
+
+Například:
+
+```
+# Role
+
+# Kontext
+
+# Data
+
+# Omezení
+
+# Výstup
+```
+
+nebo
+
+```
+<role>
+
+<kontext>
+
+<data>
+
+<vystup>
+```
+
+---
+
+## Few-shot prompting
+
+Pokud existuje kvalitní příklad, přilož jej.
+
+AI se mnohem lépe trefí do požadovaného stylu.
+
+---
+
+## Referenční dokumenty
+
+Přikládej:
+
+- KPI definice
+- datový slovník
+- business zadání
+- SQL dokumentaci
+- Power BI standardy
+- interní metodiky
+
+AI bude vycházet z konkrétních podkladů místo obecných znalostí.
+
+---
+
+## Druhá kontrola
+
+Na závěr požádej AI o vlastní revizi.
+
+Například:
+
+```
+Zkontroluj své řešení.
+
+Najdi chyby.
+
+Najdi slabá místa.
+
+Navrhni zlepšení.
+```
+
+---
+
+## Neptej se pouze
+
+```
+Je to správně?
+```
+
+Lepší je:
+
+```
+Navrhni vlastní řešení.
+
+Porovnej jej s mým.
+
+Vysvětli rozdíly.
+
+Doporuč nejlepší variantu.
+```
+
+---
+
+## Custom Instructions
+
+Informace, které používáš často, nepiš do každého promptu.
+
+Například:
+
+- profese
+- styl komunikace
+- používané technologie
+- úroveň znalostí
+- preferovaný formát výstupu
 
 ---
 
 # Best Practices
 
-## Buď konkrétní.
+✅ Buď konkrétní.
+
 ❌ Navrhni dashboard.
 
-✅ Navrhni Power BI dashboard pro management e-shopu.
+✅ Navrhni Power BI dashboard pro vedení e-shopu.
 
 ---
 
-## Definuj roli.
+✅ Definuj roli.
 
 Například:
-> Jsi senior BI konzultant.
+
+```
+Jsi senior BI konzultant.
+```
 
 ---
 
-## Přidej kontext.
+✅ Přidej kontext.
 
 Například:
+
 - typ firmy
-- dostupná data
 - business problém
 - cílový uživatel
+- dostupná data
+- používané technologie
 
 ---
 
-## Definuj omezení.
+✅ Definuj omezení.
 
 Například:
+
 - nepředpokládej chybějící data
-- nepoužívej externí zdroje
-- používej pouze dostupné informace
+- nepoužívej externí informace
+- používej pouze zadaná data
 
 ---
 
-## Specifikuj formát.
+✅ Specifikuj formát výstupu.
 
 Například:
+
 - Markdown
 - Tabulka
 - JSON
 - Checklist
+- Executive Summary
 
 ---
 
-## Požaduj zdůvodnění.
+✅ Požaduj zdůvodnění.
 
 Například:
-> Zdůvodni každý návrh.
+
+```
+Zdůvodni každý návrh.
+```
 
 ---
 
-## Iteruj.
+✅ Iteruj.
 
 První odpověď téměř nikdy není finální.
 
 ---
 
-## Rozděl složitý problém.
-
-Místo jednoho obrovského promptu vytvoř více menších kroků.
+✅ Rozděl složitý problém.
 
 Stejně jako při datové analýze.
 
 ---
 
-## Označ předpoklady.
+✅ Označ předpoklady.
 
 Například:
 
-> Pokud některé informace chybí, nejprve vypiš předpoklady.
-
-Výrazně tím omezíš halucinace.
+```
+Pokud některé informace chybí, nejprve vypiš všechny předpoklady.
+```
 
 ---
 
-## Nech AI klást otázky.
+✅ Nech AI klást otázky.
 
 Například:
-> Pokud nemáš dostatek informací, polož mi nejprve doplňující otázky.
+
+```
+Pokud nebudeš mít dostatek informací, nejprve mi polož doplňující otázky.
+```
 
 ---
 
-## Vyžaduj více variant.
+✅ Vyžaduj více variant.
 
 Například:
-> Navrhni tři možná řešení a porovnej je.
+
+```
+Navrhni tři možná řešení.
+
+Porovnej je.
+
+Doporuč nejlepší.
+```
 
 ---
 
-## Nech AI kritizovat vlastní řešení.
+✅ Nech AI kritizovat vlastní řešení.
 
 Například:
-> Jaké jsou slabiny tohoto návrhu?
+
+```
+Najdi slabiny svého návrhu.
+
+Navrhni jeho zlepšení.
+```
 
 ---
 
-## Nech AI hledat rizika.
+✅ Odděluj fakta od předpokladů.
 
 Například:
-> Jaká rizika vidíš?
 
----
-
-## Vyžaduj business pohled.
-
-Například:
-> Jakou hodnotu to přinese managementu?
-
----
-
-## Odděluj fakta od předpokladů.
-
-Například:
-> Rozděl odpověď na:
 - Ověřená fakta
 - Předpoklady
 - Doporučení
+- Rizika
 
 ---
 
-## Používej Executive Summary.
+✅ Začni Executive Summary.
 
-Na začátek odpovědi:
-- stručné shrnutí
-- hlavní závěry
-- doporučení
+Krátké shrnutí.
+
+Hlavní závěry.
+
+Doporučení.
 
 ---
 
-## Požaduj kontrolní seznam.
+✅ Požaduj checklist.
 
 Například:
-> Na závěr vytvoř checklist všech kroků.
+
+```
+Na závěr vytvoř kontrolní seznam všech kroků.
+```
 
 ---
 
@@ -310,37 +504,50 @@ Například:
 
 AI není náhrada analytika.
 
-AI urychluje práci.
+AI urychluje analytickou práci.
 
-Analytik:
+Datový analytik:
+
 - definuje problém
+- rozumí businessu
 - ověřuje výsledky
 - interpretuje data
 - rozhoduje
 
 AI:
+
 - navrhuje řešení
-- automatizuje rutinu
 - připravuje podklady
+- automatizuje rutinu
 - šetří čas
+- pomáhá s brainstormingem
 
 ---
 
 # Nejčastější chyby
+
 - příliš obecný prompt
 - chybějící kontext
 - neurčený formát výstupu
-- žádné omezení
+- chybějící omezení
 - slepá důvěra AI
 - neověřené informace
 - neprovedení iterace
+- příliš mnoho nesouvisejících požadavků v jednom promptu
+- nevyužití referenčních dokumentů
+- neprovedení závěrečné kontroly
 
 ---
 
 # Lessons Learned
+
 - AI není vyhledávač.
 - Prompt je business zadání.
 - Kontext rozhoduje o kvalitě výstupu.
+- Kvalitní struktura promptu výrazně zlepšuje výsledky.
+- Rozdělení úlohy na kroky vede k lepším odpovědím.
+- Few-shot prompting pomáhá AI pochopit očekávaný styl.
+- Referenční dokumenty zvyšují přesnost odpovědí.
 - Iterace je běžnou součástí práce.
 - AI pomáhá přemýšlet, nerozhoduje za analytika.
 - Výstupy AI je vždy potřeba kriticky ověřit.
