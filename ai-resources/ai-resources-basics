@@ -1,1 +1,84 @@
+# AI Resources
 
+> Přehled užitečných zdrojů, které používám během studia umělé inteligence, prompt engineeringu a AI pro datovou analytiku.
+
+---
+
+# Oficiální dokumentace
+
+## OpenAI
+
+https://platform.openai.com/docs
+
+Oficiální dokumentace OpenAI API, modelů a Prompt Engineering Guide.
+
+---
+
+## OpenAI Prompt Examples
+
+https://platform.openai.com/examples
+
+Ukázky profesionálních promptů pro různé scénáře.
+
+---
+
+# AI Chatboti
+
+## ChatGPT
+
+https://chatgpt.com
+
+Primární AI nástroj používaný během tohoto studia.
+
+---
+
+## Claude
+
+https://claude.ai
+
+Alternativní LLM vhodný zejména pro práci s dlouhými dokumenty.
+
+---
+
+## Google Gemini
+
+https://gemini.google.com
+
+LLM od Googlu s dobrou integrací do Google Workspace.
+
+---
+
+# Doporučená literatura
+
+## Prompt Engineering
+
+Poznámky vznikají průběžně během studia.
+
+---
+
+# Vlastní materiály
+
+Během studia vznikají také vlastní:
+
+- cheatsheets
+- prompt library
+- playbook
+- case studies
+- examples
+- mini testy
+- poznámky
+
+Tyto materiály tvoří hlavní studijní základ tohoto repozitáře.
+
+---
+
+# Lessons Learned
+
+Nejdůležitějším zdrojem není internet.
+
+Nejcennější jsou vlastní zkušenosti získané:
+
+- psaním promptů,
+- jejich iterací,
+- ověřováním výstupů,
+- řešením reálných business scénářů.
