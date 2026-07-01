@@ -40,6 +40,10 @@ Iterace
 
 ↓
 
+Druhá kontrola AI
+
+↓
+
 Business validace
 
 ↓
@@ -72,6 +76,8 @@ Například:
 - Power BI specialista
 - business analytik
 - projektový manažer
+
+Role ovlivňuje způsob uvažování AI.
 
 ---
 
@@ -115,6 +121,7 @@ Například:
 - nevymýšlej si informace
 - používej pouze dostupná data
 - pokud něco chybí, napiš předpoklady
+- pokud nemáš dostatek informací, polož doplňující otázky
 
 ---
 
@@ -137,6 +144,8 @@ Například:
 Nechám AI vytvořit první návrh.
 
 Neočekávám, že bude dokonalý.
+
+První odpověď je návrh, nikoli finální řešení.
 
 ---
 
@@ -170,7 +179,21 @@ Iterace je běžnou součástí práce.
 
 ---
 
-# 10. Business validace
+# 10. Druhá kontrola AI
+
+Před finálním použitím požádám AI o vlastní revizi.
+
+Například:
+
+- Zkontroluj své řešení.
+- Najdi případné chyby.
+- Najdi slabá místa návrhu.
+- Navrhni možná zlepšení.
+- Ověř, že jsi nezapomněl na žádnou část zadání.
+
+---
+
+# 11. Business validace
 
 Nakonec si položím otázky:
 
@@ -178,6 +201,76 @@ Nakonec si položím otázky:
 - Odpovídá to business cíli?
 - Je výstup realistický?
 - Je něco potřeba ověřit?
+
+---
+
+# Prompt Hacks
+
+## Maximum relevantních informací
+
+Poskytuji maximum užitečných informací.
+
+Vyhýbám se zbytečným nebo protichůdným požadavkům.
+
+---
+
+## Rozdělení složitých úloh
+
+Velké problémy rozděluji na menší části.
+
+Například:
+
+1. analyzuj data
+2. navrhni KPI
+3. navrhni dashboard
+4. identifikuj rizika
+5. proveď kontrolu
+
+---
+
+## Používání oddělovačů
+
+Větší prompty strukturuji pomocí:
+
+- nadpisů
+- číslovaných sekcí
+- XML značek
+- bloků textu
+
+Prompt je přehlednější pro AI i pro mě.
+
+---
+
+## Few-shot Prompting
+
+Pokud chci určitý styl výstupu, přikládám příklad.
+
+AI lépe pochopí očekávání.
+
+---
+
+## Referenční dokumenty
+
+Pokud existují:
+
+- KPI definice
+- datový slovník
+- business zadání
+- SQL skripty
+- dokumentace
+- interní metodiky
+
+přikládám je přímo do promptu.
+
+---
+
+## Druhá kontrola
+
+Na závěr větších úloh požaduji vlastní revizi AI.
+
+Například:
+
+> Zkontroluj své řešení a najdi případné chyby nebo opomenuté informace.
 
 ---
 
@@ -196,6 +289,10 @@ Analytik zkontroluje
 ↓
 
 AI zapracuje připomínky
+
+↓
+
+AI provede vlastní kontrolu
 
 ↓
 
@@ -218,6 +315,8 @@ Před použitím výstupu ověřím:
 - SQL syntaxi
 - DAX
 - Power Query transformace
+- úplnost odpovědi
+- zda AI neopomněla důležité informace
 
 Čím důležitější rozhodnutí, tím důkladnější kontrola.
 
@@ -232,7 +331,7 @@ Nový prompt vytvářím pokud:
 - konverzace je nepřehledná
 - AI začíná míchat předchozí informace
 
-Jinak pokračuji iterací.
+Jinak pokračuji iterací ve stejném vlákně.
 
 ---
 
@@ -250,7 +349,17 @@ Jinak pokračuji iterací.
 
 ✅ Požaduj zdůvodnění.
 
+✅ Rozděl složité úlohy na menší části.
+
+✅ Používej přehlednou strukturu promptu.
+
+✅ Přikládej referenční dokumenty.
+
+✅ Pokud je to vhodné, přidej příklad požadovaného výstupu.
+
 ✅ Iteruj.
+
+✅ Nech AI provést vlastní kontrolu.
 
 ✅ Ověř fakta.
 
@@ -267,6 +376,16 @@ Jinak pokračuji iterací.
 ❌ Chybějící kontext.
 
 ❌ Chybějící omezení.
+
+❌ Nejasný formát výstupu.
+
+❌ Příliš mnoho nesouvisejících požadavků v jednom promptu.
+
+❌ Nepoužití referenčních dokumentů.
+
+❌ Neprovedení iterace.
+
+❌ Neprovedení závěrečné kontroly.
 
 ❌ Neověřené informace.
 
@@ -286,6 +405,8 @@ AI není náhrada analytika.
 
 AI je inteligentní pracovní partner.
 
+První odpověď AI je návrh, nikoli finální řešení.
+
 Konečné rozhodnutí vždy dělá člověk.
 
 ---
@@ -294,6 +415,11 @@ Konečné rozhodnutí vždy dělá člověk.
 
 - Prompt je business zadání.
 - Kontext rozhoduje o kvalitě výstupu.
+- Dobře strukturovaný prompt vede ke kvalitnějším odpovědím.
+- Rozdělení složitého problému na menší části zlepšuje výsledky.
+- Referenční dokumenty výrazně zvyšují přesnost odpovědí.
+- Druhá kontrola AI často odhalí opomenuté informace.
 - Iterace je přirozenou součástí práce.
 - AI šetří čas, ale nenese odpovědnost.
+- Výstupy AI je vždy potřeba kriticky ověřit.
 - Největší hodnotu přináší kombinace odbornosti člověka a schopností AI.
