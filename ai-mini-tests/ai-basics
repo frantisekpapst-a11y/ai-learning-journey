@@ -1,1 +1,141 @@
+# AI Mini Tests
+
+---
+
+# 1. Co je hlavním cílem umělé inteligence?
+
+Vytvářet systémy schopné vykonávat úkoly, které běžně vyžadují lidskou inteligenci.
+
+---
+
+# 2. Jaký je rozdíl mezi úzkou (Narrow AI) a obecnou (AGI) umělou inteligencí?
+
+Úzká AI řeší konkrétní úlohy.
+
+Obecná AI (AGI) by měla být schopna řešit libovolné intelektuální úkoly podobně jako člověk.
+
+---
+
+# 3. Co znamená zkratka LLM?
+
+Large Language Model (velký jazykový model).
+
+---
+
+# 4. Co znamená GPT?
+
+Generative Pre-trained Transformer.
+
+---
+
+# 5. Co je prompt?
+
+Vstup nebo zadání, které poskytujeme AI za účelem vytvoření požadovaného výstupu.
+
+---
+
+# 6. Jaké pravidlo nejvíce ovlivňuje kvalitu výstupu AI?
+
+Čím kvalitnější a konkrétnější prompt, tím kvalitnější výstup.
+
+---
+
+# 7. Co je Prompt Engineering?
+
+Proces navrhování efektivních promptů tak, aby AI vytvořila co nejlepší výstup.
+
+---
+
+# 8. Jaké jsou základní části profesionálního promptu?
+
+- Role
+- Cíl
+- Kontext
+- Omezení
+- Formát výstupu
+- Zdůvodnění
+- Iterace
+
+---
+
+# 9. Proč je důležité definovat roli AI?
+
+Role ovlivňuje způsob uvažování, styl odpovědi i odbornou úroveň výstupu.
+
+---
+
+# 10. Co je kontext?
+
+Informace o prostředí, problému a dostupných datech, které AI pomáhají lépe pochopit zadání.
+
+---
+
+# 11. Proč jsou důležitá omezení (Constraints)?
+
+Vymezují hranice řešení a pomáhají snižovat riziko halucinací nebo nerelevantních odpovědí.
+
+---
+
+# 12. Proč specifikovat formát výstupu?
+
+AI připraví odpověď ve formě, kterou lze ihned použít (Markdown, tabulka, JSON, checklist...).
+
+---
+
+# 13. Co znamená iterativní promptování?
+
+Postupné zpřesňování promptu na základě předchozích odpovědí AI.
+
+---
+
+# 14. Musím při iteraci pokaždé psát celý prompt znovu?
+
+Ne.
+
+Ve většině případů AI využívá kontext konverzace a stačí upravovat nebo doplňovat pouze potřebné části.
+
+---
+
+# 15. Kdy je vhodné vytvořit nový kompletní prompt?
+
+Pokud se změní cíl, projekt nebo se konverzace stane nepřehlednou.
+
+---
+
+# 16. Jaký je rozdíl mezi Googlem a AI?
+
+Google primárně vyhledává informace.
+
+AI informace interpretuje, vytváří návrhy, shrnuje, generuje obsah a pomáhá řešit úkoly.
+
+---
+
+# 17. Co jsou halucinace AI?
+
+Situace, kdy AI vytvoří nepravdivé nebo smyšlené informace, které mohou působit věrohodně.
+
+---
+
+# 18. Jak lze snížit riziko halucinací?
+
+- přidáním kontextu,
+- definováním omezení,
+- požadavkem na uvedení předpokladů,
+- ověřením výstupu.
+
+---
+
+# 19. Proč je důležité chtít po AI zdůvodnění návrhu?
+
+Lépe pochopíme logiku řešení a snáze odhalíme případné chyby nebo slabá místa.
+
+---
+
+# 20. Jaký mindset by měl mít datový analytik při práci s AI?
+
+AI je výkonný pomocník, nikoli náhrada analytika.
+
+Analytik definuje problém, ověřuje výsledky, interpretuje data a přijímá rozhodnutí. AI pomáhá s návrhy, automatizací a přípravou podkladů.
+
+---
 
