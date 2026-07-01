@@ -139,3 +139,100 @@ Analytik definuje problém, ověřuje výsledky, interpretuje data a přijímá 
 
 ---
 
+# Otázka 1
+
+Proč není vhodné do promptu přidávat zbytečné nebo protichůdné informace?
+
+---
+
+Protože mohou AI zmást a zhoršit kvalitu výstupu.
+
+---
+
+# Otázka 2
+
+Jaký je hlavní přínos rozdělení složitého úkolu na jednotlivé kroky?
+
+---
+
+AI řeší problém systematičtěji a obvykle vytváří kvalitnější výstup.
+
+---
+
+# Otázka 3
+
+K čemu slouží oddělovače (nadpisy, XML tagy, trojité uvozovky)?
+
+---
+
+K přehlednému oddělení jednotlivých částí promptu a lepší orientaci AI.
+
+---
+
+# Otázka 4
+
+Kdy je vhodné přidat do promptu příklad požadovaného výstupu?
+
+---
+
+Pokud chceme, aby AI napodobila konkrétní styl, strukturu nebo způsob psaní.
+
+---
+
+# Otázka 5
+
+Jaký je význam referenčního textu v promptu?
+
+---
+
+AI vychází z poskytnutého textu místo obecných znalostí, což zvyšuje přesnost odpovědi.
+
+---
+
+# Otázka 6
+
+Co znamená sekundární kontrola výstupu?
+
+---
+
+Požádat AI, aby znovu zkontrolovala své řešení a doplnila případně vynechané informace.
+
+---
+
+# Otázka 7
+
+Proč není vhodné ptát se pouze „Je to správně?“?
+
+---
+
+AI může potvrdit i chybné řešení. Lepší je nechat ji vytvořit vlastní řešení a obě varianty porovnat.
+
+---
+
+# Otázka 8
+
+K čemu slouží Custom Instructions?
+
+---
+
+K uložení dlouhodobých informací o uživateli, preferencích a stylu práce, aby je nebylo nutné opakovat v každém promptu.
+
+---
+
+# Otázka 9
+
+Proč bychom neměli bezmyšlenkovitě kopírovat výstupy AI?
+
+---
+
+Protože mohou obsahovat chyby, nepřesnosti nebo halucinace a vždy vyžadují lidskou kontrolu.
+
+---
+
+# Otázka 10
+
+Jaké tři hlavní zásady shrnují tuto lekci?
+
+---
+
+Kvalitní prompt je jasný, konkrétní a dobře strukturovaný. Výstupy je potřeba iterativně zlepšovat. AI je pomocník, nikoli náhrada odborného úsudku.
