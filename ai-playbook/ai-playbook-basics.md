@@ -242,6 +242,45 @@ Dobře navržený GPT není jednorázový projekt. Průběžně se testuje, upra
 
 ---
 
+# Bezpečnost při práci s AI
+
+Při používání veřejných AI nástrojů nikdy nevkládám:
+
+- osobní údaje
+- hesla
+- API klíče
+- přístupové údaje
+- neveřejné firemní dokumenty
+- citlivá obchodní data
+- databáze obsahující osobní údaje
+
+Pokud potřebuji pracovat s reálnými daty:
+
+- anonymizuji data,
+- používám testovací datasety,
+- maskuji citlivé údaje,
+- využívám pouze schválené firemní AI nástroje.
+
+Bezpečnost dat má vždy přednost před pohodlím.
+
+---
+
+# Kdy AI nepoužívat
+
+AI slouží jako pomocník, nikoliv jako jediný rozhodovací systém.
+
+Nepoužívám ji jako jediný zdroj při:
+
+- právních rozhodnutích,
+- zdravotních doporučeních,
+- práci s citlivými osobními údaji,
+- rozhodování s významným finančním dopadem,
+- situacích vyžadujících stoprocentně ověřené informace.
+
+V těchto případech musí vždy následovat lidská kontrola.
+
+---
+
 # Prompt Hacks
 
 ## Maximum relevantních informací
@@ -364,10 +403,10 @@ Před použitím výstupu ověřím:
 
 Nový prompt vytvářím pokud:
 
-- se změnil cíl
-- řeším nový projekt
-- konverzace je nepřehledná
-- AI začíná míchat předchozí informace
+- se změnil cíl,
+- řeším nový projekt,
+- konverzace je nepřehledná,
+- AI začíná míchat předchozí informace.
 
 Jinak pokračuji iterací ve stejném vlákně.
 
@@ -397,15 +436,15 @@ Jinak pokračuji iterací ve stejném vlákně.
 
 ✅ Iteruj.
 
-✅ Nech AI provést vlastní kontrolu.
-
 ✅ Testuj vlastní GPT na různých scénářích.
 
-✅ Průběžně upravuj instrukce podle výsledků.
+✅ Průběžně upravuj instrukce.
+
+✅ Nech AI provést vlastní kontrolu.
 
 ✅ Ověř fakta.
 
-✅ Nech AI navrhnout více variant.
+✅ Chraň citlivá data.
 
 ✅ Kriticky vyhodnoť výstup.
 
@@ -431,6 +470,8 @@ Jinak pokračuji iterací ve stejném vlákně.
 
 ❌ Neprovedení závěrečné kontroly.
 
+❌ Vkládání citlivých dat do veřejné AI.
+
 ❌ Neověřené informace.
 
 ❌ Slepé kopírování výstupu AI.
@@ -451,6 +492,8 @@ AI je inteligentní pracovní partner.
 
 První odpověď AI je návrh, nikoli finální řešení.
 
+Bezpečnost dat je důležitější než rychlost práce.
+
 Konečné rozhodnutí vždy dělá člověk.
 
 ---
@@ -465,6 +508,8 @@ Konečné rozhodnutí vždy dělá člověk.
 - Druhá kontrola AI často odhalí opomenuté informace.
 - Iterace je přirozenou součástí práce.
 - Kvalitní GPT vzniká postupným testováním a laděním.
+- Citlivá data do veřejných AI nástrojů nepatří.
+- Odpovědnost za výstupy AI vždy nese člověk.
 - AI šetří čas, ale nenese odpovědnost.
 - Výstupy AI je vždy potřeba kriticky ověřit.
 - Největší hodnotu přináší kombinace odbornosti člověka a schopností AI.
