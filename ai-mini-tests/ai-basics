@@ -423,6 +423,43 @@ Protože AI modely se učí z dat. Nepřesná nebo nekvalitní data vedou k nep�
 
 ---
 
+## Otázka 1
 
+Jaký je hlavní rozdíl mezi chatbotem a personalizovaným modelem GPT?
+
+Chatbot bývá integrován do webových stránek nebo aplikací a často vyžaduje programování. Personalizovaný model GPT funguje přímo v prostředí ChatGPT a lze jej vytvořit bez programování.
 
 ---
+
+## Otázka 2
+
+Jaké jsou první kroky při návrhu vlastního GPT?
+
+Definovat účel, cílové uživatele, očekávané dotazy a navrhnout způsob komunikace.
+
+---
+
+## Otázka 3
+
+Proč je důležité model po vytvoření testovat?
+
+Aby bylo možné ověřit, že odpovídá podle zadaných instrukcí, používá správný styl komunikace a poskytuje očekávané výsledky.
+
+---
+
+## Otázka 4
+
+Co znamená iterativní ladění GPT?
+
+Postupné upravování instrukcí, znalostí a nastavení na základě testování a získaných výsledků.
+
+---
+
+## Otázka 5
+
+Kdy je potřeba použít API?
+
+Pokud chceme GPT integrovat do externí aplikace, webové stránky nebo jiného informačního systému.
+
+---
+
