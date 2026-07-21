@@ -311,4 +311,34 @@ Může vytvořit kvalitnější, podrobnější a lépe strukturovaný grafický
 
 ---
 
+## Otázka 1
+
+Jaký je rozdíl mezi negativním promptem a zápornou vahou?
+
+Negativní prompt určuje, které prvky se ve výsledku nemají objevit. Záporná váha pouze snižuje důležitost nebo pravděpodobnost výskytu určitého prvku.
+
+---
+
+## Otázka 2
+
+Proč samotné přidání výrazu „4K“ nezaručí kvalitní obrázek?
+
+Protože vysoké rozlišení nezlepší špatně navrženou kompozici ani nevhodně definovaný prompt. Největší vliv má kvalitní zadání.
+
+---
+
+## Otázka 3
+
+K čemu slouží stylové modifikátory?
+
+Určují výtvarný styl, techniku, osvětlení, perspektivu nebo celkový vizuální vzhled výsledného obrázku.
+
+---
+
+## Otázka 4
+
+Proč se syntaxe grafických promptů liší mezi jednotlivými AI nástroji?
+
+Každý AI nástroj používá vlastní model a podporuje odlišné parametry, proto stejný prompt nemusí fungovat stejně ve všech aplikacích.
+
 
