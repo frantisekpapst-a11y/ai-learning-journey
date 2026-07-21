@@ -204,6 +204,44 @@ Nakonec si položím otázky:
 
 ---
 
+# Workflow tvorby vlastního GPT
+
+Pokud vytvářím specializovaný model GPT, postupuji obdobně jako při tvorbě kvalitního promptu.
+
+Účel GPT
+
+↓
+
+Cílový uživatel
+
+↓
+
+Role a způsob komunikace
+
+↓
+
+Instrukce a pravidla
+
+↓
+
+Znalostní báze (pokud je potřeba)
+
+↓
+
+Testování různých scénářů
+
+↓
+
+Iterativní úpravy
+
+↓
+
+Finální GPT
+
+Dobře navržený GPT není jednorázový projekt. Průběžně se testuje, upravuje a rozšiřuje podle zkušeností z praxe.
+
+---
+
 # Prompt Hacks
 
 ## Maximum relevantních informací
@@ -361,6 +399,10 @@ Jinak pokračuji iterací ve stejném vlákně.
 
 ✅ Nech AI provést vlastní kontrolu.
 
+✅ Testuj vlastní GPT na různých scénářích.
+
+✅ Průběžně upravuj instrukce podle výsledků.
+
 ✅ Ověř fakta.
 
 ✅ Nech AI navrhnout více variant.
@@ -384,6 +426,8 @@ Jinak pokračuji iterací ve stejném vlákně.
 ❌ Nepoužití referenčních dokumentů.
 
 ❌ Neprovedení iterace.
+
+❌ Netestování vlastního GPT.
 
 ❌ Neprovedení závěrečné kontroly.
 
@@ -420,6 +464,7 @@ Konečné rozhodnutí vždy dělá člověk.
 - Referenční dokumenty výrazně zvyšují přesnost odpovědí.
 - Druhá kontrola AI často odhalí opomenuté informace.
 - Iterace je přirozenou součástí práce.
+- Kvalitní GPT vzniká postupným testováním a laděním.
 - AI šetří čas, ale nenese odpovědnost.
 - Výstupy AI je vždy potřeba kriticky ověřit.
 - Největší hodnotu přináší kombinace odbornosti člověka a schopností AI.
