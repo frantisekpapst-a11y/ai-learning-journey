@@ -236,3 +236,103 @@ Jaké tři hlavní zásady shrnují tuto lekci?
 ---
 
 Kvalitní prompt je jasný, konkrétní a dobře strukturovaný. Výstupy je potřeba iterativně zlepšovat. AI je pomocník, nikoli náhrada odborného úsudku.
+
+---
+
+## Otázka 1
+
+Jaký je hlavní rozdíl mezi textovým a grafickým promptem?
+
+---
+
+Grafický prompt musí mnohem podrobněji popisovat vizuální podobu výsledku, například kompozici, barvy, styl nebo atmosféru.
+
+---
+
+## Otázka 2
+
+Jaké informace bychom měli u grafického promptu co nejčastěji specifikovat?
+
+---
+
+Barvy, prostředí, styl, kompozici, atmosféru, hlavní objekty a případně formát výsledného obrázku.
+
+---
+
+## Otázka 3
+
+Proč jsou konkrétní popisy lepší než obecné formulace?
+
+---
+
+Vedou k přesnějším výsledkům, které více odpovídají našim představám.
+
+---
+
+## Otázka 4
+
+Proč je důležité určit styl obrázku?
+
+---
+
+Stejný motiv může být vytvořen v mnoha různých stylech, například realistickém, ilustrativním, 3D nebo minimalistickém.
+
+---
+
+## Otázka 5
+
+Co znamená hierarchie informací v grafickém promptu?
+
+---
+
+Nejdůležitější požadavky uvádíme na začátku promptu, aby jim AI věnovala největší pozornost.
+
+---
+
+## Otázka 6
+
+Jakou roli hraje atmosféra obrázku?
+
+---
+
+Pomáhá AI vytvořit správnou náladu a celkový dojem z výsledné grafiky.
+
+---
+
+## Otázka 7
+
+Proč je běžné prompt po prvním výsledku upravovat?
+
+---
+
+První návrh často nesplňuje všechny požadavky, proto iterace pomáhá dosáhnout kvalitnějšího výsledku.
+
+---
+
+## Otázka 8
+
+Je vhodné kombinovat více AI nástrojů při tvorbě grafiky?
+
+---
+
+Ano. Jednotlivé nástroje mají různé silné stránky a jejich kombinace může přinést lepší výsledek.
+
+---
+
+## Otázka 9
+
+Jak může ChatGPT pomoci při generování obrázků?
+
+---
+
+Může vytvořit kvalitnější, podrobnější a lépe strukturovaný grafický prompt pro specializované AI nástroje.
+
+---
+
+## Otázka 10
+
+Jaká je hlavní myšlenka této lekce?
+
+---
+
+Kvalita grafického výstupu závisí především na kvalitě, konkrétnosti a detailnosti zadaného promptu.
