@@ -552,3 +552,17 @@ AI:
 - AI pomáhá přemýšlet, nerozhoduje za analytika.
 - Výstupy AI je vždy potřeba kriticky ověřit.
 - Kvalitní prompt šetří více času než následné opravování špatného výstupu.
+
+---
+
+## Grafické prompty
+
+Při generování obrázků je vhodné:
+
+- používat konkrétní popis prostředí a objektů
+- určit styl obrázku
+- popsat atmosféru
+- využívat negativní instrukce pro odstranění nežádoucích prvků
+- iterativně prompt upravovat podle výsledků
+
+Konkrétní syntaxe (např. váhy nebo negativní parametry) se liší podle použitého AI nástroje.
