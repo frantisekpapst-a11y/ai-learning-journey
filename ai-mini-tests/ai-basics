@@ -341,4 +341,44 @@ Proč se syntaxe grafických promptů liší mezi jednotlivými AI nástroji?
 
 Každý AI nástroj používá vlastní model a podporuje odlišné parametry, proto stejný prompt nemusí fungovat stejně ve všech aplikacích.
 
+---
+
+## Otázka 1
+
+Proč není vhodné používat jeden AI nástroj pro všechny typy úloh?
+
+Každý AI nástroj má jiné silné stránky a je optimalizovaný pro odlišné typy úloh.
+
+---
+
+## Otázka 2
+
+Ve kterých oblastech je ChatGPT nejvíce přínosný pro datového analytika?
+
+Při práci s Excelem, SQL, Pythonem, Power BI, DAX, dokumentací, brainstormingem a vysvětlováním problémů.
+
+---
+
+## Otázka 3
+
+K čemu je vhodný Microsoft Copilot?
+
+K práci v prostředí Microsoft 365, zejména s Excelem, Power BI, Wordem a PowerPointem.
+
+---
+
+## Otázka 4
+
+Jaká je hlavní výhoda Claude oproti běžným chatbotům?
+
+Velmi dobře pracuje s dlouhými dokumenty, jejich analýzou a shrnováním.
+
+---
+
+## Otázka 5
+
+Proč mohou stejné prompty vytvářet odlišné výsledky v různých AI nástrojích?
+
+Protože každý model používá vlastní architekturu, trénovací data a způsob interpretace promptů.
+
 
