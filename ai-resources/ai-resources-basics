@@ -1,12 +1,12 @@
 # AI Resources
 
-> Přehled užitečných zdrojů, které používám během studia umělé inteligence, prompt engineeringu a AI pro datovou analytiku.
+> Přehled užitečných zdrojů a AI nástrojů, které používám během studia umělé inteligence, Prompt Engineeringu a AI pro datovou analytiku.
 
 ---
 
 # Oficiální dokumentace
 
-## OpenAI
+## OpenAI Documentation
 
 https://platform.openai.com/docs
 
@@ -30,6 +30,18 @@ https://chatgpt.com
 
 Primární AI nástroj používaný během tohoto studia.
 
+Využití:
+
+- Prompt Engineering
+- SQL
+- Python
+- Power BI
+- DAX
+- Excel
+- dokumentace
+- brainstorming
+- business analýza
+
 ---
 
 ## Claude
@@ -38,6 +50,13 @@ https://claude.ai
 
 Alternativní LLM vhodný zejména pro práci s dlouhými dokumenty.
 
+Využití:
+
+- analýza rozsáhlých dokumentů
+- programování
+- dokumentace
+- revize textů
+
 ---
 
 ## Google Gemini
@@ -45,6 +64,76 @@ Alternativní LLM vhodný zejména pro práci s dlouhými dokumenty.
 https://gemini.google.com
 
 LLM od Googlu s dobrou integrací do Google Workspace.
+
+Využití:
+
+- Google Docs
+- Google Sheets
+- multimodální práce s dokumenty
+- rešerše
+
+---
+
+## Microsoft Copilot
+
+https://copilot.microsoft.com
+
+AI asistent integrovaný do ekosystému Microsoft 365.
+
+Využití:
+
+- Excel
+- Power BI
+- Word
+- PowerPoint
+- Microsoft 365
+
+---
+
+## Perplexity
+
+https://www.perplexity.ai
+
+AI vyhledávač zaměřený na rychlé rešerše a ověřování informací.
+
+Využití:
+
+- rešerše
+- ověřování faktů
+- hledání odborných zdrojů
+- porovnávání informací
+
+---
+
+# Grafické AI
+
+## DALL·E
+
+https://openai.com/dall-e
+
+Generování ilustrací a grafiky pomocí AI.
+
+Využití:
+
+- obrázky do prezentací
+- ilustrační grafika
+- ikony
+- vizualizace business scénářů
+
+---
+
+## Midjourney
+
+https://www.midjourney.com
+
+Pokročilý AI nástroj pro generování grafiky.
+
+Využití:
+
+- koncepty
+- marketingová grafika
+- pokročilé grafické prompty
+- inspirace pro vizuální návrhy
 
 ---
 
@@ -60,13 +149,13 @@ Poznámky vznikají průběžně během studia.
 
 Během studia vznikají také vlastní:
 
-- cheatsheets
-- prompt library
-- playbook
-- case studies
-- examples
-- mini testy
-- poznámky
+- AI Cheatsheets
+- AI Playbook
+- AI Prompt Library
+- AI Case Studies
+- AI Examples
+- AI Mini Tests
+- vlastní poznámky z kurzů
 
 Tyto materiály tvoří hlavní studijní základ tohoto repozitáře.
 
@@ -74,11 +163,15 @@ Tyto materiály tvoří hlavní studijní základ tohoto repozitáře.
 
 # Lessons Learned
 
-Nejdůležitějším zdrojem není internet.
+Nejdůležitějším zdrojem není internet ani samotná AI.
 
-Nejcennější jsou vlastní zkušenosti získané:
+Nejcennější zkušenosti vznikají:
 
 - psaním promptů,
-- jejich iterací,
+- jejich iterativním vylepšováním,
 - ověřováním výstupů,
-- řešením reálných business scénářů.
+- porovnáváním odpovědí různých AI modelů,
+- řešením reálných business scénářů,
+- praktickým využíváním AI při datové analytice.
+
+Cílem není znát co nejvíce AI nástrojů, ale umět efektivně využívat ty, které přinášejí největší hodnotu při každodenní práci datového analytika.
