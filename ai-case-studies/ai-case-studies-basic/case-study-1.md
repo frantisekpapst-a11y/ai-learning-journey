@@ -1,4 +1,4 @@
-# AI Case Study 001 – Personalizovaný GPT mentor pro datovou analytiku
+# Case Study 01 – Personalized GPT Mentor For Data Analytics
 
 ## Cíl
 
