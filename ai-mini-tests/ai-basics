@@ -243,8 +243,6 @@ Kvalitní prompt je jasný, konkrétní a dobře strukturovaný. Výstupy je pot
 
 Jaký je hlavní rozdíl mezi textovým a grafickým promptem?
 
----
-
 Grafický prompt musí mnohem podrobněji popisovat vizuální podobu výsledku, například kompozici, barvy, styl nebo atmosféru.
 
 ---
@@ -252,8 +250,6 @@ Grafický prompt musí mnohem podrobněji popisovat vizuální podobu výsledku,
 ## Otázka 2
 
 Jaké informace bychom měli u grafického promptu co nejčastěji specifikovat?
-
----
 
 Barvy, prostředí, styl, kompozici, atmosféru, hlavní objekty a případně formát výsledného obrázku.
 
@@ -263,8 +259,6 @@ Barvy, prostředí, styl, kompozici, atmosféru, hlavní objekty a případně f
 
 Proč jsou konkrétní popisy lepší než obecné formulace?
 
----
-
 Vedou k přesnějším výsledkům, které více odpovídají našim představám.
 
 ---
@@ -272,8 +266,6 @@ Vedou k přesnějším výsledkům, které více odpovídají našim představá
 ## Otázka 4
 
 Proč je důležité určit styl obrázku?
-
----
 
 Stejný motiv může být vytvořen v mnoha různých stylech, například realistickém, ilustrativním, 3D nebo minimalistickém.
 
@@ -283,8 +275,6 @@ Stejný motiv může být vytvořen v mnoha různých stylech, například reali
 
 Co znamená hierarchie informací v grafickém promptu?
 
----
-
 Nejdůležitější požadavky uvádíme na začátku promptu, aby jim AI věnovala největší pozornost.
 
 ---
@@ -292,8 +282,6 @@ Nejdůležitější požadavky uvádíme na začátku promptu, aby jim AI věnov
 ## Otázka 6
 
 Jakou roli hraje atmosféra obrázku?
-
----
 
 Pomáhá AI vytvořit správnou náladu a celkový dojem z výsledné grafiky.
 
@@ -303,8 +291,6 @@ Pomáhá AI vytvořit správnou náladu a celkový dojem z výsledné grafiky.
 
 Proč je běžné prompt po prvním výsledku upravovat?
 
----
-
 První návrh často nesplňuje všechny požadavky, proto iterace pomáhá dosáhnout kvalitnějšího výsledku.
 
 ---
@@ -312,8 +298,6 @@ První návrh často nesplňuje všechny požadavky, proto iterace pomáhá dos�
 ## Otázka 8
 
 Je vhodné kombinovat více AI nástrojů při tvorbě grafiky?
-
----
 
 Ano. Jednotlivé nástroje mají různé silné stránky a jejich kombinace může přinést lepší výsledek.
 
@@ -323,16 +307,8 @@ Ano. Jednotlivé nástroje mají různé silné stránky a jejich kombinace mů�
 
 Jak může ChatGPT pomoci při generování obrázků?
 
----
-
 Může vytvořit kvalitnější, podrobnější a lépe strukturovaný grafický prompt pro specializované AI nástroje.
 
 ---
 
-## Otázka 10
 
-Jaká je hlavní myšlenka této lekce?
-
----
-
-Kvalita grafického výstupu závisí především na kvalitě, konkrétnosti a detailnosti zadaného promptu.
