@@ -516,3 +516,84 @@ Klasické vyhledávání hledá shodu slov. Embeddingy porovnávají význam tex
 
 ---
 
+# 85. Co jsou etické hranice AI?
+
+Pravidla a omezení, která mají zabránit generování nelegálního, škodlivého nebo neetického obsahu.
+
+---
+
+# 86. Proč mají AI modely etická omezení?
+
+Aby minimalizovaly riziko zneužití AI k trestné činnosti, podvodům nebo jinému škodlivému jednání.
+
+---
+
+# 87. Vyjmenuj alespoň tři příklady zneužití generativní AI.
+
+- Deepfake obsah
+- Phishing a kyberzločiny
+- Falešné recenze
+- Nenávistný obsah
+- Automatizace podvodů
+
+---
+
+# 88. Proč nemusí být prompt začínající větou „Připravuji školní práci…“ automaticky bezpečný?
+
+Protože skutečný účel požadavku může být jiný a uvedený kontext může sloužit pouze k obejití bezpečnostních pravidel.
+
+---
+
+# 89. Jaký je rozdíl mezi obranným a útočným využitím AI?
+
+Obranné využití slouží k ochraně, prevenci nebo detekci rizik, zatímco útočné využití směřuje ke zneužití nebo poškození systému.
+
+---
+
+# 90. Kdo nese odpovědnost za finální použití výstupů AI?
+
+Člověk nebo organizace, která výstupy AI používá a rozhoduje na jejich základě.
+
+---
+
+# 91. Co je halucinace AI?
+
+Situace, kdy AI vytvoří věrohodně znějící, ale fakticky chybnou nebo zcela smyšlenou informaci.
+
+---
+
+# 92. Vyjmenuj tři hlavní příčiny vzniku halucinací.
+
+- Nekvalitní nebo neúplná trénovací data
+- Nejednoznačný nebo nepřesný prompt
+- Složitost modelu
+
+---
+
+# 93. Jak lze snížit pravděpodobnost halucinací?
+
+- Použít kvalitní a přesný prompt
+- Snížit teplotu modelu
+- Poskytnout ověřené externí informace
+- Použít jemné ladění modelu (fine-tuning)
+
+---
+
+# 94. Proč nestačí, že AI uvede zdroj informací?
+
+Protože AI může uvést neexistující, nepřesný nebo nesprávně interpretovaný zdroj. Důležité informace je vždy nutné ověřit.
+
+---
+
+# 95. Ve kterých oborech mohou být halucinace AI nejnebezpečnější?
+
+- Právo
+- Medicína
+- Finance
+- Další oblasti, kde jsou vyžadovány přesné a důvěryhodné informace
+
+---
+
+# 96. Jaká je nejdůležitější zásada při používání AI v datové analytice?
+
+AI je pomocník, nikoli autorita. Důležité informace, čísla i citace je nutné ověřit před jejich použitím v analýzách nebo při rozhodování.
