@@ -3,7 +3,6 @@
 ## Cíl
 
 Vytvořit personalizovaný model GPT, který funguje jako dlouhodobý mentor při studiu datové analytiky a Business Intelligence.
-
 Model vede uživatele od úplných základů až po úroveň junior Data Analyst prostřednictvím interaktivní výuky, praktických úkolů a průběžné zpětné vazby.
 
 ---
@@ -11,7 +10,6 @@ Model vede uživatele od úplných základů až po úroveň junior Data Analyst
 # Business problém
 
 Při samostudiu často vznikají problémy:
-
 - nejasná studijní cesta,
 - přeskakování témat,
 - příliš mnoho teorie,
@@ -28,7 +26,6 @@ Cílem bylo vytvořit AI mentora, který bude fungovat jako osobní lektor.
 Byl vytvořen personalizovaný GPT zaměřený na datovou analytiku.
 
 Model:
-
 - komunikuje výhradně česky,
 - přizpůsobuje obtížnost,
 - učí metodou Learning by Doing,
@@ -43,7 +40,6 @@ Model:
 # Oblasti výuky
 
 GPT pokrývá například:
-
 - Excel
 - Power Query
 - SQL
@@ -63,7 +59,6 @@ GPT pokrývá například:
 # Nastavení modelu
 
 Model je nastaven tak, aby:
-
 - vysvětloval stručně a srozumitelně,
 - nezahlcoval teorií,
 - vedl uživatele krok za krokem,
@@ -112,35 +107,13 @@ Aktualizace GitHub portfolia
 
 ---
 
-# Přínosy
-
+# Přínosy:
 - jednotný způsob studia,
 - konzistentní metodika,
 - okamžitá zpětná vazba,
 - prakticky zaměřená výuka,
 - budování portfolia během studia,
 - propojení AI s reálnou datovou analytikou.
-
----
-
-# Lessons Learned
-
-- GPT dokáže výrazně urychlit samostudium.
-- Největší hodnotu přináší kombinace AI a vlastního řešení úloh.
-- Kvalitní instrukce mají zásadní vliv na konzistenci odpovědí.
-- Iterativní úpravy výrazně zlepšují kvalitu personalizovaného GPT.
-- Specializovaný GPT je efektivnější než univerzální chatbot pro opakující se typy úloh.
-
----
-
-# Možná rozšíření
-
-- automatické generování mini projektů,
-- simulace pracovních pohovorů,
-- příprava na technické testy,
-- tvorba individuálních studijních plánů,
-- hodnocení GitHub portfolia,
-- příprava na certifikace.
 
 ---
 
