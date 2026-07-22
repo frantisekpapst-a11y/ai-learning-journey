@@ -566,3 +566,15 @@ Při generování obrázků je vhodné:
 - iterativně prompt upravovat podle výsledků
 
 Konkrétní syntaxe (např. váhy nebo negativní parametry) se liší podle použitého AI nástroje.
+
+---
+
+## Jak minimalizovat halucinace
+
+- Piš co nejkonkrétnější prompty.
+- Poskytni AI ověřené vstupní informace.
+- U faktických úloh používej nízkou teplotu.
+- Ověřuj čísla, citace i zdroje.
+- AI není autorita – důležité informace vždy ověř.
+
+
