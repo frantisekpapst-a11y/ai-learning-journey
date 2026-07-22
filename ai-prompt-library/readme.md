@@ -93,3 +93,55 @@ Prompt není otázka.
 Prompt je kvalitně připravené business zadání.
 
 Čím kvalitnější zadání vytvoříme, tím kvalitnější výstup od AI získáme.
+
+
+
+
+Ne 30 náhodných promptů, ale 30 "core" promptů, které bude datový analytik používat opakovaně. Každý si pak může upravit podle konkrétní situace.
+
+Například bych je rozdělil takto:
+
+Oblast	Počet
+Excel	3
+SQL	3
+Power Query	3
+Power BI / DAX	4
+Python (pandas)	4
+Data Cleaning	3
+EDA	3
+Vizualizace	2
+Business Analysis	3
+Reporting / Storytelling	2
+Celkem	30
+
+A každý prompt by měl jednotnou strukturu:
+
+Název
+Kdy použít
+Prompt (anglicky)
+Poznámka / Tip, co nejčastěji upravit
+
+Například:
+
+SQL – Explain Query
+
+When to use:
+Když potřebuješ pochopit složitý SQL dotaz.
+
+Prompt:
+
+Act as a senior SQL developer.
+Explain the following SQL query step by step.
+Describe each JOIN, WHERE condition, GROUP BY, HAVING clause, and suggest possible optimizations.
+
+Tip:
+
+vložit vlastní SQL dotaz,
+případně přidat informace o databázi (SQL Server, PostgreSQL, MySQL...).
+
+Taková knihovna nebude sbírkou "promptů z internetu". Bude to tvůj osobní toolkit, který využiješ při práci téměř každý den.
+
+Navíc ji můžeme napsat tak, aby působila profesionálně i na GitHubu – stručně, přehledně a bez zbytečné omáčky. Myslím, že právě těchto 30 kvalitních promptů bude mít větší hodnotu než stovky průměrných.
+
+
+
