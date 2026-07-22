@@ -1,8 +1,6 @@
 # AI Mini Tests
 
-> Souhrnné opakovací otázky z AI kurzu.
->
-> Každá otázka obsahuje správnou odpověď.
+> Souhrnné opakovací otázky z AI kurzu. Každá otázka obsahuje správnou odpověď.
 
 ---
 
@@ -74,7 +72,7 @@ Informace o prostředí, problému a dostupných datech, které AI pomáhají l�
 
 ---
 
-# 11. Proč jsou důležitá omezení (Constraints)?
+# 11. Proč jsou důležitá omezení (constraints)?
 
 Vymezují hranice řešení a pomáhají snižovat riziko halucinací nebo nerelevantních odpovědí.
 
@@ -94,9 +92,7 @@ Postupné zpřesňování promptu na základě předchozích odpovědí AI.
 
 # 14. Musím při iteraci pokaždé psát celý prompt znovu?
 
-Ne.
-
-Ve většině případů AI využívá kontext konverzace a stačí upravovat nebo doplňovat pouze potřebné části.
+Ne. Ve většině případů AI využívá kontext konverzace a stačí upravovat nebo doplňovat pouze potřebné části.
 
 ---
 
@@ -108,9 +104,7 @@ Pokud se změní cíl, projekt nebo se konverzace stane nepřehlednou.
 
 # 16. Jaký je rozdíl mezi Googlem a AI?
 
-Google primárně vyhledává informace.
-
-AI informace interpretuje, vytváří návrhy, shrnuje, generuje obsah a pomáhá řešit úkoly.
+Google primárně vyhledává informace. AI informace interpretuje, vytváří návrhy, shrnuje, generuje obsah a pomáhá řešit úkoly.
 
 ---
 
@@ -137,9 +131,7 @@ Lépe pochopíme logiku řešení a snáze odhalíme případné chyby nebo slab
 
 # 20. Jaký mindset by měl mít datový analytik při práci s AI?
 
-AI je výkonný pomocník, nikoli náhrada analytika.
-
-Analytik definuje problém, ověřuje výsledky, interpretuje data a přijímá rozhodnutí. AI pomáhá s návrhy, automatizací a přípravou podkladů.
+AI je výkonný pomocník, nikoli náhrada analytika. Analytik definuje problém, ověřuje výsledky, interpretuje data a přijímá rozhodnutí. AI pomáhá s návrhy, automatizací a přípravou podkladů.
 
 ---
 
@@ -194,14 +186,6 @@ K uložení dlouhodobých informací o uživateli, preferencích a stylu práce,
 # 29. Proč bychom neměli bezmyšlenkovitě kopírovat výstupy AI?
 
 Protože mohou obsahovat chyby, nepřesnosti nebo halucinace a vždy vyžadují lidskou kontrolu.
-
----
-
-# 30. Jaké tři hlavní zásady shrnují tuto lekci?
-
-- Kvalitní prompt je jasný, konkrétní a dobře strukturovaný.
-- Výstupy je potřeba iterativně zlepšovat.
-- AI je pomocník, nikoli náhrada odborného úsudku.
 
 ---
 
@@ -528,15 +512,7 @@ Moderní LLM používají kontextové embeddingy, takže význam slova závisí 
 
 # 84. Jaký je hlavní rozdíl mezi klasickým vyhledáváním a vyhledáváním pomocí embeddingů?
 
-Klasické vyhledávání hledá shodu slov.
-
-Embeddingy porovnávají význam textu.
-
----
-
-# 85. Co je nejdůležitější myšlenka posledních tří lekcí o LLM?
-
-LLM převádí text na číselné reprezentace (embeddingy), zpracovává jejich vztahy pomocí transformerů a jeho kvalita závisí především na kvalitních trénovacích datech.
+Klasické vyhledávání hledá shodu slov. Embeddingy porovnávají význam textu.
 
 ---
 
