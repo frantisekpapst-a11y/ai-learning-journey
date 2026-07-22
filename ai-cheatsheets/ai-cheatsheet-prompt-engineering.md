@@ -65,7 +65,6 @@ Iterace
 Role určuje způsob uvažování AI.
 
 Příklady:
-
 - senior datový analytik
 - BI konzultant
 - Power BI specialista
@@ -96,7 +95,6 @@ Například:
 # Data
 
 Pokud AI pracuje s daty, vždy specifikuj:
-
 - dostupné sloupce
 - granularitu dat
 - časové období
@@ -122,7 +120,6 @@ Máme tato data:
 Profesionální prompt téměř vždy obsahuje omezení.
 
 Například:
-
 - nepoužívej Python
 - pracuj pouze s Power BI
 - používej pouze zadaná data
@@ -137,7 +134,6 @@ Například:
 AI by měla vědět, jak má odpověď vypadat.
 
 Například:
-
 - Markdown
 - Tabulka
 - Checklist
@@ -155,7 +151,6 @@ Nechtěj pouze výsledek.
 Chtěj také vysvětlení.
 
 Například:
-
 - Zdůvodni každý návrh.
 - Popiš výhody a nevýhody.
 - Navrhni alternativní řešení.
@@ -338,7 +333,6 @@ Doporuč nejlepší variantu.
 Informace, které používáš často, nepiš do každého promptu.
 
 Například:
-
 - profese
 - styl komunikace
 - používané technologie
@@ -472,7 +466,6 @@ Navrhni jeho zlepšení.
 ✅ Odděluj fakta od předpokladů.
 
 Například:
-
 - Ověřená fakta
 - Předpoklady
 - Doporučení
@@ -507,7 +500,6 @@ AI není náhrada analytika.
 AI urychluje analytickou práci.
 
 Datový analytik:
-
 - definuje problém
 - rozumí businessu
 - ověřuje výsledky
@@ -515,7 +507,6 @@ Datový analytik:
 - rozhoduje
 
 AI:
-
 - navrhuje řešení
 - připravuje podklady
 - automatizuje rutinu
@@ -525,7 +516,6 @@ AI:
 ---
 
 # Nejčastější chyby
-
 - příliš obecný prompt
 - chybějící kontext
 - neurčený formát výstupu
@@ -540,7 +530,6 @@ AI:
 ---
 
 # Lessons Learned
-
 - AI není vyhledávač.
 - Prompt je business zadání.
 - Kontext rozhoduje o kvalitě výstupu.
@@ -555,10 +544,9 @@ AI:
 
 ---
 
-## Grafické prompty
+# Grafické prompty
 
 Při generování obrázků je vhodné:
-
 - používat konkrétní popis prostředí a objektů
 - určit styl obrázku
 - popsat atmosféru
@@ -569,12 +557,19 @@ Konkrétní syntaxe (např. váhy nebo negativní parametry) se liší podle pou
 
 ---
 
-## Jak minimalizovat halucinace
+# AI halucinace
 
-- Piš co nejkonkrétnější prompty.
-- Poskytni AI ověřené vstupní informace.
-- U faktických úloh používej nízkou teplotu.
-- Ověřuj čísla, citace i zdroje.
-- AI není autorita – důležité informace vždy ověř.
+Příčiny:
+- nekvalitní data
+- nejasný prompt
+- složitost modelu
 
+Jak snížit riziko:
+- kvalitní prompt
+- nízká teplota
+- externí znalosti
+- fine-tuning
+- ověřování zdrojů
 
+Pamatuj:
+AI může znít sebevědomě, i když se mýlí.
