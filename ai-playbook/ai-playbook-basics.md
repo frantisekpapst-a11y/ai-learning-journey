@@ -480,6 +480,15 @@ Jinak pokračuji iterací ve stejném vlákně.
 
 ---
 
+# Jak minimalizovat halucinace
+- Piš co nejkonkrétnější prompty.
+- Poskytni AI ověřené vstupní informace.
+- U faktických úloh používej nízkou teplotu.
+- Ověřuj čísla, citace i zdroje.
+- AI není autorita – důležité informace vždy ověř.
+
+---
+
 # AI Mindset
 
 AI není autorita.
