@@ -1,5 +1,9 @@
 # AI Mini Tests
 
+> Souhrnné opakovací otázky z AI kurzu.
+>
+> Každá otázka obsahuje správnou odpověď.
+
 ---
 
 # 1. Co je hlavním cílem umělé inteligence?
@@ -139,327 +143,400 @@ Analytik definuje problém, ověřuje výsledky, interpretuje data a přijímá 
 
 ---
 
-# Otázka 1
-
-Proč není vhodné do promptu přidávat zbytečné nebo protichůdné informace?
-
----
+# 21. Proč není vhodné do promptu přidávat zbytečné nebo protichůdné informace?
 
 Protože mohou AI zmást a zhoršit kvalitu výstupu.
 
 ---
 
-# Otázka 2
-
-Jaký je hlavní přínos rozdělení složitého úkolu na jednotlivé kroky?
-
----
+# 22. Jaký je hlavní přínos rozdělení složitého úkolu na jednotlivé kroky?
 
 AI řeší problém systematičtěji a obvykle vytváří kvalitnější výstup.
 
 ---
 
-# Otázka 3
-
-K čemu slouží oddělovače (nadpisy, XML tagy, trojité uvozovky)?
-
----
+# 23. K čemu slouží oddělovače (nadpisy, XML tagy, trojité uvozovky)?
 
 K přehlednému oddělení jednotlivých částí promptu a lepší orientaci AI.
 
 ---
 
-# Otázka 4
-
-Kdy je vhodné přidat do promptu příklad požadovaného výstupu?
-
----
+# 24. Kdy je vhodné přidat do promptu příklad požadovaného výstupu?
 
 Pokud chceme, aby AI napodobila konkrétní styl, strukturu nebo způsob psaní.
 
 ---
 
-# Otázka 5
-
-Jaký je význam referenčního textu v promptu?
-
----
+# 25. Jaký je význam referenčního textu v promptu?
 
 AI vychází z poskytnutého textu místo obecných znalostí, což zvyšuje přesnost odpovědi.
 
 ---
 
-# Otázka 6
-
-Co znamená sekundární kontrola výstupu?
-
----
+# 26. Co znamená sekundární kontrola výstupu?
 
 Požádat AI, aby znovu zkontrolovala své řešení a doplnila případně vynechané informace.
 
 ---
 
-# Otázka 7
-
-Proč není vhodné ptát se pouze „Je to správně?“?
-
----
+# 27. Proč není vhodné ptát se pouze „Je to správně?“?
 
 AI může potvrdit i chybné řešení. Lepší je nechat ji vytvořit vlastní řešení a obě varianty porovnat.
 
 ---
 
-# Otázka 8
-
-K čemu slouží Custom Instructions?
-
----
+# 28. K čemu slouží Custom Instructions?
 
 K uložení dlouhodobých informací o uživateli, preferencích a stylu práce, aby je nebylo nutné opakovat v každém promptu.
 
 ---
 
-# Otázka 9
-
-Proč bychom neměli bezmyšlenkovitě kopírovat výstupy AI?
-
----
+# 29. Proč bychom neměli bezmyšlenkovitě kopírovat výstupy AI?
 
 Protože mohou obsahovat chyby, nepřesnosti nebo halucinace a vždy vyžadují lidskou kontrolu.
 
 ---
 
-# Otázka 10
+# 30. Jaké tři hlavní zásady shrnují tuto lekci?
 
-Jaké tři hlavní zásady shrnují tuto lekci?
-
----
-
-Kvalitní prompt je jasný, konkrétní a dobře strukturovaný. Výstupy je potřeba iterativně zlepšovat. AI je pomocník, nikoli náhrada odborného úsudku.
+- Kvalitní prompt je jasný, konkrétní a dobře strukturovaný.
+- Výstupy je potřeba iterativně zlepšovat.
+- AI je pomocník, nikoli náhrada odborného úsudku.
 
 ---
 
-## Otázka 1
-
-Jaký je hlavní rozdíl mezi textovým a grafickým promptem?
+# 31. Jaký je hlavní rozdíl mezi textovým a grafickým promptem?
 
 Grafický prompt musí mnohem podrobněji popisovat vizuální podobu výsledku, například kompozici, barvy, styl nebo atmosféru.
 
 ---
 
-## Otázka 2
-
-Jaké informace bychom měli u grafického promptu co nejčastěji specifikovat?
+# 32. Jaké informace bychom měli u grafického promptu co nejčastěji specifikovat?
 
 Barvy, prostředí, styl, kompozici, atmosféru, hlavní objekty a případně formát výsledného obrázku.
 
 ---
 
-## Otázka 3
-
-Proč jsou konkrétní popisy lepší než obecné formulace?
+# 33. Proč jsou konkrétní popisy lepší než obecné formulace?
 
 Vedou k přesnějším výsledkům, které více odpovídají našim představám.
 
 ---
 
-## Otázka 4
-
-Proč je důležité určit styl obrázku?
+# 34. Proč je důležité určit styl obrázku?
 
 Stejný motiv může být vytvořen v mnoha různých stylech, například realistickém, ilustrativním, 3D nebo minimalistickém.
 
 ---
 
-## Otázka 5
-
-Co znamená hierarchie informací v grafickém promptu?
+# 35. Co znamená hierarchie informací v grafickém promptu?
 
 Nejdůležitější požadavky uvádíme na začátku promptu, aby jim AI věnovala největší pozornost.
 
 ---
 
-## Otázka 6
-
-Jakou roli hraje atmosféra obrázku?
+# 36. Jakou roli hraje atmosféra obrázku?
 
 Pomáhá AI vytvořit správnou náladu a celkový dojem z výsledné grafiky.
 
 ---
 
-## Otázka 7
-
-Proč je běžné prompt po prvním výsledku upravovat?
+# 37. Proč je běžné prompt po prvním výsledku upravovat?
 
 První návrh často nesplňuje všechny požadavky, proto iterace pomáhá dosáhnout kvalitnějšího výsledku.
 
 ---
 
-## Otázka 8
-
-Je vhodné kombinovat více AI nástrojů při tvorbě grafiky?
+# 38. Je vhodné kombinovat více AI nástrojů při tvorbě grafiky?
 
 Ano. Jednotlivé nástroje mají různé silné stránky a jejich kombinace může přinést lepší výsledek.
 
 ---
 
-## Otázka 9
-
-Jak může ChatGPT pomoci při generování obrázků?
+# 39. Jak může ChatGPT pomoci při generování obrázků?
 
 Může vytvořit kvalitnější, podrobnější a lépe strukturovaný grafický prompt pro specializované AI nástroje.
 
 ---
 
-## Otázka 1
-
-Jaký je rozdíl mezi negativním promptem a zápornou vahou?
+# 40. Jaký je rozdíl mezi negativním promptem a zápornou vahou?
 
 Negativní prompt určuje, které prvky se ve výsledku nemají objevit. Záporná váha pouze snižuje důležitost nebo pravděpodobnost výskytu určitého prvku.
 
 ---
 
-## Otázka 2
-
-Proč samotné přidání výrazu „4K“ nezaručí kvalitní obrázek?
+# 41. Proč samotné přidání výrazu „4K“ nezaručí kvalitní obrázek?
 
 Protože vysoké rozlišení nezlepší špatně navrženou kompozici ani nevhodně definovaný prompt. Největší vliv má kvalitní zadání.
 
 ---
 
-## Otázka 3
-
-K čemu slouží stylové modifikátory?
+# 42. K čemu slouží stylové modifikátory?
 
 Určují výtvarný styl, techniku, osvětlení, perspektivu nebo celkový vizuální vzhled výsledného obrázku.
 
 ---
 
-## Otázka 4
-
-Proč se syntaxe grafických promptů liší mezi jednotlivými AI nástroji?
+# 43. Proč se syntaxe grafických promptů liší mezi jednotlivými AI nástroji?
 
 Každý AI nástroj používá vlastní model a podporuje odlišné parametry, proto stejný prompt nemusí fungovat stejně ve všech aplikacích.
 
 ---
 
-## Otázka 1
-
-Proč není vhodné používat jeden AI nástroj pro všechny typy úloh?
+# 44. Proč není vhodné používat jeden AI nástroj pro všechny typy úloh?
 
 Každý AI nástroj má jiné silné stránky a je optimalizovaný pro odlišné typy úloh.
 
 ---
 
-## Otázka 2
-
-Ve kterých oblastech je ChatGPT nejvíce přínosný pro datového analytika?
+# 45. Ve kterých oblastech je ChatGPT nejvíce přínosný pro datového analytika?
 
 Při práci s Excelem, SQL, Pythonem, Power BI, DAX, dokumentací, brainstormingem a vysvětlováním problémů.
 
 ---
 
-## Otázka 3
-
-K čemu je vhodný Microsoft Copilot?
+# 46. K čemu je vhodný Microsoft Copilot?
 
 K práci v prostředí Microsoft 365, zejména s Excelem, Power BI, Wordem a PowerPointem.
 
 ---
 
-## Otázka 4
-
-Jaká je hlavní výhoda Claude oproti běžným chatbotům?
+# 47. Jaká je hlavní výhoda Claude oproti běžným chatbotům?
 
 Velmi dobře pracuje s dlouhými dokumenty, jejich analýzou a shrnováním.
 
 ---
 
-## Otázka 5
-
-Proč mohou stejné prompty vytvářet odlišné výsledky v různých AI nástrojích?
+# 48. Proč mohou stejné prompty vytvářet odlišné výsledky v různých AI nástrojích?
 
 Protože každý model používá vlastní architekturu, trénovací data a způsob interpretace promptů.
 
 ---
 
-## Otázka 1
-
-Ve kterých oblastech se dnes AI běžně využívá?
+# 49. Ve kterých oblastech se dnes AI běžně využívá?
 
 Například v každodenním životě, průmyslu, zdravotnictví, financích, dopravě a zábavním průmyslu.
 
 ---
 
-## Otázka 2
-
-Jak AI pomáhá v průmyslové výrobě?
+# 50. Jak AI pomáhá v průmyslové výrobě?
 
 Pomáhá například s kontrolou kvality, prediktivní údržbou zařízení, analýzou obrazu a automatizací výrobních procesů.
 
 ---
 
-## Otázka 3
-
-Jaké jsou hlavní přínosy AI ve zdravotnictví?
+# 51. Jaké jsou hlavní přínosy AI ve zdravotnictví?
 
 Rychlejší diagnostika, podpora lékařského rozhodování, analýza medicínských snímků a personalizace léčby.
 
 ---
 
-## Otázka 4
-
-Jak AI využívají finanční instituce?
+# 52. Jak AI využívají finanční instituce?
 
 Například pro detekci podvodů, hodnocení rizika klientů, automatizaci zákaznické podpory a personalizaci služeb.
 
 ---
 
-## Otázka 5
-
-Proč jsou kvalitní data důležitá pro fungování AI?
+# 53. Proč jsou kvalitní data důležitá pro fungování AI?
 
 Protože AI modely se učí z dat. Nepřesná nebo nekvalitní data vedou k nepřesným výsledkům a chybným rozhodnutím.
 
 ---
 
-## Otázka 1
-
-Jaký je hlavní rozdíl mezi chatbotem a personalizovaným modelem GPT?
+# 54. Jaký je hlavní rozdíl mezi chatbotem a personalizovaným modelem GPT?
 
 Chatbot bývá integrován do webových stránek nebo aplikací a často vyžaduje programování. Personalizovaný model GPT funguje přímo v prostředí ChatGPT a lze jej vytvořit bez programování.
 
 ---
 
-## Otázka 2
-
-Jaké jsou první kroky při návrhu vlastního GPT?
+# 55. Jaké jsou první kroky při návrhu vlastního GPT?
 
 Definovat účel, cílové uživatele, očekávané dotazy a navrhnout způsob komunikace.
 
 ---
 
-## Otázka 3
-
-Proč je důležité model po vytvoření testovat?
+# 56. Proč je důležité model po vytvoření testovat?
 
 Aby bylo možné ověřit, že odpovídá podle zadaných instrukcí, používá správný styl komunikace a poskytuje očekávané výsledky.
 
 ---
 
-## Otázka 4
-
-Co znamená iterativní ladění GPT?
+# 57. Co znamená iterativní ladění GPT?
 
 Postupné upravování instrukcí, znalostí a nastavení na základě testování a získaných výsledků.
 
 ---
 
-## Otázka 5
-
-Kdy je potřeba použít API?
+# 58. Kdy je potřeba použít API?
 
 Pokud chceme GPT integrovat do externí aplikace, webové stránky nebo jiného informačního systému.
+
+---
+
+# 59. Co je token?
+
+Nejmenší jednotka textu, se kterou LLM pracuje. Může představovat celé slovo, část slova nebo interpunkční znak.
+
+---
+
+# 60. Co je embedding?
+
+Číselná reprezentace významu tokenu ve vícerozměrném prostoru, která umožňuje modelu porovnávat významy slov a vět.
+
+---
+
+# 61. Jakou roli mají transformery v LLM?
+
+Zpracovávají vztahy mezi tokeny a jejich kontext, aby model správně pochopil význam textu.
+
+---
+
+# 62. Jaký je rozdíl mezi předtréninkem a fine-tuningem?
+
+Předtrénink učí model obecné jazykové znalosti na velkém množství dat. Fine-tuning model dále přizpůsobuje konkrétní oblasti nebo úloze.
+
+---
+
+# 63. Proč je nutné data před tréninkem čistit?
+
+Kvůli odstranění šumu, duplicit, nekonzistentních dat a citlivých údajů, které by mohly zhoršit kvalitu modelu.
+
+---
+
+# 64. Na jaké tři části se běžně dělí data při trénování modelu?
+
+Na trénovací, validační a testovací data.
+
+---
+
+# 65. Proč se model testuje na nových datech?
+
+Aby se ověřilo, že umí generalizovat a pouze si nezapamatoval trénovací data.
+
+---
+
+# 66. Jak vzniká odpověď LLM?
+
+Model postupně předpovídá nejpravděpodobnější další token na základě předchozího kontextu.
+
+---
+
+# 67. Co je datový korpus?
+
+Kolekce textových nebo multimediálních dat určená pro trénování a vyhodnocování AI modelů.
+
+---
+
+# 68. Vyjmenuj čtyři běžné zdroje datových korpusů.
+
+- Web scraping
+- Veřejné databáze
+- Firemní data
+- Crowdsourcing
+
+---
+
+# 69. Proč je důležitá různorodost dat?
+
+Pomáhá modelu lépe generalizovat a porozumět různým stylům, tématům a jazykovým kontextům.
+
+---
+
+# 70. Co znamená anotace dat?
+
+Označení nebo doplnění dat o význam, kategorii nebo další informace potřebné pro trénink modelu.
+
+---
+
+# 71. K čemu slouží validace dat?
+
+Ke kontrole kvality dat, odstranění chyb, duplicit a šumu.
+
+---
+
+# 72. Co jsou syntetická data?
+
+Uměle vytvořená data používaná pro doplnění nebo rozšíření reálných datových sad.
+
+---
+
+# 73. Proč jsou při tvorbě datových korpusů důležité GDPR a autorská práva?
+
+Kvůli ochraně osobních údajů, legálnímu využívání dat a dodržování licenčních podmínek.
+
+---
+
+# 74. Jak souvisí tato lekce s datovou analytikou?
+
+Stejně jako v datové analytice platí, že kvalita vstupních dat přímo ovlivňuje kvalitu výsledků (Garbage In, Garbage Out).
+
+---
+
+# 75. Co znamená zkratka NLP?
+
+Natural Language Processing – zpracování přirozeného jazyka.
+
+---
+
+# 76. Jaký je hlavní účel datového korpusu?
+
+Poskytnout kvalitní data pro trénování, ladění a vyhodnocování jazykových modelů.
+
+---
+
+# 77. Proč samotné velké množství dat nestačí?
+
+Protože důležitější než množství je jejich kvalita, reprezentativnost a správné zpracování.
+
+---
+
+# 78. Co znamená pojem generalizace?
+
+Schopnost modelu správně pracovat i s novými daty, která během tréninku nikdy neviděl.
+
+---
+
+# 79. Proč mají embeddingy mnoho rozměrů?
+
+Protože význam slov nelze popsat jednou nebo několika vlastnostmi. Vysoký počet dimenzí umožňuje zachytit složité významové vztahy.
+
+---
+
+# 80. Proč jsou si embeddingy slov „pes“ a „kočka“ podobnější než „pes“ a „auto“?
+
+Protože model zachycuje významovou podobnost slov a podobné pojmy mají podobné číselné reprezentace.
+
+---
+
+# 81. Znamená každé číslo v embeddingu jednu konkrétní vlastnost?
+
+Ne. Jednotlivé dimenze nemají člověku přímo srozumitelný význam. Jejich interpretaci si model vytvoří během tréninku.
+
+---
+
+# 82. Proč může mít stejné slovo různé embeddingy?
+
+Moderní LLM používají kontextové embeddingy, takže význam slova závisí na okolních slovech.
+
+---
+
+# 83. Co znamená princip „Garbage In, Garbage Out“?
+
+Špatná vstupní data vedou ke špatným výsledkům modelu bez ohledu na jeho kvalitu.
+
+---
+
+# 84. Jaký je hlavní rozdíl mezi klasickým vyhledáváním a vyhledáváním pomocí embeddingů?
+
+Klasické vyhledávání hledá shodu slov.
+
+Embeddingy porovnávají význam textu.
+
+---
+
+# 85. Co je nejdůležitější myšlenka posledních tří lekcí o LLM?
+
+LLM převádí text na číselné reprezentace (embeddingy), zpracovává jejich vztahy pomocí transformerů a jeho kvalita závisí především na kvalitních trénovacích datech.
 
 ---
 
