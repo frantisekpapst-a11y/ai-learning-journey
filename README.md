@@ -1,158 +1,13 @@
 # AI Learning Journey 🤖
 
-Repozitář dokumentující moji cestu učením umělé inteligence, AI nástrojů, promptingu, AI-assisted analytics, automatizace a vibe codingu.
+Repozitář dokumentující moji cestu studiem umělé inteligence se zaměřením na její praktické využití v datové analytice, business intelligence, automatizaci a AI-assisted workflow.
 
 Cílem tohoto repozitáře je:
-
-- sledovat svůj progres,
-- ukládat poznámky, mini projekty a case studies,
-- procvičovat AI workflow,
-- učit se moderní analytické postupy,
-- budovat veřejné portfolio.
-
----
-
-# 🚀 Absolvované kurzy
-
-## 1. Základy AI a praktické využití AI nástrojů
-
-### Probraná témata
-
-#### Úvod do AI
-- Co je AI
-- Proč je AI důležitá
-- Jak používat AI v každodenním životě
-- Jak pomocí AI šetřit čas a zvyšovat produktivitu
-
-#### AI chatboti
-- Základy ChatGPT
-- Claude AI
-- Google Gemini
-- Porovnání AI asistentů
-
-#### Prompt Engineering
-- Jak komunikovat s AI
-- Jak psát kvalitní prompty
-- Pokročilé techniky promptingu
-- Vlastní GPTs
-- Custom Instructions v ChatGPT
-
-#### Praktické využití AI
-- Produktivita s AI nástroji
-- AI meetingy pomocí Grain
-- Automatizace pomocí Zapieru
-- Zrychlení práce pomocí Text Blaze
-- AI research pomocí Perplexity AI
-- Tvorba prezentací pomocí Gamma
-- Voice-to-text workflow
-- Generování AI obrázků pomocí Midjourney
-- AI avatary
-- AI generování hudby
-- Naučení AI vlastního stylu psaní
-- Analýza akcií pomocí Gemini
-- Analýza videí pomocí Gemini
-- Efektivní používání ChatGPT o1
-
----
-
-## 2. Základy Vibe Codingu
-
-### Probraná témata
-
-- Co je vibe coding
-- Tvorba první aplikace pomocí AI
-- AI-assisted coding workflow
-- Základy promptingu pro vývoj
-- Vylepšování AI generovaných aplikací
-- Nejčastější chyby začátečníků
-- Pokročilé techniky vibe codingu
-
----
-
-## 3. AI a datová analytika
-
-📂 Samostatné repozitáře:
-
-## Data Analytics Learning Journey
-👉 <https://github.com/frantisekpapst-a11y/data-analytics-learning-journey>
-
-## Power BI Learning Journey
-👉 <https://github.com/frantisekpapst-a11y/power-bi-learning-journey>
-
-### Procvičené oblasti
-
-- AI-assisted analytics
-- Data cleaning
-- Business analysis
-- Sentiment analysis
-- Trend analysis
-- Forecasting
-- AI risk review
-- Excel pro datovou analytiku
-- Power Query
-- Kontingenční tabulky
-- SQL základy
-- Business reporting
-- Validace AI výstupů
-- Q&A vizualizace
-- Automated Insights
-- AI-assisted analytics
-- Základy prediktivní analytiky
-
----
-
-# 🛠 Naučené nástroje a platformy
-
-## AI nástroje
-- ChatGPT
-- Claude
-- Gemini
-- Perplexity AI
-
-## Produktivita a automatizace
-- Zapier
-- Gamma
-- Grain
-- Text Blaze
-
-## Data analytics
-- Microsoft Excel
-- Kontingenční tabulky
-- Power Query
-- SQL
-- Základy business reportingu
-- Power BI
-
-## Kreativní AI
-- Midjourney
-
----
-
-# 🎯 Aktuální cíle
-
-- Zlepšit prompt engineering
-- Naučit se Python pro AI a datovou analýzu
-- Propojit AI nástroje s Power BI a Excelem
-- Rozšířit znalosti SQL, Power BI a business analytiky
-- Budovat portfolio case studies z datové analytiky
-
----
-
-# 📌 Lessons Learned
-
-- AI výrazně urychluje analytickou práci.
-- AI není náhrada analytika.
-- Human review je stále klíčový.
-- Kvalitní prompt výrazně ovlivňuje kvalitu výstupu.
-- Malý dataset může vést ke zkresleným závěrům.
-- Business kontext je zásadní pro správnou interpretaci dat.
-- AI je velmi silný pomocník pro:
-  - data cleaning,
-  - reporting,
-  - brainstorming,
-  - interpretaci trendů,
-  - tvorbu dokumentace,
-  - automatizaci rutinních úloh.
+- dokumentovat svůj dlouhodobý rozvoj v oblasti AI,
+- budovat veřejné portfolio praktických AI projektů,
+- ukládat vlastní poznámky, playbooky a cheatsheety,
+- vytvářet praktické AI case studies,
+- rozvíjet AI workflow využitelné v praxi datového analytika.
 
 ---
 
@@ -161,15 +16,205 @@ Cílem tohoto repozitáře je:
 ```text
 ai-learning-journey/
 │
-├── README.md
-├── ai-certificates-starterpack.pdf
-├── ai-certificates-vibecoding-basic.pdf
-├── ai-starterpack.md
-└── ai-vibecoding-basic.md
+├── ai-case-studies/       
+├── ai-certificates/       
+├── ai-cheatsheets/        
+├── ai-examples/           
+├── ai-mini-tests/         
+├── ai-original-courses/   
+├── ai-playbook/           
+├── ai-prompt-library/     
+├── ai-resources/          
+└── README.md
 ```
 
 ---
 
-# ⚠️ Poznámka
+# 🎓 Absolvované kurzy
 
-Repozitář používá pouze anonymizovaná nebo ukázková data určená pro studijní a portfolio účely.
+## 1. AI Starter Pack – Praktické využití AI nástrojů
+
+### Probraná témata
+
+- Úvod do AI
+- ChatGPT
+- Claude
+- Gemini
+- Prompt Engineering
+- Pokročilý prompting
+- Custom GPTs
+- Custom Instructions
+- Perplexity AI
+- Zapier
+- Grain
+- Gamma
+- Text Blaze
+- Voice-to-text workflow
+- Midjourney
+- AI avatary
+- AI hudba
+- Analýza akcií pomocí AI
+- Analýza videí pomocí AI
+- Efektivní práce s ChatGPT
+
+---
+
+## 2. Základy Vibe Codingu
+
+### Probraná témata
+
+- Co je Vibe Coding
+- AI-assisted development
+- První aplikace vytvořená pomocí AI
+- Prompting pro programování
+- Iterativní vývoj aplikací
+- Ladění AI generovaného kódu
+- Nejčastější chyby začátečníků
+- Best practices při AI programování
+
+---
+
+## 3. Základy umělé inteligence (ITnetwork)
+
+### Probraná témata
+
+- Úvod do umělé inteligence
+- Efektivní tvorba promptů
+- Prompt Engineering
+- Pokročilé techniky promptingu
+- Grafické prompty
+- Speciální modifikace grafických promptů
+- AI produktivita
+- Praktické využití AI
+- Tvorba chatbotů a vlastních GPT
+- Bezpečné používání AI
+- Základy strojového učení
+- LLM – klíčové koncepty a modely
+- LLM – princip fungování a architektura
+- Datové korpusy
+- Etika AI
+- Halucinace AI modelů
+- Trendy a budoucí vývoj AI
+
+---
+
+# 💼 Portfolio AI Case Studies
+
+Veškeré case studies vznikly jako vlastní praktické projekty zaměřené na využití AI v datové analytice.
+
+## Case Study #1 – AI Sales Analysis
+
+Praktická studie zaměřená na využití AI při analýze prodejních dat.
+
+Obsah studie:
+- analýza obchodních výsledků,
+- identifikace trendů,
+- interpretace KPI,
+- doporučení pro management,
+- využití AI jako analytického asistenta.
+
+---
+
+## Case Study #2 – AI Sentiment Analysis
+
+Návrh využití AI pro automatickou analýzu zákaznických recenzí e-shopu.
+
+Obsah studie:
+- návrh business procesu,
+- návrh AI workflow,
+- klasifikace sentimentu,
+- validace AI výstupů,
+- návrh KPI,
+- zapojení Customer Care a Marketingu,
+- role datového analytika při práci s AI.
+
+---
+
+# 🛠 Používané AI nástroje
+
+## LLM
+- ChatGPT
+- Claude
+- Gemini
+
+## AI Research
+- Perplexity
+
+## Produktivita
+- Gamma
+- Grain
+- Text Blaze
+
+## Automatizace
+- Zapier
+
+## Generativní AI
+- Midjourney
+
+---
+
+# 📊 Zaměření repozitáře
+
+Repozitář je zaměřen především na praktické využití AI v oblastech:
+- Prompt Engineering
+- AI-assisted Data Analytics
+- Business Intelligence
+- Automatizace
+- AI Workflow
+- AI Governance
+- AI Risk Management
+- Vibe Coding
+
+---
+
+# 🔗 Související repozitáře
+
+## Data Analytics Learning Journey
+
+https://github.com/frantisekpapst-a11y/data-analytics-learning-journey
+
+### Procvičené oblasti
+- Excel pro datovou analytiku
+- Power Query
+- Kontingenční tabulky
+- SQL základy
+- Business reporting
+- Data cleaning
+- Business analysis
+- Trend analysis
+- Forecasting
+- Validace AI výstupů
+- AI-assisted analytics
+- Základy prediktivní analytiky
+
+---
+
+## Power BI Learning Journey
+
+https://github.com/frantisekpapst-a11y/power-bi-learning-journey
+
+### Procvičené oblasti
+- Power BI
+- DAX
+- Q&A vizualizace
+- Automated Insights
+- AI-assisted analytics
+- Sentiment analysis
+- AI risk review
+- Business reporting
+- Dashboard design
+- KPI monitoring
+
+---
+
+# 📌 Lessons Learned
+
+Během studia se opakovaně potvrzuje několik principů:
+- AI výrazně urychluje analytickou práci.
+- AI nenahrazuje kritické myšlení ani odborné znalosti.
+- Kvalita promptu zásadně ovlivňuje kvalitu výstupu.
+- Výstupy AI je nutné ověřovat, zejména při práci s čísly, citacemi a právními informacemi.
+- AI může halucinovat i při velmi přesvědčivých odpovědích.
+- Business kontext je stejně důležitý jako samotná data.
+- AI je nejefektivnější jako podpora rozhodování, nikoli jako náhrada člověka.
+- Data analytik musí umět AI nejen používat, ale také validovat její výstupy.
