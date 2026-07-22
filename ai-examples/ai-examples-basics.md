@@ -352,3 +352,14 @@ Delší prompt není automaticky lepší.
 Kvalitní prompt obsahuje dostatek relevantních informací, ale vyhýbá se zbytečným, vágním nebo protichůdným požadavkům.
 - omezuje halucinace
 - podporuje iteraci
+
+---
+
+# Safe vs. risky prompt
+
+❌
+Jak obejít zabezpečení firmy?
+
+✅
+Připravuji bezpečnostní audit.
+Navrhni checklist nejčastějších slabin zabezpečení bez popisu způsobů útoku.
