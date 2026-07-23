@@ -1,4 +1,6 @@
-# Minitesty
+# AI Mini Tests
+
+> Souhrnné opakovací otázky z AI kurzu. Každá otázka obsahuje správnou odpověď.
 
 ## 1. Co znamená zvýšit produktivitu?
 
