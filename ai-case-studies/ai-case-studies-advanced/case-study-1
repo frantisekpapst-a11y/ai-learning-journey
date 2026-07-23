@@ -1,64 +1,210 @@
-Workflow
-1. Brainstorming
+# Case Study 01 – AI Assisted Executive Summary for Quarterly Sales Analysis
 
-Prompt:
+## Přehled
 
-Help me identify the most important business insights that should be included in an executive summary for a quarterly sales analysis.
+**Oblast:** Data Analytics, AI Productivity
 
-2. Definice cílové skupiny
+**Nástroj:** ChatGPT
 
-Prompt:
+**Cíl:** Ukázat, jak lze AI využít při převodu technického analytického reportu do stručného Executive Summary určeného pro vedení společnosti.
 
-The target audience is company executives with limited technical knowledge. Recommend the appropriate tone, structure and level of detail.
+---
 
-3. Návrh struktury
+# Zadání
 
-Prompt:
+Management společnosti požádal analytický tým o vyhodnocení výsledků za **2. čtvrtletí 2025**.
 
-Create a logical structure for a one-page executive summary containing key findings, KPIs, business impact and recommendations.
+Analýza byla dokončena, ale vedení nechce číst několikastránkový technický report. Potřebuje pouze:
 
-4. Generování textu
+- hlavní zjištění,
+- klíčové KPI,
+- hlavní rizika,
+- doporučení,
+- další kroky.
 
-Prompt:
+Cílem bylo využít AI k vytvoření profesionálního Executive Summary.
 
-Based on the attached analysis, create a concise executive summary for senior management.
+---
 
-5. Sumarizace
+# Vstupní analytický report
 
-Prompt:
+## Overview
 
-Reduce the executive summary to no more than 200 words while preserving all key business insights.
+The company achieved total revenue of **€5.2 million** in Q2 2025, representing an **8% increase** compared to the previous quarter.
 
-6. Zjednodušení
+Sales volume increased by **5%**, while the average order value grew from **€118 to €122**.
 
-Prompt:
+Customer acquisition remained stable; however, repeat purchases increased by **14%**, indicating stronger customer retention.
 
-Rewrite the executive summary for non-technical stakeholders using simple business language.
+### Product Performance
 
-7. Změna tonality
+- Laptops (+18%)
+- Gaming Accessories (+22%)
+- Smart Home Devices (+15%)
+- Tablets (-9%)
 
-Prompt:
+### Regional Performance
 
-Rewrite the text using a confident and professional tone suitable for a board meeting.
+- Western Europe (+12%)
+- Central Europe (stable)
+- Southern Europe (-6%)
 
-8. Korektura
+### Customer Insights
 
-Prompt:
+- Customer satisfaction: 4.3 → 4.5
+- Delivery time: 3.6 → 2.9 days
+- Return rate: 2.1 %
 
-Proofread the text for grammar, clarity and consistency without changing its meaning.
+### Risks
 
-9. Kontrola zaujatosti
+- Declining tablet sales
+- Reduced marketing activity in Southern Europe
+- Low inventory of Gaming Accessories
 
-Prompt:
+### Recommendations
 
-Review the document for biased language or unsupported conclusions. Suggest neutral alternatives where appropriate.
+- Increase marketing budget in Southern Europe
+- Expand inventory for Gaming Accessories
+- Review the Tablet portfolio
+- Continue investing in customer retention
 
-10. Finální kontrola
+---
 
-Checklist
+# Workflow
 
-✅ Jsou správně všechna čísla?
-✅ Zachoval se význam?
-✅ Nezmizely důležité informace?
-✅ Jsou doporučení podložená daty?
-✅ Je text vhodný pro management?
+## Prompt 1 – První návrh
+
+### Cíl
+
+Navrhnout strukturu Executive Summary pro vrcholový management.
+
+```text
+Pomoz mi určit, jaké informace by měly být součástí Executive Summary pro vedení společnosti na základě následující analýzy.
+
+Management požádal analytický tým o vyhodnocení výsledků za 2. čtvrtletí 2025. Analýza byla dokončena, ale vedení nechce číst dlouhý technický report.
+
+Potřebuje pouze:
+
+- hlavní zjištění,
+- klíčové KPI,
+- největší problémy,
+- doporučení,
+- další kroky.
+```
+
+---
+
+## Výsledek
+
+AI vytvořila přehlednou strukturu obsahující:
+
+- Executive Summary,
+- KPI,
+- rizika,
+- doporučení,
+- další kroky.
+
+Výstup byl dobře strukturovaný, ale obsahoval několik nedostatků.
+
+---
+
+# Kontrola výstupu
+
+Při kontrole byly nalezeny následující problémy:
+
+- chyběla část důležitých KPI,
+- AI zaměnila mezikvartální a meziroční ukazatele,
+- některá doporučení vytvořila sama,
+- některé závěry byly příliš kategorické.
+
+To ukazuje, že výstupy AI je vždy potřeba kriticky ověřit.
+
+---
+
+## Prompt 2 – Revize návrhu
+
+### Cíl
+
+Opravit nalezené chyby.
+
+```text
+Přepracuj svůj předchozí návrh.
+
+- Doplň všechny chybějící KPI.
+- Rozlišuj QoQ a YoY ukazatele.
+- Používej pouze informace obsažené ve vstupním reportu.
+- Doporučení vytvořená AI označ jako „AI Recommendation“.
+- Nepřidávej nepodložené závěry.
+- Executive Summary omez na maximálně 200 slov.
+```
+
+---
+
+## Prompt 3 – Business úpravy
+
+### Cíl
+
+Zpřesnit doporučení a odstranit příliš silná tvrzení.
+
+```text
+Uprav doporučení a závěrečnou část Executive Summary.
+
+Zdůrazni doporučení týkající se zásob Gaming Accessories, revize portfolia Tablets a investic do retence zákazníků.
+
+Formulaci o Southern Europe uprav tak, aby bylo zřejmé, že vztah mezi marketingovou aktivitou a regionálním poklesem je potřeba ověřit další analýzou.
+```
+
+---
+
+## Prompt 4 – Finální úpravy
+
+### Cíl
+
+Proveď poslední stylistické úpravy.
+
+```text
+Aktualizuj AI Recommendation.
+
+Uprav závěrečné doporučení.
+
+Zachovej stručný a profesionální styl určený pro vrcholový management.
+```
+
+---
+
+# Finální Executive Summary
+
+Ve 2. čtvrtletí 2025 dosáhla společnost tržeb €5,2 mil., což představuje mezikvartální růst (QoQ) o 8 % oproti Q1 2025. Objem prodeje vzrostl o 5 %, průměrná hodnota objednávky se zvýšila ze €118 na €122 a počet opakovaných nákupů vzrostl o 14 %.
+
+Nejvýkonnějšími kategoriemi byly Gaming Accessories (+22 %), Laptops (+18 %) a Smart Home Devices (+15 %). Prodej Tablets naopak poklesl o 9 %. Nejvyššího regionálního růstu dosáhla Western Europe (+12 %), Central Europe zůstala stabilní a Southern Europe poklesla o 6 %. Pokles se časově shodoval s omezením marketingové aktivity; skutečný vliv je potřeba ověřit další analýzou.
+
+Zákaznická spokojenost vzrostla ze 4,3 na 4,5 hvězdičky, průměrná doba doručení se zkrátila z 3,6 na 2,9 dne a míra vrácení zůstala stabilní na 2,1 %.
+
+Pro udržení současného růstu by vedení mělo prioritně rozšířit zásoby Gaming Accessories, přezkoumat portfolio Tablets a pokračovat v investicích do retence zákazníků.
+
+**AI Recommendation:** Před navýšením marketingového rozpočtu v Southern Europe provést podrobnější analýzu, která ověří, zda je omezení marketingové aktivity skutečně hlavní příčinou regionálního poklesu.
+
+---
+
+# Získané poznatky
+
+- AI dokáže výrazně urychlit tvorbu manažerských souhrnů.
+- První výstup AI není vhodné považovat za finální.
+- Kritická kontrola analytikem je nezbytná.
+- Iterace promptů vede ke kvalitnějším výsledkům.
+- AI by měla být používána jako asistent, nikoliv jako jediný zdroj pravdy.
+
+---
+
+# Klíčová dovednost
+
+Tato případová studie neukazuje pouze práci s prompty, ale celý analytický proces:
+
+1. Analýza vstupních dat.
+2. Vytvoření prvního návrhu pomocí AI.
+3. Kritické zhodnocení výstupu.
+4. Identifikace chyb.
+5. Iterace promptů.
+6. Vytvoření finálního Executive Summary.
+
+Právě schopnost kriticky vyhodnotit a zlepšit výstupy AI představuje jednu z nejdůležitějších dovedností moderního datového analytika.
