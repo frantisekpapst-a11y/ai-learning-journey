@@ -191,3 +191,70 @@ Vizualizace data zobrazuje, zatímco interpretace vysvětluje jejich význam, so
 ## 32. Proč nelze automaticky považovat korelaci za příčinu?
 
 Protože shodný vývoj dvou veličin ještě neznamená, že jedna způsobuje druhou. AI může navrhnout možné příčiny, ale analytik je musí ověřit pomocí dalších dat.
+
+---
+
+## 33. Jak může AI pomoci při plánování schůzek?
+
+Dokáže automaticky najít vhodný termín podle kalendářů účastníků, vytvořit pozvánky a navrhnout optimální čas schůzky.
+
+---
+
+## 34. Jak může AI pomoci s přípravou na schůzku?
+
+Připraví agendu, navrhne témata k diskusi, analyzuje předchozí zápisy a doporučí otázky nebo body, které by měly být během jednání probrány.
+
+---
+
+## 35. Co znamená dynamické přizpůsobení agendy během schůzky?
+
+AI průběžně vyhodnocuje průběh jednání a může doporučit změnu pořadí bodů nebo úpravu priorit podle aktuální situace.
+
+---
+
+## 36. Jaké výhody přináší automatický přepis a zápis ze schůzky?
+
+Šetří čas, snižuje riziko opomenutí důležitých informací a vytváří přehledný záznam, ke kterému se lze kdykoliv vrátit.
+
+---
+
+## 37. Co jsou akční položky (Action Items)?
+
+Jsou to konkrétní úkoly vzniklé během schůzky, které AI dokáže identifikovat, přiřadit odpovědným osobám a doplnit termín jejich splnění.
+
+---
+
+## 38. Jak může AI vyhodnocovat efektivitu schůzek?
+
+Analyzuje například čas věnovaný jednotlivým tématům, průběh diskuse nebo zapojení účastníků a může doporučit zlepšení organizace schůzek.
+
+---
+
+## 39. Jak může AI pomoci při práci s příchozími e-maily?
+
+Dokáže e-maily automaticky třídit podle priority, obsahu nebo odesílatele a podle nastavených pravidel je označit, přeposlat nebo zařadit do složek.
+
+---
+
+## 40. K čemu lze využít Zapier při práci s e-maily?
+
+Zapier propojuje e-mailové služby s dalšími aplikacemi a umožňuje automatizovat pracovní postupy, například analýzu, třídění nebo přeposílání e-mailů.
+
+---
+
+## 41. Jaké výhody přináší využití AI při tvorbě e-mailových odpovědí?
+
+AI urychluje tvorbu odpovědí, pomáhá udržet jednotný styl komunikace a umožňuje snadno vytvářet šablony pro opakující se situace.
+
+---
+
+## 42. Jak může AI pomoci při mezinárodní e-mailové komunikaci?
+
+Dokáže nejen přeložit text, ale také upravit tón a styl komunikace tak, aby odpovídal jazykovým i kulturním zvyklostem příjemce.
+
+---
+
+## 43. Proč by měl člověk před odesláním důležitého e-mailu zkontrolovat výstup AI?
+
+Protože AI může udělat věcnou nebo kontextovou chybu a konečnou odpovědnost za obsah e-mailu vždy nese člověk.
+
