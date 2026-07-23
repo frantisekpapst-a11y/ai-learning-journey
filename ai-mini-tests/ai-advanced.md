@@ -95,3 +95,99 @@ Pomocí změny stylu, tonality a úrovně detailu lze vytvořit odbornou verzi p
 ## 16. Proč nelze kontrolu zaujatosti textu plně přenechat AI?
 
 Protože AI může některé projevy zaujatosti přehlédnout nebo naopak nesprávně označit neutrální formulace. Konečné posouzení by měl vždy provést člověk.
+
+---
+
+## 17. Jaké jsou hlavní kroky při zpracování dat před analýzou?
+
+Příprava dat, čištění dat, sjednocení formátů, normalizace a transformace dat.
+
+---
+
+## 18. Co znamená princip „Garbage In, Garbage Out“?
+
+Pokud jsou vstupní data nekvalitní nebo chybná, budou nekvalitní i výsledky analýzy bez ohledu na použitý nástroj.
+
+---
+
+## 19. Jaké problémy se při čištění dat nejčastěji řeší?
+
+Duplicitní záznamy, chybějící hodnoty, neplatné hodnoty, nekonzistentní formáty a odlehlé hodnoty.
+
+---
+
+## 20. Proč není vždy správné odstranit celý záznam s chybnou hodnotou?
+
+Protože chyba může být pouze v jednom atributu. Pokud jsou ostatní data správná, je lepší opravit nebo odstranit pouze chybnou hodnotu.
+
+---
+
+## 21. K čemu slouží normalizace dat?
+
+Normalizace převádí číselné hodnoty na srovnatelnou škálu, aby je bylo možné lépe využít například při některých metodách strojového učení.
+
+---
+
+## 22. Jaký je rozdíl mezi Label Encoding a One-Hot Encoding?
+
+Label Encoding nahrazuje kategorii číselnou hodnotou, zatímco One-Hot Encoding vytvoří pro každou kategorii samostatný sloupec.
+
+---
+
+## 23. Jak může AI pomoci při přípravě dat?
+
+Dokáže odhalit duplicity, chybějící nebo nekonzistentní hodnoty, navrhnout kroky čištění dat a automatizovat rutinní úkoly. Výsledky je však potřeba ověřit.
+
+---
+
+## 24. Jaký je rozdíl mezi deskriptivní a prediktivní analýzou?
+
+Deskriptivní analýza popisuje, co se v datech stalo, zatímco prediktivní analýza odhaduje pravděpodobný budoucí vývoj na základě historických dat.
+
+---
+
+## 25. Jaké informace může přinést deskriptivní analýza?
+
+Například souhrnné statistiky, trendy, porovnání kategorií, regionů nebo období a identifikaci základních vzorců v datech.
+
+---
+
+## 26. K čemu slouží analýza sentimentu?
+
+Vyhodnocuje náladu v textových datech a klasifikuje je například jako pozitivní, negativní nebo neutrální.
+
+---
+
+## 27. Jaký je cíl segmentační analýzy?
+
+Rozdělit záznamy, nejčastěji zákazníky, do skupin podle společných charakteristik nebo chování.
+
+---
+
+## 28. Jaký graf je nejvhodnější pro zobrazení vývoje hodnot v čase?
+
+Spojnicový (čárový) graf, protože přehledně zobrazuje změny hodnot v jednotlivých časových obdobích.
+
+---
+
+## 29. Jaký graf je vhodný pro porovnání hodnot mezi kategoriemi nebo regiony?
+
+Sloupcový graf, protože umožňuje snadné porovnání jednotlivých kategorií.
+
+---
+
+## 30. Co zobrazuje box plot?
+
+Medián, kvartily, rozložení dat a případné odlehlé hodnoty.
+
+---
+
+## 31. Jaký je rozdíl mezi vizualizací a interpretací dat?
+
+Vizualizace data zobrazuje, zatímco interpretace vysvětluje jejich význam, souvislosti a možné dopady na business.
+
+---
+
+## 32. Proč nelze automaticky považovat korelaci za příčinu?
+
+Protože shodný vývoj dvou veličin ještě neznamená, že jedna způsobuje druhou. AI může navrhnout možné příčiny, ale analytik je musí ověřit pomocí dalších dat.
