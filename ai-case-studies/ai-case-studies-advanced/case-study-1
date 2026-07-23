@@ -1,1 +1,64 @@
+Workflow
+1. Brainstorming
 
+Prompt:
+
+Help me identify the most important business insights that should be included in an executive summary for a quarterly sales analysis.
+
+2. Definice cílové skupiny
+
+Prompt:
+
+The target audience is company executives with limited technical knowledge. Recommend the appropriate tone, structure and level of detail.
+
+3. Návrh struktury
+
+Prompt:
+
+Create a logical structure for a one-page executive summary containing key findings, KPIs, business impact and recommendations.
+
+4. Generování textu
+
+Prompt:
+
+Based on the attached analysis, create a concise executive summary for senior management.
+
+5. Sumarizace
+
+Prompt:
+
+Reduce the executive summary to no more than 200 words while preserving all key business insights.
+
+6. Zjednodušení
+
+Prompt:
+
+Rewrite the executive summary for non-technical stakeholders using simple business language.
+
+7. Změna tonality
+
+Prompt:
+
+Rewrite the text using a confident and professional tone suitable for a board meeting.
+
+8. Korektura
+
+Prompt:
+
+Proofread the text for grammar, clarity and consistency without changing its meaning.
+
+9. Kontrola zaujatosti
+
+Prompt:
+
+Review the document for biased language or unsupported conclusions. Suggest neutral alternatives where appropriate.
+
+10. Finální kontrola
+
+Checklist
+
+✅ Jsou správně všechna čísla?
+✅ Zachoval se význam?
+✅ Nezmizely důležité informace?
+✅ Jsou doporučení podložená daty?
+✅ Je text vhodný pro management?
