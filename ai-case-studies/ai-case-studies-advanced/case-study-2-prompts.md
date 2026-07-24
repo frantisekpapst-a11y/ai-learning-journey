@@ -1,6 +1,6 @@
 # Prompty použité v Case Study 02
 
-Tento dokument obsahuje prompty použité při řešení případové studie **AI asistent pro efektivnější kancelářskou práci**.
+Tento dokument obsahuje prompty použité při řešení případové studie **AI Powered Office Workflow Assistant**.
 
 ---
 
