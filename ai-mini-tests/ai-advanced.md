@@ -258,3 +258,224 @@ Dokáže nejen přeložit text, ale také upravit tón a styl komunikace tak, ab
 
 Protože AI může udělat věcnou nebo kontextovou chybu a konečnou odpovědnost za obsah e-mailu vždy nese člověk.
 
+---
+
+## 44. Které oblasti marketingu může AI podporovat?
+
+- tvorba a personalizace obsahu,
+- marketingové strategie,
+- reklamní kampaně,
+- prediktivní analýzy,
+- analýza zákazníků,
+- správa sociálních sítí.
+
+---
+
+## 45. Jaké marketingové materiály může AI vytvářet v rámci content marketingu?
+
+Například:
+
+- reklamní slogany,
+- popisky produktů,
+- newslettery,
+- reklamní texty,
+- příspěvky na sociální sítě,
+- krátké příběhy (storytelling).
+
+---
+
+## 46. Proč je vhodné vytvořit více verzí reklamního textu?
+
+Kvůli personalizaci pro různé cílové skupiny a možnosti A/B testování.
+
+---
+
+## 47. Jaké prvky by měla obsahovat marketingová strategie vytvořená pomocí AI?
+
+- marketingové sdělení,
+- komunikační kanály,
+- fáze kampaně,
+- rozpočet,
+- způsob vyhodnocení úspěšnosti.
+
+---
+
+## 48. K čemu lze využít predikci marketingových trendů?
+
+K odhadu budoucích trendů, plánování marketingových aktivit a lepší přípravě na změny trhu.
+
+---
+
+## 49. Jak může AI pomoci při analýze zákazníků?
+
+AI může:
+
+- analyzovat zákaznická data,
+- vytvářet segmenty zákazníků,
+- připravovat marketingové persony,
+- identifikovat potřeby zákazníků,
+- navrhovat vhodné marketingové strategie.
+
+---
+
+## 50. Jaká data byla v lekci použita jako příklad zákaznické analýzy?
+
+Dataset obsahující například:
+
+- věk,
+- pohlaví,
+- počet nákupů,
+- průměrnou hodnotu nákupů,
+- věrnostní body.
+
+---
+
+## 51. Jak může AI pomoci při správě sociálních sítí?
+
+- generování příspěvků,
+- návrhy témat,
+- tvorba publikačního plánu,
+- scénáře pro videa,
+- přizpůsobení obsahu jednotlivým platformám.
+
+---
+
+## 52. Proč je důležité přizpůsobit obsah konkrétní sociální síti?
+
+Každá platforma má jiný styl komunikace a jiná omezení (například délku příspěvků nebo cílové publikum), proto je vhodné obsah přizpůsobit.
+
+---
+
+## 53. Jaký je hlavní přínos AI v marketingu podle této lekce?
+
+AI urychluje tvorbu marketingového obsahu, pomáhá s analýzou dat, personalizací komunikace, plánováním kampaní a podporuje rozhodování na základě dat.
+
+---
+
+## 54. Co znamená zkratka SEO?
+
+SEO znamená **Search Engine Optimization**, česky optimalizace pro vyhledávače.
+
+---
+
+## 55. Jaký je hlavní cíl SEO?
+
+Zlepšit dohledatelnost webových stránek ve vyhledávačích a zvýšit jejich pozici ve výsledcích vyhledávání.
+
+---
+
+## 56. V jakých SEO oblastech může AI pomoci?
+
+- analýza a návrh klíčových slov,
+- optimalizace obsahu,
+- tvorba metadat,
+- technické SEO,
+- návrh strategie zpětných odkazů,
+- plánování SEO obsahu,
+- predikce budoucího vývoje trendů.
+
+---
+
+## 57. Dokáže ChatGPT přímo zjistit aktuální hledanost klíčových slov?
+
+Ne. ChatGPT nedokáže přímo analyzovat aktuální data o hledanosti klíčových slov. Může však navrhnout strategii, vhodná klíčová slova nebo pracovat s dodanými daty.
+
+---
+
+## 58. Jaké základní skupiny klíčových slov byly v lekci uvedeny?
+
+- obecná klíčová slova,
+- long-tail (rozšířené) fráze,
+- lokální klíčová slova,
+- klíčová slova zaměřená na konkrétní obor nebo cílovou skupinu.
+
+---
+
+## 59. Co jsou long-tail klíčová slova?
+
+Jsou to delší a konkrétnější vyhledávací fráze, které lépe odpovídají záměru uživatele.
+
+---
+
+## 60. Co může AI optimalizovat kromě samotného textu?
+
+Například:
+
+- strukturu webu,
+- HTML,
+- nadpisy,
+- metadata,
+- obrázky,
+- technické parametry stránky.
+
+---
+
+## 61. Co patří do technického SEO?
+
+- indexace,
+- duplicitní obsah,
+- rychlost načítání,
+- přesměrování,
+- struktura webu,
+- další technické kontroly.
+
+---
+
+## 62. Jaké nástroje byly v lekci uvedeny jako zdroj dat pro SEO analýzu?
+
+- Google Search Console,
+- Ahrefs,
+- Screaming Frog.
+
+---
+
+## 63. Co je backlink?
+
+Zpětný odkaz z jiného webu vedoucí na naši stránku.
+
+---
+
+## 64. Jak může AI pomoci s linkbuildingem?
+
+- analyzovat stávající odkazy,
+- navrhovat nové příležitosti,
+- vytvářet strategie budování odkazového profilu,
+- připravovat e-mailové šablony pro oslovení partnerů.
+
+---
+
+## 65. Co by měl obsahovat kvalitní prompt pro vytvoření SEO článku?
+
+- téma,
+- cílovou skupinu,
+- požadovanou délku,
+- strukturu textu,
+- tón komunikace,
+- seznam klíčových slov,
+- hierarchii nadpisů,
+- případné produkty nebo odkazy.
+
+---
+
+## 66. Co je vhodné přiložit ke standardnímu promptu při generování SEO textu?
+
+Analýzu nebo seznam klíčových slov.
+
+---
+
+## 67. Proč není vhodné slepě kopírovat text vytvořený AI?
+
+Protože obsah by měl být originální, důvěryhodný a přínosný pro uživatele. AI má sloužit jako pomocník, nikoli jako jediný autor.
+
+---
+
+## 68. Co je prediktivní SEO?
+
+Využití historických dat, datové analýzy a strojového učení k odhadu budoucího vývoje klíčových slov, výkonu webu a obsahových trendů.
+
+---
+
+## 69. Jaká je hlavní zásada při využívání AI v SEO?
+
+AI poskytuje návrhy a doporučení, ale finální obsah musí být zkontrolován člověkem a měl by být vytvářen především pro uživatele, nikoli pouze pro algoritmy vyhledávačů.
+
