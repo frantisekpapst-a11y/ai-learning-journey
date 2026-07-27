@@ -479,3 +479,101 @@ Využití historických dat, datové analýzy a strojového učení k odhadu bud
 
 AI poskytuje návrhy a doporučení, ale finální obsah musí být zkontrolován člověkem a měl by být vytvářen především pro uživatele, nikoli pouze pro algoritmy vyhledávačů.
 
+---
+
+## 70. Jaké jsou hlavní přínosy AI pro programátory?
+
+- zrychlení vývoje,
+- generování kódu,
+- opravy chyb,
+- optimalizace algoritmů,
+- bezpečnostní analýza,
+- tvorba dokumentace,
+- učení nových technologií.
+
+---
+
+## 71. Jaké AI nástroje byly v lekci zmíněny pro vývoj software?
+
+- ChatGPT,
+- GitHub Copilot,
+- Cursor,
+- Antigravity.
+
+---
+
+## 72. Jaký je hlavní princip při generování kódu pomocí AI?
+
+Generovat kód po menších částech a průběžně jej testovat.
+
+---
+
+## 73. K čemu slouží GitHub Copilot?
+
+Je integrován přímo do IDE a pomáhá automaticky navrhovat a doplňovat kód během programování.
+
+---
+
+## 74. Jak lze zlepšit návrhy GitHub Copilota?
+
+Psaním kvalitních komentářů (ideálně v angličtině) a přesnějším popisem požadované funkce.
+
+---
+
+## 75. Co je vhodné uvést při překladu kódu mezi programovacími jazyky?
+
+- účel kódu,
+- požadované standardy jazyka,
+- způsob pojmenování,
+- závislosti,
+- požadované chování,
+- požadavek na komentáře.
+
+---
+
+## 76. Jak AI pomáhá při opravách kódu?
+
+Dokáže najít chyby, vysvětlit jejich příčinu a navrhnout opravené řešení.
+
+---
+
+## 77. K čemu slouží optimalizace kódu pomocí AI?
+
+Ke zvýšení výkonu programu, zlepšení algoritmů a refaktoringu kódu.
+
+---
+
+## 78. Co může AI kontrolovat při bezpečnostním auditu kódu?
+
+Například:
+
+- XSS,
+- SQL Injection,
+- ošetření vstupů,
+- další bezpečnostní zranitelnosti.
+
+---
+
+## 79. Jak může AI pomoci při učení nového programovacího jazyka?
+
+Může vysvětlit syntaxi, ukázat praktické příklady a připravit výukové ukázky.
+
+---
+
+## 80. Jak AI pomáhá s dokumentací?
+
+Generuje:
+
+- komentáře,
+- docstringy,
+- technickou dokumentaci,
+- popisy funkcí a tříd.
+
+---
+
+## 81. Jaká je hlavní zásada při využívání AI při programování?
+
+Výsledky AI je vždy nutné ověřit, otestovat a brát je jako asistenci, nikoli jako automatickou záruku správnosti.
+
+---
+
