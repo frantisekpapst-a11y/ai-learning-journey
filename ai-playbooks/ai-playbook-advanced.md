@@ -1,12 +1,12 @@
 # AI Playbook – Content Workflow
 
-> Praktický pracovní postup pro tvorbu, úpravu a kontrolu textů pomocí AI.
+> Praktický pracovní postup pro tvorbu, úpravu a kontrolu výstupů pomocí AI.
 
 ---
 
 # Cíl
 
-Vytvářet kvalitní textový obsah systematicky pomocí AI při zachování správnosti, konzistence a přizpůsobení cílovému publiku.
+Vytvářet kvalitní obsah a řešit úkoly systematicky pomocí AI při zachování správnosti, konzistence a přizpůsobení cílovému publiku.
 
 ---
 
@@ -43,6 +43,9 @@ Nejdříve si odpověz na několik otázek:
 - Jaký bude výstup?
 - Jaké informace již mám?
 - Jaké informace ještě chybí?
+- Jaký kontext AI potřebuje znát?
+- Existují nějaká omezení?
+- Je vhodné, aby se AI nejprve doptala?
 
 Výstupem tohoto kroku je jasně definované zadání.
 
@@ -50,26 +53,25 @@ Výstupem tohoto kroku je jasně definované zadání.
 
 # Krok 2 – Definice cíle
 
-Urči hlavní účel textu.
+Urči hlavní účel výstupu.
 
 Například:
 
 - informovat,
 - vysvětlit,
-- přesvědčit,
+- analyzovat,
 - dokumentovat,
 - prezentovat,
+- navrhnout řešení,
 - shrnout.
-
-Bez jasného cíle nebude kvalitní ani výsledek.
 
 ---
 
 # Krok 3 – Určení cílové skupiny
 
-Přizpůsob text konkrétním čtenářům.
+Přizpůsob výstup konkrétnímu příjemci.
 
-Příklady:
+Například:
 
 - management,
 - zákazník,
@@ -78,13 +80,11 @@ Příklady:
 - vývojář,
 - široká veřejnost.
 
-Každá skupina očekává jinou úroveň detailu, terminologii i styl komunikace.
-
 ---
 
 # Krok 4 – Návrh struktury
 
-Požádej AI o návrh logické struktury.
+Nech AI navrhnout logickou strukturu.
 
 Například:
 
@@ -94,8 +94,6 @@ Například:
 - závěr,
 - další kroky.
 
-Nezačínej psát celý text bez připravené struktury.
-
 ---
 
 # Krok 5 – Příprava osnovy
@@ -104,27 +102,27 @@ Rozpracuj jednotlivé části.
 
 Každá kapitola by měla mít jasný účel.
 
-Osnova usnadňuje následné generování obsahu a snižuje riziko, že něco důležitého vynecháš.
-
 ---
 
 # Krok 6 – Generování obsahu
 
-Teprve nyní nech AI vytvořit samotný text.
+Teprve nyní nech AI vytvořit samotný výstup.
 
 Dbej na:
 
-- požadovaný rozsah,
+- rozsah,
 - styl,
 - tonalitu,
 - formát,
 - cílovou skupinu.
 
+Pokud AI nemá dostatek informací, nech ji nejprve položit doplňující otázky.
+
 ---
 
 # Krok 7 – Iterace
 
-První odpověď AI nepovažuj za finální.
+První odpověď není finální.
 
 Typické iterace:
 
@@ -135,7 +133,7 @@ Typické iterace:
 - vysvětli jednodušeji,
 - změň tonalitu,
 - přepiš odborněji,
-- uprav pro jinou cílovou skupinu.
+- vytvoř více variant.
 
 ---
 
@@ -144,15 +142,93 @@ Typické iterace:
 Před použitím ověř:
 
 - správnost faktů,
-- úplnost informací,
-- zachování významu,
-- logickou návaznost,
-- gramatiku,
-- stylistiku,
+- úplnost,
+- logiku,
 - konzistenci,
-- případnou zaujatost.
+- gramatiku,
+- soulad se zadáním.
 
-Pokud je potřeba, vrať se zpět k iteraci.
+Pokud je potřeba, vrať se k iteraci.
+
+---
+
+# Playbook – Personalizace promptů
+
+Čím více relevantního kontextu AI dostane, tím kvalitnější bývá výsledek.
+
+U složitějších úloh uveď:
+
+- výchozí situaci,
+- cíl,
+- omezení,
+- preference,
+- cílovou skupinu,
+- požadovaný formát výstupu.
+
+Pokud některé informace chybí, nech AI nejprve položit doplňující otázky.
+
+---
+
+# Playbook – Zdraví
+
+## Struktura kvalitního zdravotního promptu
+
+Při zadávání zdravotních dotazů uveď pokud možno:
+
+- pohlaví,
+- věk,
+- výšku,
+- hmotnost,
+- životní styl,
+- úroveň pohybové aktivity,
+- zaměstnání,
+- zdravotní stav,
+- diagnózy,
+- alergie a intolerance,
+- zdravotní omezení,
+- aktuální obtíže,
+- osobní preference,
+- konkrétní cíl,
+- časový horizont.
+
+## Univerzální šablona
+
+> Buď mým poradcem pro zdravý životní styl.
+
+Moje údaje:
+
+- Pohlaví:
+- Věk:
+- Výška:
+- Hmotnost:
+- Zaměstnání:
+- Pohybová aktivita:
+- Životní styl:
+- Zdravotní omezení:
+- Alergie:
+- Aktuální obtíže:
+- Cíl:
+- Časové možnosti:
+
+Nejdříve se mě doptej na chybějící informace a až poté navrhni doporučení.
+
+## Příklady využití
+
+AI může pomoci například s:
+
+- cvičebním plánem,
+- jídelníčkem,
+- denní rutinou,
+- zlepšením spánku,
+- zvládáním stresu,
+- orientační analýzou zdravotních údajů,
+- vysvětlením lékařských zpráv.
+
+## Důležité pravidlo
+
+AI slouží jako pomocník.
+
+Nenahrazuje lékařské vyšetření ani odbornou diagnózu.
 
 ---
 
@@ -160,59 +236,50 @@ Pokud je potřeba, vrať se zpět k iteraci.
 
 ## Sumarizace
 
-Použij, pokud potřebuješ získat hlavní myšlenky dlouhého textu.
+Získání hlavních myšlenek dlouhého textu.
 
 ---
 
 ## Zjednodušení
 
-Použij, pokud potřebuješ zachovat obsah, ale zvýšit srozumitelnost.
+Zachování významu při zvýšení srozumitelnosti.
 
 ---
 
 ## Parafrázování
 
-Použij, pokud chceš změnit formulaci při zachování významu.
+Změna formulace při zachování významu.
 
 ---
 
 ## Změna tonality
 
-Použij při komunikaci s různými cílovými skupinami.
-
-Například:
-
-- management,
-- zákazník,
-- technický tým,
-- veřejnost.
+Přizpůsobení textu cílové skupině.
 
 ---
 
 ## Jazyková korektura
 
-Použij před publikací.
+Kontrola:
 
-Kontroluj:
-
-- gramatiku,
-- stylistiku,
-- plynulost,
-- jednoznačnost.
+- gramatiky,
+- stylistiky,
+- plynulosti,
+- jednoznačnosti.
 
 ---
 
 # Doporučení pro datového analytika
 
-Tento workflow lze využít například při tvorbě:
+Workflow lze využít například při tvorbě:
 
 - analytických reportů,
 - executive summary,
 - dokumentace,
-- popisu dashboardů,
-- zápisů z meetingů,
-- business dokumentace,
-- prezentací výsledků.
+- dashboardů,
+- business analýz,
+- prezentací,
+- zápisů z meetingů.
 
 ---
 
@@ -221,13 +288,22 @@ Tento workflow lze využít například při tvorbě:
 - Nejprve přemýšlej, potom promptuj.
 - Pracuj po jednotlivých krocích.
 - Nepřeskakuj návrh struktury.
-- První odpověď AI ber jako návrh.
-- Iteruj, dokud výstup neodpovídá zadání.
-- Vždy ověř fakta a význam.
+- Poskytni AI maximum relevantního kontextu.
+- Pokud něco chybí, nech AI položit doplňující otázky.
+- První odpověď ber jako návrh.
+- Iteruj.
+- Vždy ověř fakta.
 - Přizpůsob výstup cílové skupině.
+- AI používej jako asistenta, nikoli jako jediný zdroj pravdy.
 
 ---
 
 # Zapamatuj si
 
 > **Kvalita výsledku závisí více na kvalitě zadání a následné iteraci než na délce samotného promptu.**
+
+> **Čím více relevantního kontextu AI dostane, tím kvalitnější bývá výstup.**
+
+> **Pokud AI nemá dostatek informací, měla by se nejprve doptat.**
+
+> **U zdravotních, právních a finančních témat AI odborníka nenahrazuje – pomáhá s orientací a přípravou.**
