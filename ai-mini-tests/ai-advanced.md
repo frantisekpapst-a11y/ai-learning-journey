@@ -624,3 +624,135 @@ Výstupy je vhodné iterovat, upravovat a případně dokončit v klasických gr
 
 ---
 
+## 89. Jak může AI pomoci v oblasti zdraví?
+
+AI může pomoci například s:
+
+- návrhem zdravějšího životního stylu,
+- tvorbou cvičebního plánu,
+- sestavením jídelníčku,
+- vytvořením denní rutiny,
+- orientační analýzou zdravotních dat,
+- upozorněním na možná zdravotní rizika.
+
+---
+
+## 90. Jaké informace by měl obsahovat kvalitní prompt týkající se zdraví?
+
+Například:
+
+- věk a pohlaví,
+- výšku a hmotnost,
+- životní styl,
+- úroveň pohybové aktivity,
+- typ zaměstnání,
+- zdravotní stav,
+- zdravotní omezení,
+- aktuální obtíže,
+- osobní cíle a preference.
+
+---
+
+## 91. Proč je důležité uvést zdravotní omezení?
+
+Aby AI mohla přizpůsobit doporučení konkrétním potřebám a nenavrhovala nevhodné nebo potenciálně rizikové postupy.
+
+---
+
+## 92. Proč je vhodné umožnit AI, aby se doptala na další informace?
+
+Protože doplňující informace mohou vést k přesnějšímu a více personalizovanému doporučení.
+
+---
+
+## 93. Jaké oblasti může obsahovat plán zdravého životního stylu?
+
+- stravování,
+- pohyb,
+- hydrataci,
+- spánek,
+- zvládání stresu,
+- postupné budování zdravých návyků.
+
+---
+
+## 94. Co je důležité uvést při tvorbě cvičebního plánu pomocí AI?
+
+- aktuální kondici,
+- zkušenosti se cvičením,
+- zdravotní omezení,
+- cíle,
+- dostupné vybavení,
+- časové možnosti.
+
+---
+
+## 95. Jak může AI pomoci při tvorbě jídelníčku?
+
+Může sestavit jídelníček podle:
+
+- kalorického cíle,
+- požadovaného množství živin,
+- potravinových preferencí,
+- alergií a intolerancí,
+- zdravotních nebo výkonnostních cílů.
+
+---
+
+## 96. Co může AI vytvořit společně s jídelníčkem?
+
+Například:
+
+- recepty,
+- nákupní seznam,
+- přehled kalorií,
+- přehled bílkovin, tuků a sacharidů.
+
+---
+
+## 97. Jak může AI pomoci s vytvořením denní rutiny?
+
+Může navrhnout rutinu zaměřenou například na:
+
+- lepší spánek,
+- snížení stresu,
+- pravidelný pohyb,
+- relaxaci,
+- mindfulness,
+- budování zdravých návyků.
+
+---
+
+## 98. Jak může AI pracovat se zdravotními daty?
+
+Může analyzovat zadané údaje, hledat možné rizikové faktory a upozornit na hodnoty, které mohou vyžadovat další pozornost.
+
+---
+
+## 99. Jaké zdravotní údaje byly v lekci uvedeny jako příklady?
+
+Například:
+
+- krevní tlak,
+- hladina cukru v krvi,
+- cholesterol,
+- hmotnost,
+- výška,
+- věk,
+- kouření,
+- rodinná zdravotní historie.
+
+---
+
+## 100. Může AI stanovit spolehlivou lékařskou diagnózu?
+
+Ne. AI může pouze pomoci s orientací a upozornit na možné problémy. Lékařskou diagnózu musí určit kvalifikovaný zdravotnický odborník.
+
+---
+
+## 101. Jaká je hlavní zásada při využívání AI v oblasti zdraví?
+
+AI by měla odbornou zdravotní péči pouze doplňovat, nikoli nahrazovat.
+
+---
+
