@@ -1,4 +1,4 @@
-# Case Study 3 - AI Personal Health Advisor Framework
+# Case Study 3 - AI Personal Advisor Framework - Health
 
 ## O projektu
 
@@ -90,8 +90,6 @@ case-study-3
 ├── README.md
 ├── docs/
 │   └── health-framework.md
-│
-└── LICENSE
 ```
 
 Soubor `README.md` představuje projekt a jeho hlavní principy. Kompletní metodika je uložena v adresáři `docs`.
