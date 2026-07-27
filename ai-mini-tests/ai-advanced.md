@@ -756,3 +756,144 @@ AI by měla odbornou zdravotní péči pouze doplňovat, nikoli nahrazovat.
 
 ---
 
+## 102. Jak může AI pomoci v oblasti financí?
+
+- správa osobních financí,
+- plánování rozpočtu,
+- investiční strategie,
+- analýza finančních dat,
+- sledování trendů,
+- upozornění na rizika,
+- finanční plánování.
+
+---
+
+## 103. Proč je vhodné složitější finanční nebo právní problém rozdělit na menší části?
+
+Protože AI poskytuje kvalitnější odpovědi při postupném zpřesňování dotazů. Nejprve získáme obecné informace a poté řešíme konkrétní detaily.
+
+---
+
+## 104. Jaké informace by měl obsahovat kvalitní finanční prompt?
+
+- výše příjmů,
+- výše dluhů,
+- časový horizont,
+- cíl,
+- tolerance k riziku,
+- rozpočet,
+- investiční strategie,
+- případné daňové dopady.
+
+---
+
+## 105. Jaké informace jsou důležité při investičním dotazu?
+
+- investiční cíl,
+- časový horizont,
+- tolerance k riziku,
+- rozpočet,
+- očekávaný výnos,
+- případná omezení.
+
+---
+
+## 106. S čím může AI pomoci při plánování rozpočtu?
+
+- analyzovat příjmy a výdaje,
+- sledovat finanční transakce,
+- navrhnout rozpočet,
+- doporučit úspory,
+- pomoci s tvorbou finanční rezervy.
+
+---
+
+## 107. Proč AI potřebuje hodně informací při posuzování podnikatelského záměru?
+
+Protože kvalita doporučení závisí na množství a kvalitě vstupních dat.
+
+---
+
+## 108. Jak lze AI využít při účetnictví?
+
+- automatické zpracování faktur,
+- extrakce dat,
+- třídění dokumentů,
+- přenos dat do účetních systémů,
+- automatizace účetních procesů.
+
+---
+
+## 109. Proč není vhodné spoléhat pouze na AI při předpovídání finančních trhů?
+
+Protože AI vytváří pouze odhady založené na dostupných datech. Budoucí vývoj trhu nelze zaručit.
+
+---
+
+## 110. Co by měl obsahovat kvalitní právní prompt?
+
+- popis právního problému,
+- oblast práva,
+- lokalitu nebo legislativu,
+- typ smlouvy nebo dokumentu,
+- požadovaný výstup,
+- časový rámec,
+- relevantní přílohy.
+
+---
+
+## 111. Jak může AI pomoci při tvorbě smlouvy?
+
+- vytvořit návrh smlouvy,
+- upravit smlouvu,
+- navrhnout jednotlivé klauzule,
+- vysvětlit jednotlivá ustanovení.
+
+---
+
+## 112. Co může AI kontrolovat u smlouvy?
+
+- nevýhodné podmínky,
+- právní rizika,
+- platební podmínky,
+- výpovědní lhůtu,
+- odpovědnost jednotlivých stran,
+- možnosti ukončení smlouvy.
+
+---
+
+## 113. Jak může AI pomoci při analýze právních dokumentů?
+
+- sumarizace,
+- zjednodušení textu,
+- vysvětlení odborných pojmů,
+- identifikace klíčových bodů,
+- upozornění na rizika,
+- parafrázování.
+
+---
+
+## 114. Jaké je hlavní riziko využití AI v právu?
+
+AI nemusí správně pochopit složitý právní kontext, může přehlédnout důležité souvislosti nebo vytvářet nepřesné informace (halucinace).
+
+---
+
+## 115. Jaké údaje bychom neměli bez rozmyslu sdílet s AI?
+
+Citlivé osobní, finanční nebo právní údaje a neveřejné dokumenty.
+
+---
+
+## 116. Je smlouva vytvořená AI automaticky právně správná?
+
+Ne. AI vytvoří návrh, který je potřeba ověřit a případně konzultovat s právníkem.
+
+---
+
+## 117. Jaké je hlavní pravidlo používání AI ve financích a právu?
+
+AI je pomocník pro analýzu a orientaci. Konečné rozhodnutí i odpovědnost vždy nese člověk a důležité závěry je vhodné ověřit s odborníkem.
+
+---
+
