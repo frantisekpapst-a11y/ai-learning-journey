@@ -897,3 +897,340 @@ AI je pomocník pro analýzu a orientaci. Konečné rozhodnutí i odpovědnost v
 
 ---
 
+# Lekce 16 – AI jako osobní poradce: Technologie
+
+## 118. Jakou roli může AI plnit při řešení technických problémů?
+
+AI může fungovat jako první linie technické podpory.
+
+Může:
+
+- pomoci identifikovat problém,
+- vysvětlit možnou příčinu,
+- navrhnout diagnostické kroky,
+- provést uživatele řešením krok za krokem.
+
+---
+
+## 119. Jaké informace by měl obsahovat kvalitní technologický prompt?
+
+- specifikaci technologie nebo oblasti,
+- konkrétní popis problému,
+- přesné znění chybové hlášky,
+- operační systém,
+- program, aplikaci nebo platformu,
+- verzi programu,
+- cíl,
+- omezení,
+- očekávaný výstup,
+- informace o tom, co již bylo vyzkoušeno.
+
+---
+
+## 120. Proč je důležité uvést přesné znění chybové hlášky?
+
+Protože přesná chybová hláška pomáhá lépe identifikovat příčinu problému a navrhnout vhodnější řešení.
+
+---
+
+## 121. Proč je při technickém problému důležité popsat prostředí?
+
+Protože řešení se může lišit podle:
+
+- operačního systému,
+- zařízení,
+- verze programu,
+- platformy,
+- programovacího jazyka.
+
+Postup určený pro Windows nemusí fungovat na macOS nebo Androidu.
+
+---
+
+## 122. Jak může AI pomoci při problému s připojením k Wi-Fi?
+
+AI může:
+
+- navrhnout diagnostické kroky,
+- doporučit restart zařízení nebo routeru,
+- zkontrolovat síťový adaptér,
+- poradit s odstraněním a opětovným připojením k síti,
+- doporučit kontrolu ovladačů,
+- provést uživatele řešením krok za krokem.
+
+---
+
+## 123. Jak by měla AI postupovat, pokud nemá dostatek informací k diagnostice?
+
+Měla by položit doplňující otázky.
+
+Například:
+
+- Jaký používáš operační systém?
+- Jaké je přesné znění chyby?
+- Kdy problém začal?
+- Co jsi již vyzkoušel?
+- Funguje daná věc na jiném zařízení?
+- Došlo před vznikem problému k nějaké změně?
+
+AI by neměla bez dostatečných informací pouze hádat.
+
+---
+
+## 124. Jak může AI pomoci při problému se softwarem nebo aplikací?
+
+AI může:
+
+- analyzovat chybovou hlášku,
+- navrhnout diagnostický postup,
+- doporučit aktualizaci,
+- doporučit restart nebo přeinstalaci,
+- poradit s obnovou dat,
+- vysvětlit možné příčiny,
+- navrhnout bezpečné pořadí kroků.
+
+---
+
+## 125. Co by měl uživatel udělat jako první, pokud hrozí ztráta rozpracovaných dat?
+
+Nejdříve by se měl pokusit práci uložit nebo zálohovat.
+
+Teprve potom by měl provádět rizikovější kroky, například restart aplikace nebo počítače.
+
+---
+
+## 126. Jak může AI pomoci při instalaci nového hardwaru nebo softwaru?
+
+AI může:
+
+- připravit návod krok za krokem,
+- vysvětlit jednotlivé kroky,
+- doporučit potřebné ovladače,
+- poradit s nastavením,
+- upozornit na možné chyby,
+- pomoci s jejich odstraněním.
+
+---
+
+## 127. Jaké informace je vhodné uvést při žádosti o návod k instalaci zařízení?
+
+- přesný model zařízení,
+- operační systém,
+- způsob připojení,
+- verzi softwaru,
+- požadovaný výsledek,
+- dosavadní postup,
+- případnou chybovou hlášku.
+
+---
+
+## 128. Jak může AI pomoci při učení nového programu nebo aplikace?
+
+AI může:
+
+- vysvětlovat jednotlivé funkce,
+- začít od úplných základů,
+- připravit studijní plán,
+- zadávat praktické úkoly,
+- testovat porozumění,
+- vysvětlovat chyby,
+- doporučit nejdůležitější funkce,
+- přizpůsobit výuku úrovni uživatele.
+
+---
+
+## 129. Jak lze AI využít při doporučování pluginů nebo rozšíření?
+
+Uživatel by měl uvést:
+
+- používaný program,
+- účel používání,
+- úroveň zkušeností,
+- používaný jazyk nebo technologii,
+- požadované funkce,
+- případná omezení.
+
+AI pak může doporučit vhodné nástroje například pro:
+
+- kontrolu chyb,
+- formátování kódu,
+- práci s Gitem,
+- zvýšení produktivity,
+- ladění programu.
+
+---
+
+## 130. Jak by měla být výuka pomocí AI přizpůsobena úplnému začátečníkovi?
+
+AI by měla:
+
+- začít od úplných základů,
+- používat jednoduchý jazyk,
+- vysvětlovat odborné pojmy,
+- postupovat v malých krocích,
+- nepředpokládat předchozí znalosti,
+- dávat jednoduché praktické úkoly,
+- průběžně ověřovat porozumění.
+
+---
+
+## 131. Jak lze AI využít při výuce programování?
+
+- vysvětlovat základy programování,
+- připravovat praktické úkoly,
+- kontrolovat kód,
+- vysvětlovat chyby,
+- navrhovat malé projekty,
+- přizpůsobovat obtížnost,
+- pomoci s laděním,
+- procvičovat konkrétní témata.
+
+---
+
+## 132. Jaké jsou hlavní výhody AI jako technického poradce?
+
+- rychlá dostupnost,
+- pomoc bez čekání na technickou podporu,
+- personalizované vysvětlení,
+- možnost průběžně se doptávat,
+- návody krok za krokem,
+- větší samostatnost uživatele,
+- pomoc s učením nových technologií.
+
+---
+
+## 133. Jaké jsou hlavní limity AI při řešení technických problémů?
+
+AI:
+
+- nemusí správně pochopit celý kontext,
+- může navrhnout nesprávné řešení,
+- může pracovat s neaktuálními informacemi,
+- může přehlédnout důležitý detail,
+- nemusí rozpoznat hardwarovou závadu,
+- může doporučit rizikový postup.
+
+Složitější problém může vyžadovat odbornou technickou podporu.
+
+---
+
+## 134. Jaké je hlavní pravidlo při provádění technických kroků doporučených AI?
+
+Postupovat krok za krokem, po každém kroku zkontrolovat výsledek a před rizikovými změnami zálohovat důležitá data.
+
+---
+
+## 135. Jaké informace by měl obsahovat kvalitní prompt pro plánování cesty?
+
+- účel cesty,
+- destinaci nebo region,
+- termín nebo období,
+- délku pobytu,
+- počet osob,
+- rozpočet,
+- typ ubytování,
+- preferovanou dopravu,
+- aktivity a zájmy,
+- stravovací preference,
+- zdravotní omezení,
+- specifické požadavky.
+
+---
+
+## 136. Jak může AI pomoci při výběru destinace?
+
+AI může doporučit destinace podle:
+
+- rozpočtu,
+- zájmů,
+- termínu,
+- délky pobytu,
+- požadované dopravy,
+- typu ubytování,
+- míry turistického ruchu,
+- požadované míry dobrodružství,
+- osobních preferencí.
+
+Může také jednotlivé destinace porovnat a seřadit podle zvolených kritérií.
+
+---
+
+## 137. Co by měl obsahovat kvalitní itinerář vytvořený pomocí AI?
+
+- program rozdělený podle jednotlivých dnů,
+- doporučené aktivity,
+- zajímavá místa,
+- informace o dopravě,
+- optimalizované trasy,
+- orientační ceny,
+- restaurace,
+- časy přesunů,
+- otevírací doby,
+- čas na odpočinek.
+
+---
+
+## 138. Proč je nutné ověřovat informace o otevírací době, cenách, dopravě a aktuálních podmínkách?
+
+Protože se mohou změnit a AI může pracovat s neaktuálními informacemi.
+
+Důležité údaje je proto vhodné ověřit z aktuálních a důvěryhodných zdrojů.
+
+---
+
+## 139. Jak může AI pomoci s bezpečností během cesty?
+
+AI může poskytnout rady ohledně:
+
+- očkování,
+- zdravotních rizik,
+- bezpečnostních opatření,
+- počasí,
+- vhodného vybavení,
+- cestovního pojištění,
+- chování v nouzi,
+- rizikového terénu,
+- kulturních zvyklostí.
+
+---
+
+## 140. Jak lze AI využít při komunikaci v cizí zemi?
+
+**Odpověď:**
+
+- překládat text,
+- doporučit základní fráze,
+- vysvětlit výslovnost,
+- překládat text z fotografií,
+- pomoci s komunikací v restauraci, hotelu nebo dopravě,
+- vysvětlit kulturní zvyklosti,
+- připravit modelové situace.
+
+---
+
+## 141. Jak může AI pomoci s přípravou zavazadla a vybavení?
+
+AI může připravit personalizovaný seznam věcí podle:
+
+- destinace,
+- délky pobytu,
+- počasí,
+- typu aktivit,
+- způsobu dopravy,
+- zdravotních omezení,
+- hmotnostního limitu zavazadla.
+
+Může také doporučit:
+
+- oblečení,
+- lékárničku,
+- technické vybavení,
+- sportovní vybavení,
+- cestovní dokumenty,
+- vhodné produkty.
+
+---
+
+## 142. Jaké je hlavní pravidlo při používání AI pro cestování?
+
+AI je užitečný pomocník při plánování cesty, ale aktuální informace o počasí, dopravě, cenách, otevírací době, bezpečnosti a vstupních podmínkách je nutné ověřovat z aktuálních zdrojů.
