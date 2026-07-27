@@ -577,3 +577,50 @@ Výsledky AI je vždy nutné ověřit, otestovat a brát je jako asistenci, niko
 
 ---
 
+## 82. Jaké AI nástroje byly v lekci zmíněny pro tvorbu grafiky?
+
+- ChatGPT s DALL·E 3,
+- Midjourney.
+
+---
+
+## 83. K čemu lze AI využít v grafickém designu?
+
+- tvorba designových konceptů,
+- branding,
+- UX/UI inspirace,
+- tvorba plakátů,
+- postprodukce obrázků.
+
+---
+
+## 84. Jaká je role AI při návrhu UX/UI?
+
+Především jako zdroj inspirace a pro rychlé vytváření návrhů (wireframů). Finální návrhy se dokončují ve specializovaných nástrojích.
+
+---
+
+## 85. Jak může AI pomoci při tvorbě brandingu?
+
+Pomáhá rychle vytvářet návrhy log, barevných schémat a vizuální identity značky.
+
+---
+
+## 86. Jak AI pomáhá při postprodukci obrázků?
+
+Umožňuje upravovat existující obrázky, odstraňovat nežádoucí prvky a vylepšovat výsledný vzhled.
+
+---
+
+## 87. Co jsou negativní prompty?
+
+Požadavky určující, co se ve výsledném obrázku nemá objevit.
+
+---
+
+## 88. Jaká je hlavní zásada při práci s AI generovanou grafikou?
+
+Výstupy je vhodné iterovat, upravovat a případně dokončit v klasických grafických editorech.
+
+---
+
