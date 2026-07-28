@@ -520,6 +520,166 @@ Při provádění technických kroků:
 
 ---
 
+# AI Agents Playbook
+
+## Co je AI agent?
+
+AI agent je pokročilý digitální asistent, který dokáže samostatně plánovat a provádět více kroků k dosažení zadaného cíle. Na rozdíl od běžného chatbota neodpovídá pouze na jednotlivé otázky, ale aktivně pracuje s dostupnými nástroji (web, soubory, Python, dokumenty apod.) a průběžně upravuje svůj postup podle získaných výsledků.
+
+---
+
+# Kdy použít AI agenta
+
+AI agent je vhodný zejména pro úlohy, které vyžadují více navazujících kroků.
+
+Typické scénáře:
+
+- průzkum trhu
+- monitoring konkurence
+- analýza pracovního trhu
+- automatické vytváření reportů
+- porovnávání produktů a služeb
+- sběr dat z více zdrojů
+- pravidelné kontroly KPI
+- plánování cest
+- rezervace služeb
+
+---
+
+# Kdy AI agenta nepoužívat
+
+Pro některé úlohy je vhodnější běžný jazykový model.
+
+Například:
+
+- tvorba odborných textů
+- programování
+- vysvětlování složitých témat
+- řešení matematiky
+- kreativní psaní
+- grafický design
+
+---
+
+# Workflow AI agenta
+
+1. Definuj cíl.
+2. Urči omezení.
+3. Nech agenta naplánovat postup.
+4. Agent provede jednotlivé kroky.
+5. Agent ověří výsledky.
+6. Agent vytvoří výstup.
+7. Ověř finální výsledek.
+
+---
+
+# Šablona promptu
+
+## Role
+
+Jsi AI agent specializovaný na ...
+
+## Cíl
+
+Tvým cílem je ...
+
+## Postup
+
+- vyhledej informace
+- analyzuj výsledky
+- porovnej nalezená data
+- ověř informace z více zdrojů
+- vytvoř shrnutí
+
+## Výstup
+
+Výsledek zobraz jako přehlednou tabulku a na závěr přidej doporučení.
+
+---
+
+# Příklad 1 – Job Market Agent
+
+## Zadání
+
+Najdi alespoň 20 aktuálních pracovních nabídek na pozici Data Analyst v České republice.
+
+## Úkoly
+
+- projdi pracovní portály
+- analyzuj požadované technologie
+- spočítej jejich četnost
+- identifikuj nejčastější dovednosti
+- vytvoř přehlednou tabulku
+- navrhni doporučený learning plan
+
+---
+
+# Příklad 2 – Market Research Agent
+
+## Zadání
+
+Proveď analýzu konkurence v oblasti Business Intelligence.
+
+## Úkoly
+
+- identifikuj hlavní konkurenty
+- porovnej jejich produkty
+- zjisti cenovou politiku
+- shrň silné a slabé stránky
+- vytvoř SWOT analýzu
+
+---
+
+# Příklad 3 – Data Quality Agent
+
+## Zadání
+
+Analyzuj datový soubor a připrav jej pro další analýzu.
+
+## Úkoly
+
+- najdi duplicity
+- identifikuj chybějící hodnoty
+- zkontroluj datové typy
+- navrhni čištění dat
+- vytvoř report kvality dat
+
+---
+
+# Příklad 4 – Reporting Agent
+
+## Zadání
+
+Vytvoř pravidelný manažerský report.
+
+## Úkoly
+
+- načti data
+- spočítej KPI
+- porovnej s minulým obdobím
+- identifikuj odchylky
+- vysvětli možné příčiny
+- připrav manažerské shrnutí
+
+---
+
+# Best Practices
+
+- Zadávej jasný cíl.
+- Definuj omezení a požadovaný výstup.
+- Uveď, z jakých zdrojů má agent čerpat.
+- Požaduj ověření informací z více zdrojů.
+- Nech agenta vysvětlit použitý postup.
+- Výsledky vždy zkontroluj před jejich použitím.
+
+---
+
+# Zapamatovat si
+
+> AI agent není jen chatbot. Je to systém, který samostatně plánuje, rozhoduje a vykonává více kroků k dosažení cíle.
+
+---
+
 # Nejčastější transformace textu
 
 ## Sumarizace
