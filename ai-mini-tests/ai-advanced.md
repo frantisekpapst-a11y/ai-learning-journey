@@ -1234,3 +1234,75 @@ Může také doporučit:
 ## 142. Jaké je hlavní pravidlo při používání AI pro cestování?
 
 AI je užitečný pomocník při plánování cesty, ale aktuální informace o počasí, dopravě, cenách, otevírací době, bezpečnosti a vstupních podmínkách je nutné ověřovat z aktuálních zdrojů.
+
+---
+
+## 143. Co jsou AI agenti?
+
+AI agenti jsou pokročilí digitální asistenti, kteří dokážou samostatně řešit komplexní úkoly. Na rozdíl od běžného chatbota nepotřebují podrobné vedení krok za krokem – stačí jim popsat cíl a agent sám plánuje a provádí potřebné akce.
+
+---
+
+## 144. Jaký je hlavní rozdíl mezi běžným chatbotem a AI agentem?
+
+Běžný chatbot odpovídá na jednotlivé dotazy uživatele. AI agent naopak samostatně plánuje více kroků, pracuje s dostupnými nástroji a snaží se splnit zadaný cíl bez nutnosti průběžných pokynů.
+
+---
+
+## 145. Jaké činnosti může AI agent provádět?
+
+AI agent může vyhledávat informace na webu, porovnávat data a produkty, ověřovat fakta z více zdrojů, vytvářet přehledy a reporty nebo komunikovat s webovými službami, například při rezervaci ubytování či hledání spojů.
+
+---
+
+## 146. Jaké příklady využití AI agentů uvádí lekce v osobním životě?
+
+Mezi typické příklady patří plánování dovolené, vyhledávání letenek a spojů, rezervace hotelů nebo restaurací, porovnávání cen produktů, sledování hodnot akcií a analýza uživatelských recenzí.
+
+---
+
+## 147. Jak mohou AI agenti pomoci firmám?
+
+Ve firmách mohou AI agenti automatizovat rutinní procesy, například monitorovat konkurenci, analyzovat trh, zpracovávat tabulky, vytvářet reporty nebo pravidelně vyhodnocovat získaná data.
+
+---
+
+## 148. Jaký příklad použití AI agenta uvádí lekce při hledání práce?
+
+Agent dostane zadání vyhledat pracovní nabídky podle zadaných kritérií (například lokalita, programovací jazyk, typ úvazku nebo plat) a následně výsledky shrne do přehledné tabulky.
+
+---
+
+## 149. Co udělal AI agent, když nenašel dostatek vhodných pracovních nabídek?
+
+Agent samostatně upravil kritéria vyhledávání. Nejprve odstranil požadavek na juniorní pozici a následně i podmínku minimální mzdy, aby našel více relevantních pracovních nabídek.
+
+---
+
+## 150. Jaká vlastnost AI agenta je na tomto příkladu nejdůležitější?
+
+Nejdůležitější vlastností je schopnost samostatně reagovat na situaci, přizpůsobit strategii a pokračovat v řešení úkolu bez dalších pokynů od uživatele.
+
+---
+
+## 151. Proč může práce AI agenta trvat několik minut?
+
+Agent postupně prochází webové stránky, analyzuje nalezené informace, porovnává výsledky a vytváří souhrnný report. Proto může zpracování složitějšího úkolu trvat i několik minut.
+
+---
+
+## 152. Které úkoly jsou podle lekce pro AI agenty vhodné?
+
+Vhodné jsou zejména úkoly spojené s vyhledáváním informací, rezervacemi, porovnáváním produktů, sledováním cen, kontrolou termínů nebo vytvářením přehledných reportů z více zdrojů.
+
+---
+
+## 153. Které úkoly jsou podle lekce pro AI agenty nevhodné?
+
+Lekce uvádí, že AI agent není primárně určen pro tvorbu dlouhých odborných textů, jazykové korektury a překlady, generování zdrojového kódu, řešení složitých matematických úloh, vysvětlování komplexních problémů ani generování nebo úpravu grafiky.
+
+---
+
+## 154. Kdy je vhodnější použít běžný jazykový model než AI agenta?
+
+Pokud je cílem vytvořit kvalitní text, napsat zdrojový kód, vysvětlit složitou problematiku, provést hlubší analýzu nebo řešit kreativní úkoly, je vhodnější použít běžný jazykový model než AI agenta.
