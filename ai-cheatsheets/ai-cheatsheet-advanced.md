@@ -136,3 +136,31 @@ AI může pomoci například při:
 # Zapamatuj si
 
 > **Nejdříve navrhni postup řešení. Potom vytvoř obsah. Nakonec jej uprav, ověř a přizpůsob cílové skupině.**
+
+---
+
+# AI agenti
+
+## Co je AI agent?
+AI, která samostatně plánuje a vykonává více kroků k dosažení cíle.
+
+## Kdy použít
+- rešerše
+- monitoring
+- porovnávání
+- reporty
+- práce s webem
+- automatizace opakovaných úkolů
+
+## Kdy nepoužívat
+- složité programování
+- hluboké vysvětlování
+- kreativní psaní
+- komplexní matematiku
+- grafický design
+
+## Princip
+Cíl → Plán → Akce → Kontrola → Výsledek
+
+## Příklad
+„Najdi 10 Data Analyst pozic v Brně, analyzuj požadované technologie a vytvoř tabulku s četností jednotlivých dovedností.“
