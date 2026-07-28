@@ -4,7 +4,7 @@
 
 ### Cíl
 
-Ukázat, jak lze pomocí generativní umělé inteligence zefektivnit každodenní administrativní činnosti spojené s e-mailovou komunikací, pracovními schůzkami a správou úkolů.
+Ukázat, jak lze pomocí generativní umělé inteligence zefektivnit každodenní administrativní činnosti spojené s emailovou komunikací, pracovními schůzkami a správou úkolů.
 
 Case study demonstruje kompletní pracovní workflow od zpracování příchozích e-mailů až po vytvoření závěrečného follow-up e-mailu po schůzce.
 
