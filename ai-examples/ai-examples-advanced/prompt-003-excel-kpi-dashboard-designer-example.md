@@ -1,4 +1,4 @@
-# Prompt 003 — 
+# Prompt 003 — Excel KPI Dashboard Designer
 
 ## Zadání
 
