@@ -1,66 +1,53 @@
 # Prompt 001 — Power BI Executive Dashboard Designer
 
-Profesionální prompt pro návrh dashboardu pro vrcholový management.
+Profesionální prompt pro návrh Power BI dashboardu určeného vrcholovému managementu.
 
----
+## Účel
 
-# Účel
+Navrhnout strukturu profesionálního Power BI dashboardu na základě dostupných dat, včetně KPI, DAX měr, vizualizací, filtrů a doporučení pro další rozvoj reportingu.
 
-Navrhnout strukturu profesionálního Power BI dashboardu pro vedení společnosti na základě dostupných dat.
-
----
-
-# Vhodné použití
+## Vhodné použití
 
 - Business Intelligence
 - Executive Reporting
-- KPI Dashboard
 - Sales Reporting
 - E-commerce Analytics
+- KPI Dashboard
 
----
-
-# Prompt
+## Prompt
 
 Jsi senior datový a BI analytik.
 
-Cílem je připravit návrh profesionálního Power BI dashboardu pro cílovou skupinu definovanou v zadání.
+Na základě zadaných dat navrhni profesionální Power BI dashboard pro cílovou skupinu uvedenou v zadání.
 
-Na základě dostupných dat navrhni:
+Postupuj následovně:
 
-- jednotlivé KPI,
-- potřebné DAX míry,
-- vhodné grafy,
-- tabulky,
-- filtry,
-- slicery,
-- rozložení dashboardu.
+- pokud některé informace chybí, nejprve uveď předpoklady,
+- navrhni klíčové KPI,
+- navrhni pouze nezbytné DAX míry,
+- doporuč vhodné vizualizace,
+- navrhni filtry a slicery,
+- navrhni rozložení dashboardu pomocí jednoduchého ASCII wireframu,
+- doporuč další data vhodná pro kvalitnější reporting.
 
 U každého návrhu stručně vysvětli jeho business přínos.
 
-Pokud některé informace chybí, nejprve vypiš předpoklady.
-
 Nevymýšlej si data ani sloupce, které nejsou uvedeny.
-
-Na závěr doporuč další data, která by bylo vhodné sbírat pro kvalitnější reporting.
 
 Výstup připrav jako přehledný Markdown dokument.
 
----
+## Co tento prompt řeší
 
-# Co tento prompt řeší
-
-- návrh dashboardu
+- návrh Power BI dashboardu
 - návrh KPI
-- executive reporting
-- business reporting
+- návrh DAX měr
 - návrh vizualizací
-- návrh datového modelu
+- návrh filtrů a slicerů
+- návrh rozložení dashboardu
+- posouzení kvality dostupných dat
 - doporučení pro další sběr dat
 
----
-
-# Další možnosti použití
+## Další možnosti použití
 
 - návrh dashboardu pro vedení společnosti
 - redesign existujícího Power BI dashboardu
@@ -70,13 +57,11 @@ Výstup připrav jako přehledný Markdown dokument.
 - návrh dashboardu pro konkrétní oddělení
 - posouzení, zda dostupná data postačují pro reporting
 
----
+## Lessons Learned
 
-# Lessons Learned
-
-- Definovaná role výrazně zlepšuje kvalitu odpovědi.
-- Kontext pomáhá AI pochopit business problém.
-- Omezení snižují riziko halucinací.
-- Zdůvodnění návrhů usnadňuje jejich následné posouzení.
-- Doporučení na další sběr dat často odhalí slabá místa datového modelu.
-- Profesionální prompt není jednorázový dotaz, ale opakovaně použitelný nástroj.
+- Jasně definovaná role zvyšuje kvalitu odpovědí.
+- Popsaný business kontext vede k relevantnějším návrhům.
+- Omezení vstupních dat snižuje riziko halucinací.
+- Zdůvodnění jednotlivých návrhů usnadňuje jejich následné vyhodnocení.
+- Doporučení pro další sběr dat pomáhají odhalit slabá místa datového modelu.
+- Stejný prompt lze opakovaně použít pro různé projekty pouze změnou zadání.
