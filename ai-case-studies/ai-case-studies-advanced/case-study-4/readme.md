@@ -1,12 +1,12 @@
-# AI Data Analyst Agent
+# Case Study 04 - AI Data Analyst Agent
 
-> AI Data Analyst Agent is a platform-agnostic analytical framework designed to perform structured business data analysis using a standardized workflow.
->
-> This repository contains both the functional specification of the agent and a complete reference case study demonstrating the expected analytical output.
+> AI Data Analyst Agent je platformně nezávislý analytický framework určený pro strukturovanou analýzu business dat podle standardizovaného analytického postupu.
+
+> Repozitář obsahuje funkční specifikaci agenta i kompletní referenční případovou studii, která ukazuje očekávaný průběh analýzy a podobu výsledného výstupu.
 
 ---
 
-## Overview
+## Přehled
 
 AI Data Analyst Agent vznikl jako součást projektu **AI Learning Journey**.
 
@@ -23,9 +23,9 @@ Agent klade důraz na:
 
 ---
 
-# Repository Structure
+# Struktura repozitáře
 
-## 📘 Agent Specification
+## 📘 Specifikace agenta
 
 Kompletní specifikace popisující chování agenta, jeho workflow, odpovědnosti a principy práce.
 
@@ -33,7 +33,7 @@ Kompletní specifikace popisující chování agenta, jeho workflow, odpovědnos
 
 ---
 
-## 📊 Reference Case Study
+## 📊 Referenční case study
 
 Referenční analytický projekt vytvořený podle této specifikace.
 
@@ -43,7 +43,7 @@ Analýza mapuje aktuální požadavky trhu práce na pozici **Data Analyst v Če
 
 ---
 
-# Analytical Workflow
+# Analytické workflow
 
 Agent postupuje podle standardizovaného workflow:
 
@@ -59,7 +59,7 @@ Každý krok je dokumentován a reprodukovatelný.
 
 ---
 
-# Design Principles
+# Principy návrhu
 
 Projekt je postaven na následujících principech:
 
@@ -73,7 +73,7 @@ Projekt je postaven na následujících principech:
 
 ---
 
-# Technologies
+# Technologie
 
 Projekt je nezávislý na konkrétní AI platformě.
 
@@ -92,7 +92,7 @@ Referenční analýza využívá znalosti z oblastí:
 
 ---
 
-# Purpose
+# Účel
 
 Tento projekt neslouží jako hotový software ani jako automatizovaný AI nástroj.
 
@@ -100,11 +100,11 @@ Jeho cílem je ukázat návrh profesionálního AI analytického workflow, kter�
 
 ---
 
-# Repository Status
+# Stav repozitáře
 
-**Version:** 1.0
+**Verze:** 1.0
 
-**Status:** Final
+**Stav:** Final
 
 Součástí repozitáře jsou:
 
@@ -113,7 +113,7 @@ Součástí repozitáře jsou:
 
 ---
 
-# Author
+# Autor
 
 **František Papst**
 
