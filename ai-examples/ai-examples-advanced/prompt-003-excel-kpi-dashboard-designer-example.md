@@ -29,7 +29,7 @@ Navrhni profesionální KPI dashboard v Microsoft Excel určený pro pravidelné
 
 ---
 
-# Návrh
+# Návrh KPI dashboardu v MS Excel
 
 ## 1. Shrnutí návrhu dashboardu
 
