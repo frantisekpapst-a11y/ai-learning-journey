@@ -28,46 +28,46 @@ Cílem bylo využít AI k vytvoření profesionálního Executive Summary.
 
 # Vstupní analytický report
 
-## Overview
+## Přehled
 
-The company achieved total revenue of **€5.2 million** in Q2 2025, representing an **8% increase** compared to the previous quarter.
+Společnost dosáhla ve **2. čtvrtletí 2025** celkových tržeb ve výši **5,2 milionu €**, což představuje **nárůst o 8 %** oproti předchozímu čtvrtletí.
 
-Sales volume increased by **5%**, while the average order value grew from **€118 to €122**.
+Objem prodeje vzrostl o **5 %**, zatímco průměrná hodnota objednávky se zvýšila z **118 € na 122 €**.
 
-Customer acquisition remained stable; however, repeat purchases increased by **14%**, indicating stronger customer retention.
+Počet nově získaných zákazníků zůstal stabilní, avšak počet opakovaných nákupů vzrostl o **14 %**, což naznačuje vyšší loajalitu zákazníků.
 
-### Product Performance
+### Výkonnost produktů
 
-- Laptops (+18%)
-- Gaming Accessories (+22%)
-- Smart Home Devices (+15%)
-- Tablets (-9%)
+- Notebooky (+18 %)
+- Herní příslušenství (+22 %)
+- Zařízení pro chytrou domácnost (+15 %)
+- Tablety (-9 %)
 
-### Regional Performance
+### Výkonnost regionů
 
-- Western Europe (+12%)
-- Central Europe (stable)
-- Southern Europe (-6%)
+- Západní Evropa (+12 %)
+- Střední Evropa (stabilní)
+- Jižní Evropa (-6 %)
 
-### Customer Insights
+### Přehled zákazníků
 
-- Customer satisfaction: 4.3 → 4.5
-- Delivery time: 3.6 → 2.9 days
-- Return rate: 2.1 %
+- Spokojenost zákazníků: **4,3 → 4,5**
+- Průměrná doba doručení: **3,6 → 2,9 dne**
+- Míra vrácení zboží: **2,1 %**
 
-### Risks
+### Rizika
 
-- Declining tablet sales
-- Reduced marketing activity in Southern Europe
-- Low inventory of Gaming Accessories
+- Klesající prodeje tabletů
+- Nižší marketingová aktivita v jižní Evropě
+- Nízké skladové zásoby herního příslušenství
 
-### Recommendations
+### Doporučení
 
-- Increase marketing budget in Southern Europe
-- Expand inventory for Gaming Accessories
-- Review the Tablet portfolio
-- Continue investing in customer retention
-
+- Navýšit marketingový rozpočet pro jižní Evropu.
+- Rozšířit skladové zásoby herního příslušenství.
+- Přehodnotit produktové portfolio tabletů.
+- Pokračovat v investicích do aktivit zaměřených na udržení zákazníků.
+  
 ---
 
 # Workflow
@@ -215,4 +215,3 @@ Tato případová studie neukazuje pouze práci s prompty, ale celý analytický
 - Executive Reporting,
 - Critical Thinking,
 - Data Storytelling.
-
