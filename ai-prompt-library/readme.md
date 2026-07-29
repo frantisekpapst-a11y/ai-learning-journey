@@ -17,7 +17,7 @@ Každý prompt je navržen tak, aby byl:
 - prakticky využitelný v reálných projektech,
 - ověřený na realistických zadáních.
 
-Součástí repozitáře jsou také ukázky použití (Examples), které demonstrují jeden z možných výstupů vytvořených pomocí daného promptu.
+Součástí repozitáře jsou také **[Examples](ai-examples/ai-examples-advanced/)**, které obsahují ukázky použití jednotlivých promptů na realistických business scénářích.
 
 ---
 
@@ -34,8 +34,8 @@ Každý prompt používá jednotnou strukturu:
 
 Každý příklad (Example) obsahuje:
 
-- Assignment
-- Example Output
+- Zadání
+- Výstup
 
 ---
 
@@ -120,14 +120,13 @@ Prompty nejsou pevné šablony dokumentů. Jejich cílem je vést AI k vytvořen
 
 # Lessons Learned
 
-- Prompt není pouze otázka.
-- Kvalitní prompt představuje strukturované business zadání.
-- Dobře definovaná role výrazně zlepšuje kvalitu odpovědí.
-- Přesně formulované zadání vede k relevantnějším a konzistentnějším výsledkům.
-- Jednodušší a srozumitelnější prompty často fungují lépe než přehnaně detailní instrukce.
-- Prompt by měl AI vést, nikoli ji svazovat zbytečnými pravidly.
-- Stejný prompt lze opakovaně použít pro různé projekty změnou zadání.
-- Každý prompt je průběžně testován na realistických scénářích a následně upravován podle získaných zkušeností.
+- Prompt není pouze otázka, ale strukturované zadání, které AI jednoznačně definuje očekávaný úkol.
+- Jasně definovaná role AI významně zvyšuje kvalitu, konzistenci a relevanci výsledků.
+- Obecný a znovupoužitelný prompt doplněný konkrétním zadáním je efektivnější než vytváření nového promptu pro každý scénář.
+- Prompt by měl AI vést k požadovanému výsledku, nikoli ji svazovat zbytečnými pravidly nebo implementačními detaily.
+- Omezení domýšlení dat, datových struktur nebo dalších chybějících informací pomáhá výrazně snižovat riziko halucinací.
+- Každý prompt v této knihovně řeší jeden konkrétní typ úlohy a je navržen tak, aby se nepřekrýval s ostatními prompty.
+- Všechny prompty jsou průběžně testovány na realistických business scénářích a iterativně vylepšovány na základě získaných zkušeností.
 
 ---
 
