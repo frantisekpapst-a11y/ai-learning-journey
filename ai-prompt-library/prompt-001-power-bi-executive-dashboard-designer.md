@@ -6,14 +6,33 @@ Profesionální prompt pro návrh Power BI dashboardu určeného vrcholovému ma
 
 Navrhnout strukturu profesionálního Power BI dashboardu na základě dostupných dat, včetně KPI, DAX měr, vizualizací, filtrů a doporučení pro další rozvoj reportingu.
 
-## Vhodné použití
+# Vhodné použití
+
+### Oblast
 
 - Business Intelligence
-- Executive Reporting
-- Sales Reporting
-- E-commerce Analytics
-- KPI Dashboard
+- Reporting
+- Microsoft Power BI
 
+### Typ dashboardu
+
+- Executive Dashboard
+- KPI Dashboard
+- Management Reporting
+
+### Business scénáře
+
+- Sales Dashboard
+- Finance Dashboard
+- HR Dashboard
+- Operations Dashboard
+
+### Typické úlohy
+
+- návrh nového dashboardu
+- redesign existujícího dashboardu
+- návrh KPI a vizualizací
+- příprava dashboardu před implementací v Power BI
 # Prompt
 
 Jsi senior datový a BI analytik.
@@ -78,23 +97,4 @@ Výstup by měl odpovídat přibližně rozsahu 1–2 stran textu.
 - návrh filtrů a slicerů
 - návrh rozložení dashboardu
 - posouzení kvality dostupných dat
-- doporučení pro další sběr dat
-
-## Další možnosti použití
-
-- návrh dashboardu pro vedení společnosti
-- redesign existujícího Power BI dashboardu
-- návrh KPI pro nový projekt
-- příprava zadání pro BI tým
-- vytvoření konceptu dashboardu před implementací
-- návrh dashboardu pro konkrétní oddělení
-- posouzení, zda dostupná data postačují pro reporting
-
-## Lessons Learned
-
-- Jasně definovaná role zvyšuje kvalitu odpovědí.
-- Popsaný business kontext vede k relevantnějším návrhům.
-- Omezení vstupních dat snižuje riziko halucinací.
-- Zdůvodnění jednotlivých návrhů usnadňuje jejich následné vyhodnocení.
-- Doporučení pro další sběr dat pomáhají odhalit slabá místa datového modelu.
-- Stejný prompt lze opakovaně použít pro různé projekty pouze změnou zadání.
+- doporučení pro další sběr dat.
