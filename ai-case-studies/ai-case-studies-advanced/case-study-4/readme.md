@@ -109,8 +109,7 @@ Jeho cílem je ukázat návrh profesionálního AI analytického workflow, kter�
 Součástí repozitáře jsou:
 
 - ✅ kompletní specifikace AI Data Analyst Agenta,
-- ✅ referenční analytická studie,
-- ✅ zdokumentované analytické workflow.
+- ✅ referenční analytická studie.
 
 ---
 
