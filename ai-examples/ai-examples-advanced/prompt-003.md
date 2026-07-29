@@ -1,4 +1,4 @@
-# Návrh KPI dashboardu pro síť maloobchodních prodejen
+# Prompt 003 — 
 
 ## Zadání
 
@@ -28,6 +28,8 @@ Potřebuje každý den sledovat výkonnost prodeje jednotlivých regionů, obcho
 Navrhni profesionální KPI dashboard v Microsoft Excel určený pro pravidelné manažerské porady. Zaměř se na návrh KPI, vizualizací, rozložení dashboardu a uživatelských interakcí. Nepopisuj technickou implementaci ani konkrétní excelové vzorce.
 
 ---
+
+# Návrh
 
 ## 1. Shrnutí návrhu dashboardu
 
