@@ -1,15 +1,10 @@
-Prompt 
+# Prompt 004 — Power Query Transformation Assistant
 
-# Zadání
-
-## Business scénář
+## Zadání
 
 Společnost každý měsíc exportuje prodejní data z ERP systému. Data jsou určena pro následný reporting v Power BI, ale export obsahuje nekonzistentní hodnoty a vyžaduje pravidelnou přípravu.
 
-## Zdroj dat
-
 Export obsahuje následující sloupce:
-
 - Datum objednávky
 - Číslo objednávky
 - Produkt
@@ -22,8 +17,7 @@ Export obsahuje následující sloupce:
 - Sleva
 - Tržby
 
-## Známé problémy
-
+Známé problémy:
 - Chybějící hodnoty ve sloupci **Region**.
 - Nekonzistentní názvy kategorií (např. „Notebook“, „Notebooky“, „NTB“).
 - Datum je u části záznamů ve formátu **DD.MM.RRRR** a u části ve formátu **YYYY-MM-DD**.
@@ -31,8 +25,6 @@ Export obsahuje následující sloupce:
 - Některé objednávky jsou v exportu duplicitně.
 - Sloupec **Jednotková cena** obsahuje u části záznamů textové hodnoty místo čísel.
 - Export obsahuje několik prázdných řádků.
-
-## Cíl
 
 Navrhni nejvhodnější transformace v Power Query, které připraví data pro následné použití v Power BI.
 
