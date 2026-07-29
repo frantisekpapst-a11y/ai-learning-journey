@@ -1,6 +1,6 @@
 # AI Prompt Library
 
-> A curated collection of reusable AI prompts for Data Analytics, Business Intelligence and productivity.
+Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence a produktivitu.
 
 ---
 
@@ -8,7 +8,16 @@
 
 Tento repozitář obsahuje postupně rozšiřovanou knihovnu znovupoužitelných AI promptů zaměřených na datovou analytiku, Business Intelligence a každodenní práci analytika.
 
-Nejde o sbírku jednorázových dotazů, ale o promyšlené pracovní postupy (workflows), které lze opakovaně využívat, přizpůsobovat konkrétním projektům a průběžně vylepšovat na základě praktických zkušeností.
+Nejde o sbírku jednorázových dotazů, ale o promyšlené pracovní postupy (workflows), které lze opakovaně používat, přizpůsobovat konkrétním projektům a průběžně vylepšovat na základě praktických zkušeností.
+
+Každý prompt je navržen tak, aby byl:
+
+- znovupoužitelný,
+- snadno přizpůsobitelný,
+- prakticky využitelný v reálných projektech,
+- ověřený na realistických zadáních.
+
+Součástí repozitáře jsou také ukázky použití (Examples), které demonstrují jeden z možných výstupů vytvořených pomocí daného promptu.
 
 ---
 
@@ -17,10 +26,16 @@ Nejde o sbírku jednorázových dotazů, ale o promyšlené pracovní postupy (w
 Každý prompt používá jednotnou strukturu:
 
 - Účel
-- Kdy použít
-- Profesionální prompt
-- Možnosti přizpůsobení
+- Vhodné použití
+- Prompt
+- Co tento prompt řeší
+- Další možnosti použití
 - Lessons Learned
+
+Každý příklad (Example) obsahuje:
+
+- Assignment
+- Example Output
 
 ---
 
@@ -43,8 +58,6 @@ Každý prompt používá jednotnou strukturu:
 - Power Query Transformation Assistant
 - Excel Workbook Reviewer
 
----
-
 ## SQL
 
 - SQL Query Generator
@@ -53,16 +66,12 @@ Každý prompt používá jednotnou strukturu:
 - SQL Debugger
 - Database Schema Analyzer
 
----
-
 ## Power BI
 
 - Power BI Dashboard Reviewer
 - DAX Assistant
 - Power BI Data Model Reviewer
 - Power BI Performance Reviewer
-
----
 
 ## Datová analytika
 
@@ -74,16 +83,12 @@ Každý prompt používá jednotnou strukturu:
 - Customer Segmentation Assistant
 - Data Validation Assistant
 
----
-
 ## Business analýza
 
 - Business Requirements Analyzer
 - Executive Summary Generator
 - Business Question Refinement Assistant
 - Requirements-to-KPI Assistant
-
----
 
 ## AI Quality
 
@@ -96,23 +101,33 @@ Každý prompt používá jednotnou strukturu:
 
 Každý prompt je navržen tak, aby:
 
-- definoval jasnou roli,
-- řešil konkrétní analytický úkol,
-- poskytoval dostatečný business kontext,
-- obsahoval případná omezení,
-- definoval požadovaný formát výstupu,
-- vedl AI k transparentnímu uvažování,
-- důsledně rozlišoval mezi fakty, předpoklady a doporučeními.
+- definoval jasnou roli AI,
+- v návaznosti na konkrétní zadání řešil konkrétní analytický úkol,
+- byl obecný a znovupoužitelný pro různé projekty,
+- jasně určoval, jaké informace má obsahovat konkrétní zadání,
+- obsahoval pouze nezbytná pravidla a omezení,
+- definoval očekávaný rozsah a podobu výstupu,
+- minimalizoval riziko halucinací,
+- podporoval konzistentní a opakovatelné výsledky.
+
+Konkrétní business kontext, dostupná data, cílová skupina a požadovaný výsledek jsou doplněny až v zadání připojeném k promptu.
+
+Prompt představuje obecnou a znovupoužitelnou instrukci. Zadání následně doplňuje konkrétní situaci, data a business potřebu.
+
+Prompty nejsou pevné šablony dokumentů. Jejich cílem je vést AI k vytvoření kvalitního řešení, nikoli vynutit jediný správný formát nebo totožnou odpověď napříč různými AI modely.
 
 ---
 
 # Lessons Learned
 
-Prompt není pouze otázka.
-
-Kvalitní prompt představuje strukturované business zadání, které poskytuje AI dostatek kontextu pro vytvoření spolehlivého a užitečného výstupu.
-
-Čím kvalitnější zadání vytvoříme, tím kvalitnější výstup od AI získáme.
+- Prompt není pouze otázka.
+- Kvalitní prompt představuje strukturované business zadání.
+- Dobře definovaná role výrazně zlepšuje kvalitu odpovědí.
+- Přesně formulované zadání vede k relevantnějším a konzistentnějším výsledkům.
+- Jednodušší a srozumitelnější prompty často fungují lépe než přehnaně detailní instrukce.
+- Prompt by měl AI vést, nikoli ji svazovat zbytečnými pravidly.
+- Stejný prompt lze opakovaně použít pro různé projekty změnou zadání.
+- Každý prompt je průběžně testován na realistických scénářích a následně upravován podle získaných zkušeností.
 
 ---
 
@@ -120,8 +135,8 @@ Kvalitní prompt představuje strukturované business zadání, které poskytuje
 
 | Položka | Hodnota |
 |----------|---------|
-| **Projekt** | AI Prompt Library |
-| **Verze** | 1.0 |
-| **Stav** | In Development |
-| **Autor** | František Papst |
-| **Licence** | MIT License |
+| Projekt | AI Prompt Library |
+| Verze | 1.0 |
+| Stav | In Development |
+| Autor | František Papst |
+| Licence | MIT License |
