@@ -21,7 +21,7 @@ ai-learning-journey/
 ├── ai-cheatsheets/        
 ├── ai-examples/           
 ├── ai-mini-tests/         
-├── ai-original-courses/   
+├── ai-other-courses/   
 ├── ai-playbook/           
 ├── ai-prompt-library/     
 ├── ai-resources/          
