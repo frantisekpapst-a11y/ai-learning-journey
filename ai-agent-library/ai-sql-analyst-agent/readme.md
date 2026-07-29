@@ -70,6 +70,8 @@ ai-sql-analyst-agent/
 │
 ├── agent-specification.md
 │
+├── prompt.md
+│
 └── reference-case.md
 ```
 
