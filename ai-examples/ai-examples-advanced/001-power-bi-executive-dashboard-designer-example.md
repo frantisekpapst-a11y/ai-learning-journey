@@ -1,4 +1,6 @@
-# Zadání - návrh Power BI dashboardu pro internetový obchod
+# Prompt 001 — Power BI Executive Dashboard Designer
+
+## Zadání
 
 Analyzujeme data internetového obchodu.
 
