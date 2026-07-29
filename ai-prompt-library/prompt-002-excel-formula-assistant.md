@@ -10,13 +10,35 @@ Navrhnout nejvhodnější excelový vzorec na základě zadaného problému, vč
 
 ## Vhodné použití
 
+### Oblast
+
 - Microsoft Excel
 - Data Analysis
 - Business Intelligence
 - Reporting
-- Data Preparation
+
+### Typ řešení
+
+- Excelové vzorce
+- Moderní excelové funkce
+- Dynamická pole
 - Automatizace výpočtů
-- Kontrola a návrh excelových vzorců
+
+### Business scénáře
+
+- Reporting
+- Analýza dat
+- Příprava dat
+- Kontrola kvality dat
+
+### Typické úlohy
+
+- návrh nových vzorců
+- optimalizace existujících vzorců
+- převod business požadavků na excelové funkce
+- kontrola správnosti vzorců
+- řešení chyb ve vzorcích
+- příprava výpočtů pro reporting a analýzu dat
 
 ---
 
@@ -91,29 +113,4 @@ Výstup by měl odpovídat přibližně rozsahu 1–2 stran textu.
 - alternativní řešení pro starší verze Excelu
 - vysvětlení použitých funkcí
 - doporučení související s navrženým řešením
-- minimalizaci halucinací při návrhu vzorců
-
----
-
-## Další možnosti použití
-
-- návrh složitých excelových vzorců
-- převod obchodních požadavků na excelové funkce
-- optimalizace existujících vzorců
-- nahrazení zastaralých funkcí modernějšími alternativami
-- kontrola správnosti navržených vzorců
-- řešení chyb ve vzorcích
-- příprava řešení pro reporting a analýzu dat
-- tvorba zadání pro excelové automatizace
-
----
-
-## Lessons Learned
-
-- Jasně definovaná role zvyšuje kvalitu navržených řešení.
-- Obecný prompt zůstává znovupoužitelný a konkrétní je až díky navazujícímu zadání.
-- Zákaz domýšlení názvů listů, buněk, tabulek a rozsahů výrazně snižuje riziko halucinací.
-- Pokud nejsou známy konkrétní názvy tabulek nebo rozsahů, je vhodnější použít obecný zápis nebo slovní popis principu než vytvářet fiktivní odkazy.
-- Preferování moderních excelových funkcí vede k jednodušším, čitelnějším a lépe udržovatelným řešením.
-- Omezení doporučení pouze na informace související s navrženým řešením pomáhá udržet odpověď stručnou a věcnou.
-- Stejný prompt lze opakovaně použít pro širokou škálu excelových úloh pouze změnou zadání.
+- minimalizaci halucinací při návrhu vzorců.
