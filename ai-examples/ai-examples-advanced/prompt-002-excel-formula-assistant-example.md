@@ -30,7 +30,7 @@ Navrhni nejvhodnější řešení pomocí excelových funkcí.
 
 ## 1. Shrnutí řešení
 
-Pro automatické doplnění názvu oddělení podle hodnoty **Osobní číslo** je nejvhodnější funkce `XVYHLEDAT`.
+Pro automatické doplnění názvu oddělení podle hodnoty **Osobní číslo** je nejvhodnější funkce `XLOOKUP`.
 
 Funkce vyhledá osobní číslo zaměstnance na listu **Oddělení** a vrátí odpovídající hodnotu ze sloupce **Oddělení**. Pokud osobní číslo nenajde, může místo chyby zobrazit zvolený text.
 
@@ -40,11 +40,11 @@ Funkce vyhledá osobní číslo zaměstnance na listu **Oddělení** a vrátí o
 - Každému osobnímu číslu odpovídá na listu **Oddělení** nejvýše jeden záznam.
 - Skutečné rozsahy dat ani názvy excelových tabulek nejsou uvedeny.
 - Používá se česká verze Excelu se středníkem jako oddělovačem argumentů.
-- Funkce `XVYHLEDAT` je dostupná v Excelu pro Microsoft 365 a Excelu 2021 nebo novějším.
+- Funkce `XLOOKUP` je dostupná v Excelu pro Microsoft 365 a Excelu 2021 nebo novějším.
 
 ## 3. Proč právě toto řešení
 
-Funkce `XVYHLEDAT` je pro tento úkol vhodná, protože:
+Funkce `XLOOKUP` je pro tento úkol vhodná, protože:
 
 - standardně vyhledává přesnou shodu;
 - nevyžaduje zadání pořadového čísla návratového sloupce;
@@ -57,7 +57,7 @@ Funkce `XVYHLEDAT` je pro tento úkol vhodná, protože:
 Obecný zápis:
 
 ```excel
-=XVYHLEDAT(osobní_číslo;rozsah_osobních_čísel_na_listu_Oddělení;rozsah_oddělení_na_listu_Oddělení;"Nenalezeno")
+=XLOOKUP(osobní_číslo;rozsah_osobních_čísel_na_listu_Oddělení;rozsah_oddělení_na_listu_Oddělení;"Nenalezeno")
 ```
 
 Význam jednotlivých obecných odkazů:
@@ -77,13 +77,13 @@ Funkce postupuje následovně:
 3. ze stejné pozice vrátí název oddělení;
 4. pokud osobní číslo nenajde, zobrazí text `Nenalezeno`.
 
-Pomocná funkce není potřebná, protože obsluhu nenalezené hodnoty zajišťuje přímo čtvrtý argument funkce `XVYHLEDAT`.
+Pomocná funkce není potřebná, protože obsluhu nenalezené hodnoty zajišťuje přímo čtvrtý argument funkce `XLOOKUP`.
 
 ## 6. Alternativní řešení
 
 ### Starší verze Excelu
 
-Pro verze bez funkce `XVYHLEDAT` lze použít kombinaci `INDEX` a `POZVYHLEDAT`:
+Pro verze bez funkce `XLOOKUP` lze použít kombinaci `INDEX` a `POZVYHLEDAT`:
 
 ```excel
 =KDYŽCHYBHODN(INDEX(rozsah_oddělení_na_listu_Oddělení;POZVYHLEDAT(osobní_číslo;rozsah_osobních_čísel_na_listu_Oddělení;0));"Nenalezeno")
@@ -104,5 +104,5 @@ Tato varianta je jednodušší, ale méně odolná vůči změnám struktury zdr
 - Doporučeno je převést zdrojová data na excelové tabulky a použít strukturované odkazy. Vzorec se poté automaticky rozšíří na nové řádky a zůstane čitelnější.
 - Vyhledávací a návratový rozsah musí mít stejný počet řádků.
 - Osobní čísla musí být na obou listech uložena ve stejném formátu; například číslo `1001` se nemusí shodovat s textovou hodnotou `"1001"`.
-- Pokud se stejné osobní číslo na listu **Oddělení** vyskytuje vícekrát, `XVYHLEDAT` standardně vrátí první nalezenou shodu.
+- Pokud se stejné osobní číslo na listu **Oddělení** vyskytuje vícekrát, `XLOOKUP` standardně vrátí první nalezenou shodu.
 - Text `Nenalezeno` lze nahradit prázdným řetězcem `""`, pokud má při neúspěšném vyhledání zůstat buňka vizuálně prázdná.
