@@ -24,29 +24,17 @@ Navrhnout strukturu profesionálního Power BI dashboardu pro vedení společnos
 
 Jsi senior datový a BI analytik.
 
-Cílem je připravit návrh Power BI dashboardu pro top management.
+Cílem je připravit návrh profesionálního Power BI dashboardu pro cílovou skupinu definovanou v zadání.
 
-Analyzujeme data z e-shopu.
+Na základě dostupných dat navrhni:
 
-K dispozici máme následující data:
-
-- datum objednávky
-- produkt
-- kategorie
-- cena
-- množství
-- zákazník
-- region
-
-Navrhni:
-
-- jednotlivé KPI
-- potřebné DAX míry
-- vhodné grafy
-- tabulky
-- filtry
-- slicery
-- rozložení dashboardu
+- jednotlivé KPI,
+- potřebné DAX míry,
+- vhodné grafy,
+- tabulky,
+- filtry,
+- slicery,
+- rozložení dashboardu.
 
 U každého návrhu stručně vysvětli jeho business přínos.
 
