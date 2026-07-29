@@ -1,6 +1,6 @@
 # Prompt 001 — Power BI Executive Dashboard Designer
 
-> Profesionální prompt pro návrh dashboardu pro vrcholový management.
+Profesionální prompt pro návrh dashboardu pro vrcholový management.
 
 ---
 
@@ -11,6 +11,7 @@ Navrhnout strukturu profesionálního Power BI dashboardu pro vedení společnos
 ---
 
 # Vhodné použití
+
 - Business Intelligence
 - Executive Reporting
 - KPI Dashboard
@@ -28,6 +29,7 @@ Cílem je připravit návrh Power BI dashboardu pro top management.
 Analyzujeme data z e-shopu.
 
 K dispozici máme následující data:
+
 - datum objednávky
 - produkt
 - kategorie
@@ -37,6 +39,7 @@ K dispozici máme následující data:
 - region
 
 Navrhni:
+
 - jednotlivé KPI
 - potřebné DAX míry
 - vhodné grafy
@@ -58,29 +61,31 @@ Výstup připrav jako přehledný Markdown dokument.
 ---
 
 # Co tento prompt řeší
+
 - návrh dashboardu
-- KPI
-- business reporting
-- vizualizace
+- návrh KPI
 - executive reporting
-- datový model
+- business reporting
+- návrh vizualizací
+- návrh datového modelu
 - doporučení pro další sběr dat
 
 ---
 
-# Možná rozšíření
-- marketingové metriky
-- finanční reporting
-- forecast
-- customer lifetime value
-- RFM analýzu
-- drill-through stránky
-- Row Level Security (RLS)
-- mobilní dashboard
+# Další možnosti použití
+
+- návrh dashboardu pro vedení společnosti
+- redesign existujícího Power BI dashboardu
+- návrh KPI pro nový projekt
+- příprava zadání pro BI tým
+- vytvoření konceptu dashboardu před implementací
+- návrh dashboardu pro konkrétní oddělení
+- posouzení, zda dostupná data postačují pro reporting
 
 ---
 
 # Lessons Learned
+
 - Definovaná role výrazně zlepšuje kvalitu odpovědi.
 - Kontext pomáhá AI pochopit business problém.
 - Omezení snižují riziko halucinací.
