@@ -17,7 +17,7 @@ Každý prompt je navržen tak, aby byl:
 - prakticky využitelný v reálných projektech,
 - ověřený na realistických zadáních.
 
-Součástí repozitáře jsou také **[Examples](ai-examples/ai-examples-advanced/)**, které obsahují ukázky použití jednotlivých promptů na realistických business scénářích.
+Součástí repozitáře jsou také **[Examples](../ai-examples/ai-examples-advanced/)**, které ukazují použití jednotlivých promptů na realistických business scénářích a demonstrují jeden z možných výstupů generovaných AI.
 
 ---
 
