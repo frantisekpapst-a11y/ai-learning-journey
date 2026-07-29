@@ -68,7 +68,7 @@ Výstup připrav jako přehledný Markdown dokument.
 
 ---
 
-# Co lze dále rozšířit
+# Možná rozšíření
 - marketingové metriky
 - finanční reporting
 - forecast
