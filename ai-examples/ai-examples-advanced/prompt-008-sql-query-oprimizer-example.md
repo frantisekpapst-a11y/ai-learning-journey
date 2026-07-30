@@ -1,28 +1,18 @@
 # Prompt 008- SQL Query Optimizer
 
-## Zadání
+# Zadání
 
-### Business scénář
+## Business scénář
 
 Vývojový tým vytvořil SQL dotaz pro interní reporting.
 
 Dotaz již prošel code review a byl schválen jako funkčně správný.
 
-Úkolem není kontrolovat business logiku, správnost výsledků ani syntaxi SQL.
-
-Posuď pouze možnosti optimalizace výkonu, efektivity, jednoduchosti a čitelnosti.
-
-Pokud navrhneš optimalizaci, nesmí změnit výsledná data ani význam SQL dotazu.
-
----
-
-### Databázový systém
+## Databázový systém
 
 Microsoft SQL Server
 
----
-
-### SQL dotaz
+## SQL dotaz
 
 ```sql
 SELECT DISTINCT
@@ -47,14 +37,16 @@ ORDER BY
 
 ---
 
+# Návrh řešení
+
 ## 1. Shrnutí analýzy
 
-SQL dotaz obsahuje dvě nadbytečné konstrukce:
+SQL dotaz obsahuje dvě nadbytečné části:
 
-- `DISTINCT` je zbytečný, protože jedinečnost výsledných řádků již zajišťuje `GROUP BY`.
-- Podmínka `WHERE c.CustomerID IN (...)` je zbytečná, protože `INNER JOIN` již omezuje výsledek na zákazníky s odpovídající objednávkou.
+- `DISTINCT`, protože jedinečnost výsledných řádků již zajišťuje `GROUP BY`,
+- podmínku `WHERE c.CustomerID IN (...)`, protože zákazníci bez odpovídající objednávky jsou již vyloučeni pomocí `INNER JOIN`.
 
-Jejich odstranění zjednoduší dotaz bez změny výsledných dat nebo jeho významu. Konkrétní výkonnostní přínos nelze bez znalosti objemu dat a způsobu zpracování dotazu objektivně vyčíslit.
+Jejich odstranění může dotaz zjednodušit a omezit zbytečné operace při jeho zpracování. Zbývající části dotazu jsou pro požadovanou agregaci přiměřeně jednoduché a čitelné.
 
 ## 2. Předpoklady
 
@@ -62,21 +54,25 @@ Jejich odstranění zjednoduší dotaz bez změny výsledných dat nebo jeho vý
 
 ## 3. Silné stránky
 
-- Dotaz používá přímé spojení tabulek pomocí `INNER JOIN`.
-- Agregace je provedena jednou funkcí `SUM` a odpovídajícím `GROUP BY`.
-- Aliasy tabulek a agregovaného sloupce podporují čitelnost.
-- Struktura dotazu je přehledná a snadno udržovatelná.
-- Řazení používá srozumitelný alias `TotalSales`.
+- Dotaz používá explicitní `INNER JOIN` s jasně definovanou podmínkou spojení.
+- Agregace `SUM(o.TotalAmount)` je přehledná a srozumitelně pojmenovaná aliasem `TotalSales`.
+- Sloupce mimo agregační funkci jsou uvedeny v `GROUP BY`.
+- Řazení podle aliasu agregovaného sloupce zvyšuje čitelnost dotazu.
+- Struktura dotazu je i přes nadbytečné části snadno pochopitelná a udržovatelná.
 
 ## 4. Nalezené možnosti optimalizace
 
-### Nadbytečný `DISTINCT`
+### Nadbytečné použití `DISTINCT`
 
-`GROUP BY` vytváří jeden výsledný řádek pro každou jedinečnou kombinaci seskupovaných hodnot. Následný `DISTINCT` proto již nemůže odstranit další duplicity.
+Klauzule `GROUP BY` již vytváří jeden výsledný řádek pro každou jedinečnou kombinaci následujících hodnot:
 
-Jeho uvedení zbytečně komplikuje zápis a může vyvolávat dojem, že dotaz řeší samostatný problém s duplicitami.
+- `CustomerID`,
+- `FirstName`,
+- `LastName`.
 
-### Nadbytečný poddotaz v podmínce `WHERE`
+Použití `DISTINCT` nad takto agregovaným výsledkem proto nemůže odstranit žádné další duplicity. V závislosti na zvoleném exekučním plánu může představovat zbytečnou operaci pro kontrolu nebo odstranění duplicit.
+
+### Nadbytečný filtr s poddotazem
 
 Podmínka:
 
@@ -87,24 +83,31 @@ WHERE c.CustomerID IN (
 )
 ```
 
-ověřuje, zda zákazník existuje v tabulce `Orders`. Stejnou podmínku již zajišťuje použitý `INNER JOIN`, protože zákazník bez odpovídající objednávky nemůže být součástí výsledku.
+ověřuje, zda má zákazník alespoň jeden odpovídající záznam v tabulce `Orders`.
 
-Poddotaz proto nepřináší další filtrování. Zvyšuje složitost zápisu a představuje redundantní požadavek na zpracování, přestože jej může optimalizátor SQL Serveru automaticky odstranit nebo zjednodušit.
+Stejnou podmínku již fakticky zajišťuje použitý `INNER JOIN`. Zákazník bez odpovídající objednávky se do výsledku spojení nedostane, a proto je dodatečný filtr redundantní.
+
+Poddotaz zbytečně komplikuje zápis a může vést k dodatečnému zpracování tabulky `Orders`, přestože Microsoft SQL Server může tuto redundanci při optimalizaci exekučního plánu rozpoznat.
+
+### `ORDER BY` je opodstatněné
+
+Řazení podle `TotalSales DESC` odpovídá požadavku na seřazení výsledků podle celkových tržeb od nejvyšší hodnoty. Ze zadání nevyplývá, že by bylo možné řazení odstranit, a proto není považováno za možnost optimalizace.
 
 ## 5. Očekávaný přínos optimalizace
 
-- Jednodušší struktura SQL dotazu.
-- Lepší čitelnost a snazší údržba.
-- Odstranění redundantních operací z logického zápisu dotazu.
-- Potenciálně jednodušší zpracování dotazu databázovým optimalizátorem.
+- Jednodušší SQL dotaz s menším množstvím redundantní logiky.
+- Lepší čitelnost a snadnější budoucí údržba.
+- Potenciální omezení zbytečného vyhodnocování existence objednávek.
+- Potenciální odstranění nadbytečné operace související s `DISTINCT`.
+- Jednoznačnější vyjádření skutečnosti, že výběr zákazníků s objednávkami již zajišťuje `INNER JOIN`.
 
-Význam skutečného výkonnostního přínosu nelze bez informací o objemu dat a způsobu zpracování dotazu spolehlivě určit.
+Konkrétní výkonnostní přínos nelze bez exekučního plánu a informací o objemu dat objektivně určit. Exekuční plán však podle zadání není předmětem této analýzy.
 
 ## 6. Doporučené oblasti ke zlepšení
 
-- Odstranit `DISTINCT`.
-- Odstranit podmínku `WHERE c.CustomerID IN (...)`.
-- Zachovat stávající `INNER JOIN`, agregaci, seskupení a řazení.
+- Odstranit nadbytečné `DISTINCT`.
+- Odstranit redundantní filtr s poddotazem nad tabulkou `Orders`.
+- Zachovat `INNER JOIN`, agregaci, seskupení a požadované řazení výsledků.
 
 ## 7. Ověření zachování business logiky
 
@@ -113,7 +116,9 @@ Význam skutečného výkonnostního přínosu nelze bez informací o objemu dat
 | Výsledná data | Zachováno |
 | Význam SQL dotazu | Zachováno |
 
-Odstranění obou redundantních konstrukcí nemění zahrnuté zákazníky, vypočtené součty ani pořadí výsledných řádků.
+Odstranění `DISTINCT` nezmění výsledná data, protože jejich granularitu již určuje `GROUP BY`.
+
+Odstranění podmínky `WHERE ... IN (...)` rovněž nezmění výsledná data, protože existenci odpovídající objednávky již vyžaduje `INNER JOIN`.
 
 ## 8. Celkové hodnocení
 
