@@ -1,32 +1,24 @@
 # Prompt 009 - SQL Debugger
 
-## Zadání
+# Zadání
 
-### Business scénář
+## Business scénář
 
 Vývojář vytvořil SQL dotaz pro interní reporting.
 
 Při spuštění dotazu databáze vrací chybu a dotaz nelze úspěšně provést.
 
-Tvým úkolem je identifikovat příčinu chyby, vysvětlit její důvod a navrhnout vhodný způsob odstranění.
-
-Neprováděj code review.
-
-Neoptimalizuj výkon SQL dotazu.
-
-Neposuzuj business logiku.
-
-Pokud zadání výslovně nepožaduje opravený SQL dotaz, neposkytuj nový SQL kód.
+Proveď analýzu příčiny chyby.
 
 ---
 
-### Databázový systém
+## Databázový systém
 
 Microsoft SQL Server
 
 ---
 
-### Chybové hlášení
+## Chybové hlášení
 
 ```text
 Msg 207, Level 16, State 1
@@ -36,7 +28,7 @@ Invalid column name 'TotalPrice'.
 
 ---
 
-### SQL dotaz
+## SQL dotaz
 
 ```sql
 SELECT
@@ -48,9 +40,17 @@ GROUP BY CustomerID;
 
 ---
 
+## Dostupné informace
+
+K dispozici jsou pouze chybové hlášení a SQL dotaz.
+
+---
+
+# Výstup
+
 ## 1. Shrnutí problému
 
-SQL Server nemůže dotaz provést, protože v tabulce `Orders` nerozpoznal sloupec `TotalPrice`, který je použit v agregační funkci `SUM`.
+SQL dotaz nelze v systému Microsoft SQL Server provést, protože odkazuje na neplatný název sloupce `TotalPrice`.
 
 ## 2. Předpoklady
 
@@ -58,43 +58,30 @@ SQL Server nemůže dotaz provést, protože v tabulce `Orders` nerozpoznal slou
 
 ## 3. Identifikovaná chyba
 
-Jedná se o **chybu názvu objektu**, konkrétně o neplatný název sloupce.
+Jedná se o **chybu názvu sloupce**.
 
-SQL Server vrací chybu `Msg 207 – Invalid column name 'TotalPrice'`, která jednoznačně uvádí, že sloupec `TotalPrice` není v kontextu dotazu dostupný.
+SQL Server při zpracování výrazu `SUM(TotalPrice)` nedokázal v kontextu tabulky `Orders` rozpoznat sloupec s názvem `TotalPrice`. Tuto skutečnost přímo potvrzuje chybové hlášení:
+
+> `Invalid column name 'TotalPrice'.`
 
 ## 4. Pravděpodobná příčina
 
-Tabulka `Orders` neobsahuje sloupec s přesným názvem `TotalPrice`, případně dotaz pracuje s jinou tabulkou `Orders`, než vývojář očekával.
+Dotaz odkazuje na název sloupce `TotalPrice`, který SQL Server nepovažuje za platný sloupec dostupný v tabulce `Orders`.
 
-Příčinou může být například:
-
-- nesprávně napsaný název sloupce,
-- odlišný skutečný název sloupce,
-- změna databázové struktury,
-- spuštění dotazu v jiné databázi nebo nad jiným schématem.
-
-Z dostupných informací nelze určit, která z těchto možností konkrétně nastala.
+Z poskytnutých informací nelze určit, jaký konkrétní název sloupce má být ve výrazu `SUM()` použit.
 
 ## 5. Doporučené řešení
 
-Je potřeba ověřit strukturu tabulky `Orders` v databázi a zjistit skutečný název sloupce obsahujícího cenu nebo hodnotu objednávky.
+Ověřte skutečnou strukturu tabulky `Orders` a název sloupce, který obsahuje částku určenou k agregaci.
 
-Následně je nutné:
+Následně je potřeba odkaz `TotalPrice` nahradit správným existujícím názvem sloupce. Pokud měl sloupec `TotalPrice` v tabulce existovat, je nutné ověřit, zda byl dotaz spuštěn nad správnou databází, schématem a verzí tabulky.
 
-1. nahradit odkaz na `TotalPrice` správným názvem existujícího sloupce, nebo
-2. ověřit, zda je dotaz spuštěn ve správné databázi a používá očekávané schéma tabulky.
-
-Pokud sloupec skutečně neexistuje, nelze agregaci provést, dokud nebude určeno, který existující sloupec má být sčítán.
+Konkrétní opravený SQL dotaz nelze bez znalosti správného názvu sloupce spolehlivě sestavit.
 
 ## 6. Další potřebné informace
 
-Pro určení správné úpravy je potřeba znát:
-
-- seznam sloupců tabulky `Orders`,
-- schéma, ve kterém se tabulka nachází,
-- název databáze, ve které je dotaz spuštěn,
-- sloupec, který má představovat celkovou hodnotu objednávky.
+Pro určení konkrétní opravy je nutný seznam sloupců nebo definice tabulky `Orders`, zejména název sloupce obsahující hodnotu určenou k součtu.
 
 ## 7. Celkové hodnocení
 
-**Chyba jednoznačně identifikována**
+**Chyba jednoznačně identifikována.**
