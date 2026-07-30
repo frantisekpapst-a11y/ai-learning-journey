@@ -1,53 +1,14 @@
-# Prompt 010 - Database Structure Analyzer
+# Database Structure Analyzer
 
 # Zadání
 
 ## Business scénář
 
-Byl ti předán návrh databázového modelu připravované aplikace pro správu objednávek.
+Byl předán návrh databázového modelu připravované aplikace pro správu objednávek.
 
-Tvým úkolem je provést technickou analýzu databázové struktury.
+Proveď technickou analýzu databázové struktury.
 
-Analyzuj výhradně informace uvedené ve vstupu.
-
-Nevymýšlej chybějící tabulky, sloupce, datové typy, klíče, vztahy ani business pravidla.
-
-Nevytvářej SQL dotazy.
-
-Nevytvářej DDL skripty.
-
-Nenavrhuj novou databázovou strukturu.
-
-Neoptimalizuj databázi ani SQL.
-
-Neposuzuj business význam jednotlivých atributů ani pravidla jejich používání.
-
-Nevyvozuj závěry o způsobu používání databáze v aplikaci.
-
-Posuzuj pouze technickou kvalitu databázového modelu.
-
-Při analýze se zaměř zejména na:
-
-- organizaci databázové struktury,
-- datové typy,
-- primární klíče,
-- cizí klíče,
-- vztahy mezi tabulkami,
-- konzistenci pojmenování,
-- redundanci,
-- normalizaci,
-- technické předpoklady databázového modelu pro analytické využití,
-- udržovatelnost databázového modelu.
-
-Nevyvozuj závěry o kvalitě reportingu ani business intelligence.
-
-Posuzuj pouze technické vlastnosti databázové struktury, které lze objektivně ověřit ze vstupu.
-
-Pokud některou oblast nelze objektivně posoudit, uveď proč.
-
----
-
-## Databázová struktura
+## Vstup
 
 ### Customers
 
@@ -86,103 +47,75 @@ Pokud některou oblast nelze objektivně posoudit, uveď proč.
 | Category | VARCHAR(50) | |
 | Price | DECIMAL(10,2) | |
 
----
-
 ## Dostupné informace
 
 K dispozici je pouze výše uvedená databázová struktura.
 
-Nejsou dostupné:
-
-- business požadavky,
-- popis aplikace,
-- pravidla validace dat,
-- pravidla ukládání dat,
-- význam jednotlivých atributů,
-- funkční závislosti,
-- databázová omezení nad rámec uvedených klíčů,
-- hodnoty NULL,
-- UNIQUE omezení,
-- CHECK omezení,
-- DEFAULT hodnoty,
-- indexy,
-- pohledy (Views),
-- uložené procedury,
-- triggery,
-- databázový server,
-- výkonové požadavky,
-- vzorová data,
-- dokumentace datového modelu.
-
-Veškeré závěry musí vycházet výhradně z poskytnuté databázové struktury.
-
-Pokud některou oblast nelze objektivně posoudit, výslovně to uveď a nevytvářej domněnky.
-
 ---
 
-# 1. Shrnutí analýzy
+# Výstup
 
-Databázová struktura obsahuje čtyři přehledně oddělené tabulky pro zákazníky, objednávky, položky objednávek a produkty. Každá tabulka má definovaný jednoduchý primární klíč typu `INT`. U uvedených vazeb jsou datové typy primárních a cizích klíčů konzistentní.
+## 1. Shrnutí analýzy
 
-Objektivně zjištěným nedostatkem je chybějící cizí klíč u sloupce `OrderItems.ProductID`, přestože tabulka `Products` obsahuje odpovídající primární klíč `ProductID`. Databázový model proto nevynucuje referenční integritu mezi položkami objednávek a produkty.
+Databázový model obsahuje čtyři přehledně oddělené tabulky pro zákazníky, objednávky, položky objednávek a produkty. Všechny tabulky mají definovaný primární klíč a model obsahuje dvě explicitně uvedené vazby prostřednictvím cizích klíčů.
 
-Kvůli omezenému rozsahu vstupu nelze úplně posoudit normalizaci, redundanci, pravidla přípustnosti hodnot ani integritu neklíčových atributů.
+Hlavním zjištěným nedostatkem je chybějící cizí klíč mezi `OrderItems.ProductID` a `Products.ProductID`. Databázová struktura proto nezajišťuje referenční integritu mezi položkami objednávek a produkty.
 
-# 2. Předpoklady
+Z dostupných informací nelze posoudit zejména povinnost vyplnění sloupců, další integritní omezení ani jednoznačnost hodnot.
+
+## 2. Předpoklady
 
 > Nebyly nutné žádné dodatečné předpoklady.
 
-# 3. Silné stránky databázové struktury
+## 3. Silné stránky databázové struktury
 
-- Datové entity jsou rozděleny do samostatných a srozumitelně pojmenovaných tabulek.
-- Každá tabulka má jednoznačně definovaný primární klíč.
-- Primární klíče používají jednotný datový typ `INT`.
-- Existují explicitně definované vazby:
-  - `Orders.CustomerID` → `Customers.CustomerID`,
-  - `OrderItems.OrderID` → `Orders.OrderID`.
-- Datové typy na obou stranách uvedených vazeb jsou shodné.
-- Pojmenování tabulek, identifikátorů a ostatních sloupců je v rámci poskytnuté struktury převážně konzistentní a technicky srozumitelné.
-- Peněžní hodnoty používají datový typ `DECIMAL(10,2)`, který umožňuje ukládat hodnoty s pevně stanoveným počtem desetinných míst.
-- Datum objednávky používá samostatný datový typ `DATE`.
+- Každá tabulka má vlastní primární klíč typu `INT`.
+- Vazba mezi `Orders.CustomerID` a `Customers.CustomerID` je explicitně definována cizím klíčem.
+- Vazba mezi `OrderItems.OrderID` a `Orders.OrderID` je explicitně definována cizím klíčem.
+- Datové typy propojených primárních a cizích klíčů jsou vzájemně konzistentní.
+- Peněžní hodnoty používají pevnou desetinnou přesnost prostřednictvím typu `DECIMAL(10,2)`.
+- Datum objednávky je uloženo pomocí datového typu `DATE`.
+- Délky textových sloupců jsou explicitně omezeny.
+- Pojmenování tabulek, identifikátorů a ostatních sloupců je konzistentní a srozumitelné.
+- Oddělení zákazníků, objednávek, položek objednávek a produktů omezuje přímé opakování stejných entit v jednotlivých tabulkách.
 
-# 4. Nalezené problémy
+## 4. Nalezené problémy
 
-Sloupec `OrderItems.ProductID` je definován jako `INT`, ale není u něj uveden cizí klíč odkazující na `Products.ProductID`.
+### Chybějící cizí klíč u produktu
 
-Struktura tak obsahuje technicky odpovídající identifikátory produktu v obou tabulkách, jejich vztah však není na úrovni poskytnutého modelu explicitně definován ani vynucován.
+Sloupec `OrderItems.ProductID` není definován jako cizí klíč odkazující na `Products.ProductID`, přestože tabulka `Products` obsahuje stejnojmenný primární klíč.
 
-Další problémy nelze z dostupných informací objektivně potvrdit.
+Model proto na úrovni deklarované databázové struktury nevynucuje existenci odpovídajícího produktu pro každou položku objednávky.
 
-# 5. Rizika
+## 5. Rizika
 
-Chybějící cizí klíč u `OrderItems.ProductID` umožňuje z hlediska uvedené struktury vznik položek objednávek, jejichž hodnota `ProductID` nemá odpovídající záznam v tabulce `Products`.
+Chybějící referenční integrita mezi tabulkami `OrderItems` a `Products` umožňuje vznik položek objednávek s hodnotou `ProductID`, která nemá odpovídající záznam v tabulce `Products`.
 
-To představuje riziko narušení referenční integrity mezi položkami objednávek a produkty. Při spojování těchto tabulek mohou záznamy bez odpovídajícího produktu vést k neúplným výsledkům analytického zpracování.
+Takové záznamy mohou způsobit neúplné výsledky při propojování těchto tabulek, protože položku objednávky nebude možné přiřadit k existujícímu produktu.
 
-# 6. Doporučené oblasti ke zlepšení
+## 6. Doporučené oblasti ke zlepšení
 
-Doporučuje se doplnit do databázového modelu explicitní vazbu mezi `OrderItems.ProductID` a `Products.ProductID` prostřednictvím cizího klíče.
+Doporučuje se doplnit referenční vazbu mezi `OrderItems.ProductID` a `Products.ProductID`.
 
-Tím bude technicky vynucena referenční integrita mezi položkami objednávek a existujícími produkty a současně bude vztah jednoznačně zachycen v databázové struktuře.
+Tím bude technicky zajištěno, že hodnota produktu uvedená v položce objednávky odpovídá existujícímu záznamu v tabulce `Products`.
 
-Další doporučení nelze formulovat bez vytváření domněnek nad rámec poskytnutých informací.
+Další doporučení nelze objektivně formulovat bez vytváření požadavků, které nevyplývají z poskytnuté databázové struktury.
 
-# 7. Připravenost pro analytické využití
+## 7. Připravenost pro analytické využití
 
-Databázový model obsahuje základní technické předpoklady pro analytické využití:
+Model technicky umožňuje propojit:
 
-- data jsou rozdělena do samostatných entit,
-- většina potřebných vztahů je explicitně definována,
-- primární a uvedené cizí klíče používají konzistentní datové typy,
-- názvy tabulek a sloupců jsou srozumitelné,
-- struktura umožňuje technicky propojit zákazníky, objednávky, položky objednávek a produkty.
+- zákazníky s objednávkami,
+- objednávky s jejich položkami.
 
-Připravenost však snižuje chybějící cizí klíč mezi `OrderItems` a `Products`, protože model nezajišťuje úplnou referenční integritu v celém řetězci vztahů.
+Propojení položek objednávek s produkty lze provést podle sloupce `ProductID`, ale příslušná vazba není v databázové struktuře vynucena cizím klíčem. Konzistence tohoto propojení proto není zajištěna.
 
-Úplnou normalizaci a případnou redundanci nelze ověřit bez funkčních závislostí, pravidel ukládání dat a významu jednotlivých atributů.
+Databázový model obsahuje číselné hodnoty `TotalAmount`, `Quantity`, `UnitPrice` a `Price` a datum `OrderDate`, které mají explicitně uvedené datové typy. U peněžních hodnot je použita jednotná přesnost `DECIMAL(10,2)`.
 
-Konzistenci pravidel pro hodnoty `NULL`, jedinečnost neklíčových atributů a přípustnost ukládaných hodnot nelze ověřit z poskytnutých informací.
+Povinnost vyplnění sloupců, jednoznačnost hodnot a další integritní omezení:
 
-# 8. Celkové hodnocení
+> Nelze ověřit z poskytnutých informací.
 
-**Doporučeny drobné úpravy.**
+## 8. Celkové hodnocení
+
+**Doporučeny drobné úpravy**
