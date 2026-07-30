@@ -112,7 +112,7 @@ Jinak uveď:
 
 V části **Doporučená další data** navrhuj pouze údaje, které mohou významně zvýšit vypovídací hodnotu dashboardu.
 
-Výstup by měl odpovídat přibližně rozsahu 2–3 stran textu.
+Výstup by měl odpovídat přibližně rozsahu 1–2 stran textu.
 
 ---
 
