@@ -169,7 +169,7 @@ V části **Doporučená další data** navrhuj pouze údaje, které mohou význ
 
 U každého doporučeného údaje stručně vysvětli jeho očekávaný business přínos.
 
-Výstup by měl odpovídat přibližně rozsahu 2–3 stran textu.
+Výstup by měl odpovídat přibližně rozsahu 1–2 stran textu.
 
 ---
 
