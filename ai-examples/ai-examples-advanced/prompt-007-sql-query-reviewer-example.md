@@ -8,12 +8,6 @@ Společnost provozuje e-commerce platformu a ukládá data o zákaznících a ob
 
 Vývojář vytvořil SQL dotaz pro obchodní oddělení.
 
-Tvým úkolem je provést odbornou revizi existujícího SQL dotazu.
-
-Nevytvářej nový ani opravený SQL dotaz.
-
----
-
 ## Databázový systém
 
 Microsoft SQL Server
@@ -71,7 +65,7 @@ Výsledek má být seřazen podle celkové hodnoty objednávek sestupně.
 
 ## SQL dotaz k revizi
 
-~~~sql
+```sql
 SELECT
     c.FirstName,
     c.LastName,
@@ -92,45 +86,34 @@ HAVING
     AND SUM(o.TotalAmount) > 50000
 ORDER BY
     TotalOrderAmount DESC;
-~~~
+```
 
 ---
 
-# Odborná revize SQL dotazu
+# Návrh odborné revize
 
 ## 1. Shrnutí hodnocení
 
-SQL dotaz je syntakticky i logicky správný pro Microsoft SQL Server a splňuje všechny uvedené business požadavky.
+SQL dotaz je pro Microsoft SQL Server syntakticky správný, logicky konzistentní a splňuje všechny uvedené business požadavky.
 
-Dotaz správně:
-
-- propojuje zákazníky s jejich objednávkami,
-- vytváří souhrn za jednotlivé zákazníky,
-- počítá objednávky,
-- sčítá jejich celkovou hodnotu,
-- určuje datum poslední objednávky,
-- aplikuje obě požadované podmínky,
-- řadí výsledek podle celkové hodnoty objednávek sestupně.
-
-Nebyly nalezeny chyby ani nedostatky, které by vyžadovaly úpravu SQL dotazu.
+Správně propojuje zákazníky s objednávkami, agreguje údaje na úroveň zákazníka, filtruje výsledné skupiny pomocí `HAVING` a řadí výsledek podle celkové hodnoty objednávek sestupně. Dotaz je přehledný a nevyžaduje úpravy.
 
 ## 2. Předpoklady
 
-Pro provedení revize nejsou nutné žádné dodatečné předpoklady.
-
-Posouzení vychází výhradně z uvedeného databázového systému, datového modelu, vazby mezi tabulkami a business požadavku.
+> Nebyly nutné žádné dodatečné předpoklady.
 
 ## 3. Silné stránky
 
-- Použití `INNER JOIN` odpovídá požadavku zahrnout pouze zákazníky, kteří uskutečnili objednávky.
-- Propojení tabulek přes `Customers.CustomerID = Orders.CustomerID` odpovídá uvedené vazbě.
-- Agregační funkce `COUNT`, `SUM` a `MAX` správně vytvářejí požadované zákaznické metriky.
-- Podmínky nad agregovanými hodnotami jsou správně umístěny v klauzuli `HAVING`.
-- Podmínka `COUNT(o.OrderID) >= 5` správně vyjadřuje alespoň pět objednávek.
-- Podmínka `SUM(o.TotalAmount) > 50000` správně vyjadřuje překročení částky 50 000 Kč.
-- Seskupení zahrnuje identifikátor zákazníka, takže zákazníci se stejným jménem, příjmením a městem nebudou nesprávně sloučeni.
-- Alias `TotalOrderAmount` zlepšuje čitelnost výstupu a lze jej v Microsoft SQL Serveru použít v klauzuli `ORDER BY`.
-- Struktura a formátování dotazu jsou přehledné a snadno udržovatelné.
+- `INNER JOIN` odpovídá požadavku zahrnout pouze zákazníky, kteří mají objednávky.
+- Propojení tabulek používá vazbu uvedenou v datovém modelu.
+- `COUNT(o.OrderID)` správně zjišťuje počet objednávek zákazníka.
+- `SUM(o.TotalAmount)` vypočítává celkovou hodnotu objednávek.
+- `MAX(o.OrderDate)` určuje datum poslední objednávky.
+- `GROUP BY` vytváří samostatnou skupinu pro každého zákazníka prostřednictvím `CustomerID`.
+- Agregační podmínky jsou správně umístěny v klauzuli `HAVING`.
+- Podmínky přesně rozlišují „alespoň 5“ pomocí `>= 5` a „přesahuje 50 000“ pomocí `> 50000`.
+- Výsledek je správně seřazen sestupně podle aliasu `TotalOrderAmount`.
+- Názvy aliasů jsou srozumitelné a dotaz je dobře čitelný.
 
 ## 4. Nalezené problémy
 
@@ -151,15 +134,13 @@ Posouzení vychází výhradně z uvedeného databázového systému, datového 
 | Zobrazit jméno zákazníka | Splněno | Dotaz vybírá `c.FirstName`. |
 | Zobrazit příjmení zákazníka | Splněno | Dotaz vybírá `c.LastName`. |
 | Zobrazit město zákazníka | Splněno | Dotaz vybírá `c.City`. |
-| Zobrazit počet objednávek | Splněno | Počet objednávek počítá výraz `COUNT(o.OrderID)`. |
-| Zobrazit celkovou hodnotu objednávek | Splněno | Celkovou hodnotu počítá výraz `SUM(o.TotalAmount)`. |
-| Zobrazit datum poslední objednávky | Splněno | Nejnovější datum určuje výraz `MAX(o.OrderDate)`. |
-| Zahrnout pouze zákazníky s alespoň pěti objednávkami | Splněno | Klauzule `HAVING` obsahuje podmínku `COUNT(o.OrderID) >= 5`. |
-| Zahrnout pouze zákazníky s celkovou hodnotou objednávek přes 50 000 Kč | Splněno | Klauzule `HAVING` obsahuje podmínku `SUM(o.TotalAmount) > 50000`. |
-| Seřadit výsledek podle celkové hodnoty objednávek sestupně | Splněno | Řazení zajišťuje `ORDER BY TotalOrderAmount DESC`. |
+| Zobrazit počet objednávek | Splněno | Počet je vypočítán pomocí `COUNT(o.OrderID)`. |
+| Zobrazit celkovou hodnotu objednávek | Splněno | Celková hodnota je vypočítána pomocí `SUM(o.TotalAmount)`. |
+| Zobrazit datum poslední objednávky | Splněno | Poslední datum je určeno pomocí `MAX(o.OrderDate)`. |
+| Zahrnout pouze zákazníky s alespoň 5 objednávkami | Splněno | Podmínka `COUNT(o.OrderID) >= 5` odpovídá požadavku. |
+| Zahrnout pouze zákazníky s celkovou hodnotou objednávek přesahující 50 000 Kč | Splněno | Podmínka `SUM(o.TotalAmount) > 50000` odpovídá požadavku. |
+| Seřadit výsledek podle celkové hodnoty objednávek sestupně | Splněno | Použito je `ORDER BY TotalOrderAmount DESC`. |
 
 ## 8. Celkové hodnocení
 
 **Schválit bez úprav.**
-
-SQL dotaz je pro zadaný datový model a business požadavek syntakticky správný, logicky konzistentní, čitelný a úplný.
