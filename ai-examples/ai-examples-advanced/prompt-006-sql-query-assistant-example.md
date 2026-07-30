@@ -64,9 +64,9 @@ V části **Ověření splnění zadání** projdi jednotlivé požadavky ze zad
 
 Výstup by měl odpovídat přibližně 1–2 stranám textu.
 
-## Zadání
+# Zadání
 
-### Business scénář
+## Business scénář
 
 Společnost provozuje e-commerce platformu a ukládá data o zákaznících, objednávkách a produktech do relační databáze. Obchodní oddělení potřebuje pravidelně analyzovat prodeje podle zákazníků, produktů a časového období.
 
@@ -74,9 +74,9 @@ Společnost provozuje e-commerce platformu a ukládá data o zákaznících, obj
 
 Microsoft SQL Server
 
-### Datový model
+## Datový model
 
-#### Customers
+### Customers
 
 | Sloupec      | Popis                             |
 | ------------ | --------------------------------- |
@@ -86,7 +86,7 @@ Microsoft SQL Server
 | `City`       | Město                             |
 | `Country`    | Země                              |
 
-#### Orders
+### Orders
 
 | Sloupec       | Popis                              |
 | ------------- | ---------------------------------- |
@@ -95,7 +95,7 @@ Microsoft SQL Server
 | `OrderDate`   | Datum objednávky                   |
 | `TotalAmount` | Celková hodnota objednávky         |
 
-#### OrderItems
+### OrderItems
 
 | Sloupec     | Popis                    |
 | ----------- | ------------------------ |
@@ -104,7 +104,7 @@ Microsoft SQL Server
 | `Quantity`  | Množství                 |
 | `UnitPrice` | Cena za kus              |
 
-#### Products
+### Products
 
 | Sloupec       | Popis                            |
 | ------------- | -------------------------------- |
@@ -112,13 +112,13 @@ Microsoft SQL Server
 | `ProductName` | Název produktu                   |
 | `Category`    | Kategorie produktu               |
 
-### Vazby
+## Vazby
 
 * `Customers.CustomerID = Orders.CustomerID`
 * `Orders.OrderID = OrderItems.OrderID`
 * `OrderItems.ProductID = Products.ProductID`
 
-### Úkol
+## Úkol
 
 Vytvoř SQL dotaz, který zobrazí:
 
@@ -138,7 +138,7 @@ Výsledek seřaď podle celkové hodnoty objednávek sestupně.
 
 ---
 
-## 1. Shrnutí řešení
+# 1. Shrnutí řešení
 
 SQL dotaz propojí tabulky `Customers` a `Orders` podle identifikátoru zákazníka. Následně seskupí data podle jednotlivých zákazníků a vypočítá:
 
@@ -148,13 +148,13 @@ SQL dotaz propojí tabulky `Customers` a `Orders` podle identifikátoru zákazn�
 
 Podmínky na minimální počet objednávek a jejich celkovou hodnotu jsou aplikovány pomocí klauzule `HAVING`. Výsledek je seřazen podle celkové hodnoty objednávek sestupně.
 
-## 2. Předpoklady
+# 2. Předpoklady
 
 Pro vytvoření SQL dotazu nejsou nutné žádné dodatečné předpoklady. Zadání obsahuje potřebné tabulky, sloupce, vazby, podmínky i databázový systém.
 
 Tabulky `OrderItems` a `Products` nejsou použity, protože všechny požadované výsledky lze získat přímo z tabulek `Customers` a `Orders`.
 
-## 3. SQL řešení
+# 3. SQL řešení
 
 ```sql
 SELECT
@@ -179,7 +179,7 @@ ORDER BY
     TotalOrderAmount DESC;
 ```
 
-## 4. Stručné vysvětlení řešení
+# 4. Stručné vysvětlení řešení
 
 * `INNER JOIN` propojí zákazníky s jejich objednávkami prostřednictvím sloupce `CustomerID`.
 * `GROUP BY` vytvoří samostatnou skupinu pro každého zákazníka.
@@ -192,7 +192,7 @@ ORDER BY
 
 Použití klauzule `HAVING` je nezbytné, protože podmínky pracují s výsledky agregačních funkcí `COUNT` a `SUM`. Klauzule `WHERE` se používá před agregací, a proto by pro tyto podmínky nebyla vhodná.
 
-## 5. Alternativní řešení
+# 5. Alternativní řešení
 
 Navržené řešení je pro dané zadání nejjednodušší, nejčitelnější a snadno udržovatelné.
 
@@ -200,7 +200,7 @@ Zapojení tabulek `OrderItems` a `Products` by nepřineslo žádnou potřebnou i
 
 Alternativní řešení pomocí poddotazu nebo společného tabulkového výrazu (`CTE`) by bylo možné, ale pro tento úkol by bylo zbytečně složité.
 
-## 6. Ověření splnění zadání
+# 6. Ověření splnění zadání
 
 | Požadavek                                                     | Splněno | Způsob splnění                                         |
 | ------------------------------------------------------------- | :-----: | ------------------------------------------------------ |
