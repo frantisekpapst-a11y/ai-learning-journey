@@ -33,6 +33,7 @@ Navrhnout přehledný a efektivní KPI dashboard v Microsoft Excel, který podpo
 - redesign existujícího dashboardu
 - návrh KPI pro reporting
 - příprava dashboardu před implementací v Power BI
+
 ---
 
 # Prompt
@@ -68,6 +69,8 @@ Pokud nejsou pro návrh dashboardu nutné žádné předpoklady, uveď:
 
 Nevymýšlej si data, sloupce, názvy listů, tabulek ani strukturu dat, které nejsou uvedeny v zadání.
 
+Nevytvářej doporučení, která vyžadují předpoklady o struktuře nebo významu dat, pokud nejsou výslovně uvedeny v zadání.
+
 Pokud zadání výslovně nepožaduje implementaci, zaměř se pouze na návrh dashboardu.
 
 Nevytvářej kompletní excelový soubor ani podrobný implementační návod.
@@ -78,9 +81,9 @@ Upřednostňuj KPI, která podporují rozhodování managementu před provozním
 
 Navrhuj pouze KPI a vizualizace, které přímo vyplývají z poskytnutých dat a potřeb cílové skupiny.
 
-Pokud některý KPI nelze jednoznačně definovat na základě zadání, tuto skutečnost uveď místo vytváření vlastních předpokladů.
+Pokud některý KPI nebo jiné doporučení nelze jednoznačně definovat na základě zadání nebo dostupných dat, tuto skutečnost explicitně uveď místo vytváření vlastních předpokladů.
 
-Pokud řešení závisí na konkrétní verzi Excelu, uveď minimální podporovanou verzi.
+Pokud řešení závisí na konkrétní verzi Microsoft Excelu, uveď minimální podporovanou verzi.
 
 Rozložení dashboardu znázorni pomocí jednoduchého ASCII wireframu zobrazujícího rozmístění jednotlivých prvků.
 
@@ -115,7 +118,8 @@ Dodrž následující pravidla:
 - nepopisuj technickou realizaci dashboardu,
 - nevymýšlej strukturu dat ani business pravidla,
 - jasně odděluj fakta od předpokladů,
-- neopakuj stejné informace ve více částech.
+- neopakuj stejné informace ve více částech,
+- nevysvětluj stejnou skutečnost opakovaně; pokud již byla uvedena, pouze na ni stručně navazuj.
 
 V části **Doporučené klíčové KPI** u každého KPI uveď:
 
@@ -125,13 +129,13 @@ V části **Doporučené klíčové KPI** u každého KPI uveď:
 
 Pokud některý KPI nelze jednoznačně definovat na základě dostupných dat, uveď tuto skutečnost.
 
-V části **Doporučené vizualizace** navrhuj pouze vizualizace odpovídající dostupným datům a potřebám cílové skupiny.
-
-U každé vizualizace uveď:
+V části **Doporučené vizualizace** u každé vizualizace uveď:
 
 - doporučený typ,
 - zobrazovaný obsah,
 - business přínos.
+
+Navrhuj pouze vizualizace odpovídající dostupným datům a potřebám cílové skupiny.
 
 V části **Doporučené kontingenční tabulky** doporuč jejich použití pouze tehdy, pokud přinášejí přidanou hodnotu oproti běžným tabulkám.
 
@@ -159,9 +163,9 @@ Wireframe musí obsahovat alespoň:
 
 V části **Doporučení pro manažerské porady** navrhni stručnou posloupnost, ve které by měl cílový uživatel dashboard při poradě vyhodnocovat.
 
-V části **Minimální podporovaná verze Excelu** uveď konkrétní verzi pouze tehdy, pokud navržené řešení využívá funkce závislé na konkrétní verzi.
+V části **Minimální podporovaná verze Excelu** uveď konkrétní verzi pouze tehdy, pokud navržené řešení jednoznačně vyžaduje funkce dostupné až od určité verze Microsoft Excelu.
 
-Jinak uveď:
+Jinak uveď přesně:
 
 > Návrh dashboardu nevyžaduje konkrétní minimální verzi Microsoft Excelu.
 
@@ -169,7 +173,9 @@ V části **Doporučená další data** navrhuj pouze údaje, které mohou význ
 
 U každého doporučeného údaje stručně vysvětli jeho očekávaný business přínos.
 
-Výstup by měl odpovídat přibližně rozsahu 1–2 stran textu.
+Výstup by měl odpovídat přibližně rozsahu **1–2 stran textu**.
+
+Upřednostňuj stručnost. Rozšiřuj jednotlivé části pouze tehdy, pokud je to nezbytné pro správné zdůvodnění návrhu.
 
 ---
 
