@@ -1,4 +1,4 @@
-# SQL analýza zákazníků podle objednávek
+# Prompt 006 - SQL Query Assistant
 
 ## Zadání
 
