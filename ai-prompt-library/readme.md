@@ -1,6 +1,3 @@
-# Fáze 1 – dokončení datové analytiky
-# ⏳ Root Cause Analysis Assistant
-# ⏳ Customer Segmentation Assistant
 # Fáze 2 – business analýza
 # ⏳ Business Question Refinement Assistant
 # ⏳ Business Requirements Analyzer
