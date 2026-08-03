@@ -1,3 +1,50 @@
+Celková roadmapa
+Datová analytika
+✅ Data Validation Assistant
+✅ Data Cleaning Assistant
+✅ Exploratory Data Analysis Assistant
+✅ Statistical Data Analysis Assistant
+✅ Trend Analysis Assistant
+✅ KPI Designer
+✅ Root Cause Analysis Assistant
+✅ Customer Segmentation Assistant
+⭐ Forecasting Assistant
+⭐ Experiment Analysis Assistant
+Business analýza
+Business Question Refinement Assistant
+Business Requirements Analyzer
+Business Rules Extractor
+Requirements-to-KPI Assistant
+Gap Analysis Assistant
+Executive Summary Generator
+Business Intelligence
+Dashboard Designer
+Visualization Advisor
+Storytelling Assistant
+Report Reviewer
+Data Engineering
+SQL Generator
+SQL Optimizer
+SQL Debugger
+Power Query Generator
+Data Model Reviewer
+Star Schema Advisor
+ETL Logic Reviewer
+Power BI
+DAX Generator
+DAX Optimizer
+DAX Debugger
+Measure Reviewer
+Power BI Model Reviewer
+Report Performance Advisor
+AI Quality
+Prompt Reviewer & Optimizer
+Prompt Consistency Checker
+Prompt Test Generator
+AI Output Reviewer
+AI Output Comparator
+Hallucination Checker
+
 # AI Prompt Library
 
 Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence a produktivitu.
