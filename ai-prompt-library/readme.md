@@ -1,49 +1,22 @@
-Celková roadmapa
-Datová analytika
-✅ Data Validation Assistant
-✅ Data Cleaning Assistant
-✅ Exploratory Data Analysis Assistant
-✅ Statistical Data Analysis Assistant
-✅ Trend Analysis Assistant
-✅ KPI Designer
-✅ Root Cause Analysis Assistant
-✅ Customer Segmentation Assistant
-⭐ Forecasting Assistant
-⭐ Experiment Analysis Assistant
-Business analýza
-Business Question Refinement Assistant
-Business Requirements Analyzer
-Business Rules Extractor
-Requirements-to-KPI Assistant
-Gap Analysis Assistant
-Executive Summary Generator
-Business Intelligence
-Dashboard Designer
-Visualization Advisor
-Storytelling Assistant
-Report Reviewer
-Data Engineering
-SQL Generator
-SQL Optimizer
-SQL Debugger
-Power Query Generator
-Data Model Reviewer
-Star Schema Advisor
-ETL Logic Reviewer
-Power BI
-DAX Generator
-DAX Optimizer
-DAX Debugger
-Measure Reviewer
-Power BI Model Reviewer
-Report Performance Advisor
-AI Quality
-Prompt Reviewer & Optimizer
-Prompt Consistency Checker
-Prompt Test Generator
-AI Output Reviewer
-AI Output Comparator
-Hallucination Checker
+# Power Query Generator
+# Power Query Optimizer
+# Power Query Debugger
+# Data Cleaning Assistant
+# Trend Analysis Assistant
+# KPI Designer
+# Root Cause Analysis Assistant
+# Customer Segmentation Assistant
+# Dashboard Designer
+# Visualization Advisor
+# Storytelling Assistant
+# Business Question Refinement Assistant
+# Business Requirements Analyzer
+# Business Rules Extractor
+# Requirements-to-KPI Assistant
+# Executive Summary Generator
+# Prompt Reviewer & Optimizer
+# AI Output Reviewer
+# Hallucination Checker
 
 # AI Prompt Library
 
