@@ -1,22 +1,20 @@
-# Power Query Generator
-# Power Query Optimizer
-# Power Query Debugger
-# Data Cleaning Assistant
-# Trend Analysis Assistant
-# KPI Designer
-# Root Cause Analysis Assistant
-# Customer Segmentation Assistant
-# Dashboard Designer
-# Visualization Advisor
-# Storytelling Assistant
-# Business Question Refinement Assistant
-# Business Requirements Analyzer
-# Business Rules Extractor
-# Requirements-to-KPI Assistant
-# Executive Summary Generator
-# Prompt Reviewer & Optimizer
-# AI Output Reviewer
-# Hallucination Checker
+# Fáze 1 – dokončení datové analytiky
+# ⏳ Data Cleaning Assistant
+# ⏳ Trend Analysis Assistant
+# ⏳ Root Cause Analysis Assistant
+# ⏳ Customer Segmentation Assistant
+# Fáze 2 – business analýza
+# ⏳ Business Question Refinement Assistant
+# ⏳ Business Requirements Analyzer
+# ⏳ Requirements-to-KPI Assistant
+# ⏳ Executive Summary Generator
+# Fáze 3 – komunikace výsledků
+# ⏳ Visualization Advisor
+# ⏳ Data Storytelling Assistant
+# ⏳ Insight Generator
+# Fáze 4 – kvalita AI
+# ⏳ Prompt Reviewer & Optimizer
+# ⏳ AI Output Reviewer
 
 # AI Prompt Library
 
