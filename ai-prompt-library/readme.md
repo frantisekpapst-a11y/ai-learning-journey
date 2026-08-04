@@ -1,3 +1,9 @@
+# 1. Power BI Report Documentation Generator ⭐⭐⭐⭐⭐
+# 2. Dataset Recommendation Assistant ⭐⭐⭐⭐☆
+# 3. Learning Project Generator ⭐⭐⭐⭐⭐
+# 4. Interview Question Generator ⭐⭐⭐⭐⭐
+# 5. Portfolio Project Reviewer ⭐⭐⭐⭐⭐
+
 # AI Prompt Library
 
 Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence a produktivitu.
