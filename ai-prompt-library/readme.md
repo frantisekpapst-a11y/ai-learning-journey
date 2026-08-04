@@ -1,6 +1,4 @@
 # Fáze 2 – business analýza
-# ⏳ Business Requirements Analyzer
-# ⏳ Requirements-to-KPI Assistant
 # ⏳ Executive Summary Generator
 # Fáze 3 – komunikace výsledků
 # ⏳ Visualization Advisor
