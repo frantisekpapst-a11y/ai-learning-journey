@@ -1,4 +1,3 @@
-# ⏳ Data Visualization Advisor
 # ⏳ Data Storytelling Assistant
 # ⏳ Prompt Reviewer & Optimizer
 # ⏳ AI Output Reviewer
