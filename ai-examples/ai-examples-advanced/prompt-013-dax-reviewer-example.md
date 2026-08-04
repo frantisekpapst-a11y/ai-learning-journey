@@ -91,7 +91,7 @@ Dodrž přesně požadovanou strukturu výstupu a nevytvářej další hlavní s
 
 # Požadavky na výstup
 
-Výstup připrav jako přehledný Markdown dokument.
+Výstup připrav jako přehledný Markdown dokument v rozsahu 1 až 2 stran.
 
 Použij přesně následující strukturu:
 
@@ -164,95 +164,3 @@ Pokud nebyly nalezeny žádné prokazatelné chyby a jedinou nejasností je chyb
 
 Výstup by měl odpovídat přibližně rozsahu 1–2 stran textu.
 
----
-
-# Testovací zadání
-
-## Business zadání
-
-Vytvořená measure má:
-
-- vypočítat celkové tržby jako součet **Quantity × UnitPrice**,
-- vracet hodnotu pouze za **aktuální kalendářní rok**,
-- pokud je v reportu vybrán konkrétní měsíc, čtvrtletí nebo jiné období **v rámci aktuálního roku**, musí tento filtr respektovat,
-- používat datum ze sloupce **Calendar[Date]**.
-
-## DAX measure
-
-```DAX
-Total Revenue Current Year =
-VAR CurrentYear = YEAR ( TODAY() )
-VAR StartDate = DATE ( CurrentYear, 1, 1 )
-VAR EndDate = DATE ( CurrentYear, 12, 31 )
-RETURN
-    CALCULATE (
-        SUMX (
-            Sales,
-            Sales[Quantity] * Sales[UnitPrice]
-        ),
-        KEEPFILTERS (
-            DATESBETWEEN (
-                Calendar[Date],
-                StartDate,
-                EndDate
-            )
-        )
-    )
-```
-
----
-
-# Návrh výstupu
-
-## 1. Shrnutí hodnocení
-
-DAX measure je syntakticky správná, logicky konzistentní a splňuje všechny explicitně uvedené business požadavky.
-
-Measure:
-
-- určuje aktuální kalendářní rok pomocí `TODAY()`,
-- vymezuje jeho první a poslední den,
-- počítá celkové tržby jako součet `Quantity × UnitPrice` po jednotlivých řádcích tabulky `Sales`,
-- používá datum ze sloupce `Calendar[Date]`,
-- omezuje výpočet na aktuální kalendářní rok,
-- zachovává pomocí `KEEPFILTERS` průnik s existujícím filtrem období.
-
-Nebyly nalezeny žádné prokazatelné syntaktické, logické ani jiné významné problémy.
-
-## 2. Silné stránky
-
-- Proměnné `CurrentYear`, `StartDate` a `EndDate` zvyšují čitelnost a srozumitelnost výrazu.
-- Funkce `SUMX` je správně použita jako iterátor pro výpočet `Quantity × UnitPrice` na jednotlivých řádcích tabulky `Sales`.
-- `CALCULATE` správně upravuje filter context výpočtu.
-- `DATESBETWEEN` vymezuje celé období aktuálního kalendářního roku včetně počátečního a koncového data.
-- `KEEPFILTERS` zajišťuje průnik období aktuálního roku s existujícím filtrem sloupce `Calendar[Date]`.
-- Measure respektuje výběr měsíce, čtvrtletí nebo jiného období, pokud tento výběr spadá do aktuálního roku.
-- Row context vytvořený funkcí `SUMX` je správně použit pro řádkový výpočet tržeb.
-- Zápis je přehledný, konzistentní a dobře udržovatelný.
-
-## 3. Nalezené problémy
-
-> Nebyly nalezeny žádné významné problémy.
-
-## 4. Rizika
-
-> Nebyla identifikována žádná další rizika.
-
-## 5. Doporučené oblasti ke zlepšení
-
-> DAX výraz nevyžaduje žádné úpravy.
-
-## 6. Ověření splnění zadání
-
-- **Výpočet celkových tržeb jako součet `Quantity × UnitPrice`:** Splněno pomocí funkce `SUMX`.
-- **Vrácení hodnoty pouze za aktuální kalendářní rok:** Splněno vymezením období od 1. ledna do 31. prosince roku získaného z `TODAY()`.
-- **Respektování konkrétního měsíce, čtvrtletí nebo jiného období v rámci aktuálního roku:** Splněno pomocí `KEEPFILTERS`, který zachovává průnik existujícího časového filtru s obdobím aktuálního roku.
-- **Použití sloupce `Calendar[Date]`:** Splněno ve funkci `DATESBETWEEN`.
-
-Všechny explicitně uvedené business požadavky jsou splněny.
-
-## 7. Celkové hodnocení
-
-**Schválit bez úprav.**
-
-DAX measure je syntakticky i logicky správná, odpovídá business zadání a nevyžaduje změny.
