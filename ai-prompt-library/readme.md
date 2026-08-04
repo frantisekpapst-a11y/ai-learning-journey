@@ -1,5 +1,3 @@
-# Fáze 2 – business analýza
-# ⏳ Executive Summary Generator
 # Fáze 3 – komunikace výsledků
 # ⏳ Visualization Advisor
 # ⏳ Data Storytelling Assistant
