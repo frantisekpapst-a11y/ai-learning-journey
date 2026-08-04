@@ -1,6 +1,3 @@
-# ⏳ Prompt Reviewer & Optimizer
-# ⏳ AI Output Reviewer
-
 # AI Prompt Library
 
 Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence a produktivitu.
