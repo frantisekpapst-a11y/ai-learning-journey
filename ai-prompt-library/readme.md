@@ -1,7 +1,6 @@
 # Fáze 3 – komunikace výsledků
-# ⏳ Visualization Advisor
+# ⏳ Data Visualization Advisor
 # ⏳ Data Storytelling Assistant
-# ⏳ Insight Generator
 # Fáze 4 – kvalita AI
 # ⏳ Prompt Reviewer & Optimizer
 # ⏳ AI Output Reviewer
