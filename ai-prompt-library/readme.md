@@ -1,5 +1,4 @@
 # Fáze 2 – business analýza
-# ⏳ Business Question Refinement Assistant
 # ⏳ Business Requirements Analyzer
 # ⏳ Requirements-to-KPI Assistant
 # ⏳ Executive Summary Generator
