@@ -1,4 +1,4 @@
-# Prompt 017 - Power BI Performance Reviewer
+# Prompt - Power BI 09 - Power BI Performance Reviewer
 
 ## Prompt
 
