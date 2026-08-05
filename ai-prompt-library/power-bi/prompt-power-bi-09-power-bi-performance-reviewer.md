@@ -1,4 +1,4 @@
-# Prompt 017 — Power BI Performance Reviewer
+# Prompt — Power BI 09 - Power BI Performance Reviewer
 
 Provádí odbornou analýzu výkonu existujícího Power BI řešení a identifikuje objektivně doložené výkonnostní problémy v datovém modelu, DAX výrazech a Power Query bez hodnocení business logiky, dashboardu nebo implementačních detailů.
 
