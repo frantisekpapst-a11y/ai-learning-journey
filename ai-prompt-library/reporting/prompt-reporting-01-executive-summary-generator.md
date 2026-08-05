@@ -1,4 +1,4 @@
-# Prompt 027 — Executive Summary Generator
+# Prompt — Reporting 01 - Executive Summary Generator
 
 Profesionální prompt pro převod dokončené datové analýzy do stručného, objektivního a manažersky orientovaného Executive Summary. Podporuje práci od samotného business zadání až po hotovou analýzu a vytváří Executive Summary pouze tehdy, pokud jsou k dispozici analytické výsledky.
 
