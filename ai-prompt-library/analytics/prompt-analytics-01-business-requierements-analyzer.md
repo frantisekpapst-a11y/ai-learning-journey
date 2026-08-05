@@ -1,4 +1,4 @@
-# Prompt 026 — Business Requirements Analyzer
+# Prompt — Analytics 01 - Business Requirements Analyzer
 
 Profesionální prompt pro převod business požadavku na jednoznačnou analytickou specifikaci, která slouží jako podklad pro následnou práci datového analytika, business intelligence specialisty nebo reportingového týmu.
 
