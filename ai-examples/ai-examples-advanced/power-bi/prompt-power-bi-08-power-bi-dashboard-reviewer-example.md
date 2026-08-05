@@ -1,4 +1,4 @@
-# Power BI Dashboard Reviewer
+# Prompt - Power BI 08 - Power BI Dashboard Reviewer
 
 ## Prompt
 
