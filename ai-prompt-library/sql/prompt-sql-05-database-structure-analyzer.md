@@ -1,4 +1,4 @@
-# Prompt 010 — Database Structure Analyzer
+# Prompt — SQL 05 - Database Structure Analyzer
 
 Analyzuje existující databázovou strukturu a hodnotí její technickou kvalitu, konzistenci a připravenost pro analytické využití bez navrhování nové databáze, SQL nebo business pravidel.
 
