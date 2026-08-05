@@ -1,4 +1,4 @@
-# Prompt 004 — Power Query Transformation Assistant
+# Prompt — Power BI 01 - Power Query Transformation Assistant
 
 # Prompt
 
