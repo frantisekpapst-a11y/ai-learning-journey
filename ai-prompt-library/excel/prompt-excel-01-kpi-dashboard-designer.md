@@ -1,4 +1,4 @@
-# Prompt 003 — Excel KPI Dashboard Designer
+# Prompt — Excel 01 - KPI Dashboard Designer
 
 Profesionální prompt pro návrh manažerského KPI dashboardu v Microsoft Excel na základě konkrétního business zadání.
 
