@@ -1,4 +1,4 @@
-# Prompt 006 — SQL Query Assistant
+# Prompt - SQL 01 - Query Assistant
 
 Generuje SQL dotazy na základě business zadání bez vytváření databázové struktury, testovacích dat nebo implementačních artefaktů.
 
