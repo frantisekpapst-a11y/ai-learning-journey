@@ -1,4 +1,4 @@
-# Prompt 011 — Power BI Dashboard Reviewer
+# Prompt — Power BI 08 - Power BI Dashboard Reviewer
 
 Analyzuje existující Power BI dashboard a hodnotí jeho kvalitu z pohledu business intelligence, použitelnosti a podpory rozhodování bez hodnocení DAX, datového modelu, výkonu nebo technické implementace.
 
