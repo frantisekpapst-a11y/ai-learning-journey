@@ -1,4 +1,4 @@
-# Prompt 032 — Power Query Reviewer
+# Prompt — Power BI 03 - Power Query Reviewer
 
 Profesionální prompt pro odbornou revizi návrhu transformací v Microsoft Power Query, M kódu nebo jejich kombinace. Ověřuje správnost řešení vůči business zadání, posuzuje kvalitu návrhu transformací i implementace v jazyce M a kontroluje jejich vzájemný soulad bez automatického vytváření nového řešení.
 
