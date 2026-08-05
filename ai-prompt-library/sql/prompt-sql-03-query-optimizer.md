@@ -1,4 +1,4 @@
-# Prompt 008 — SQL Query Optimizer
+# Prompt — SQL 03 - Query Optimizer
 
 Analyzuje existující SQL dotaz a navrhuje možnosti jeho optimalizace z hlediska výkonu, efektivity, čitelnosti a udržovatelnosti, aniž by měnil jeho business logiku nebo výsledná data.
 
