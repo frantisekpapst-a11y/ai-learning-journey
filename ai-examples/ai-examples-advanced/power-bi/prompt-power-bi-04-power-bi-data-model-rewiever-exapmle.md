@@ -1,4 +1,4 @@
-# Prompt 016 - Power BI Data Model Reviewer
+# Prompt - Power BI 04 - Power BI Data Model Reviewer
 
 # Prompt
 
