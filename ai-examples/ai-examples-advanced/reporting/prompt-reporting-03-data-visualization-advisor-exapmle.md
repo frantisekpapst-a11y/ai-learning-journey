@@ -1,4 +1,4 @@
-# Prompt 029 — Data Visualization Advisor
+# Prompt — Reporting 03 - Data Visualization Advisor
 
 Jsi senior datový analytik, BI konzultant a expert na datovou vizualizaci.
 
