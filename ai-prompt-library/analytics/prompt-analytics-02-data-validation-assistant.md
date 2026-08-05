@@ -1,4 +1,4 @@
-# Prompt 019 — Data Validation Assistant
+# Prompt — Analytics 02 - Data Validation Assistant
 
 Profesionální prompt pro objektivní validaci kvality dat na základě explicitně definovaných business pravidel.
 
