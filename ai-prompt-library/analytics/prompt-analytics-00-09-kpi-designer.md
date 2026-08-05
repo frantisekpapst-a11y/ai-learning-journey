@@ -1,4 +1,4 @@
-# Prompt 018 — KPI Designer
+# Prompt — Analytics 00v09 - KPI Designer
 
 Profesionální prompt pro návrh business KPI na základě obchodních cílů a dostupných dat.
 
