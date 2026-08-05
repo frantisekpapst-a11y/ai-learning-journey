@@ -1,4 +1,4 @@
-# Prompt 031 — Power Query M Assistant
+# Prompt — Power BI - Power Query M Assistant
 
 # Prompt
 
