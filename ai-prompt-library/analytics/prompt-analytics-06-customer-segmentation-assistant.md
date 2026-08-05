@@ -1,4 +1,4 @@
-# Prompt 025 — Customer Segmentation Assistant
+# Prompt — Analytics 06 - Customer Segmentation Assistant
 
 Profesionální prompt pro návrh, vyhodnocení a interpretaci zákaznické segmentace na základě dostupných zákaznických dat, business cíle a analytického kontextu.
 
