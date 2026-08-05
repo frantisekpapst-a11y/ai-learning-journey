@@ -1,4 +1,4 @@
-# Prompt 024 - Root Cause Analysis Assistant
+# Prompt - Analytics 07 - Root Cause Analysis Assistant
 
 ## Prompt
 
