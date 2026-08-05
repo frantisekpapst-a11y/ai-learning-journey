@@ -1,4 +1,4 @@
-# Prompt 028 — Insight Generator
+# Prompt — Reporting 02 - Insight Generator
 
 Profesionální prompt pro převod dokončené datové analýzy na objektivní business insighty určené managementu.
 
