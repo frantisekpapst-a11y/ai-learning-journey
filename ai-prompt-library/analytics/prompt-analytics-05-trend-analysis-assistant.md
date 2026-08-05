@@ -1,4 +1,4 @@
-# Prompt 023 — Trend Analysis Assistant
+# Prompt — Analytics 05 - Trend Analysis Assistant
 
 Profesionální prompt pro objektivní analýzu časového vývoje ukazatelů na základě časových dat nebo již vypočtených výsledků. Zaměřuje se na identifikaci trendů, tempa změn, bodů obratu, sezónnosti, konzistence vývoje a připravenosti dat pro forecasting bez vytváření predikcí nebo domýšlení příčin.
 
