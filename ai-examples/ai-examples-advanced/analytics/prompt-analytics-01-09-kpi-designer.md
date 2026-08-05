@@ -1,4 +1,4 @@
-# Prompt 018 — KPI Designer
+# Prompt — Analytics 01v09 - KPI Designer
 
 Jsi senior datový analytik a business intelligence konzultant.
 
