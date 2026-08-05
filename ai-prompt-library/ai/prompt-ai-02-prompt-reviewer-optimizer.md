@@ -1,4 +1,4 @@
-# Prompt 033 — Prompt Reviewer & Optimizer
+# Prompt — AI 02 - Prompt Reviewer & Optimizer
 
 Profesionální prompt pro odbornou revizi, hodnocení a cílenou optimalizaci promptů pro generativní AI.
 
