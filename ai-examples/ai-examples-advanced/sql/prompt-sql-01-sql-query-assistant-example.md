@@ -1,4 +1,4 @@
-# Prompt 006 - SQL Query Assistant
+# Prompt - SQL 01 - SQL Query Assistant
 
 # Prompt
 
