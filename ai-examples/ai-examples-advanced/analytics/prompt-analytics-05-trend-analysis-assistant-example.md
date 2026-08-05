@@ -1,4 +1,4 @@
-# Prompt 023 - Trend Analysis Assistant
+# Prompt - Analytics 05 - Trend Analysis Assistant
 
 ## Prompt
 
