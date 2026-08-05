@@ -1,4 +1,4 @@
-# Prompt 009 — SQL Debugger
+# Prompt — SQL 04 - Debugger
 
 Analyzuje chyby v SQL dotazech, identifikuje jejich příčinu a doporučuje vhodný způsob odstranění bez provádění code review, optimalizace nebo automatického přepisování SQL.
 
