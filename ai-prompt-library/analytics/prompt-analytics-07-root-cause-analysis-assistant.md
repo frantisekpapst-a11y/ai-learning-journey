@@ -1,4 +1,4 @@
-# Prompt 024 — Root Cause Analysis Assistant
+# Prompt — Analytics 07 - Root Cause Analysis Assistant
 
 Profesionální prompt pro datově podloženou analýzu faktorů spojených se změnou sledovaného ukazatele. Pomáhá lokalizovat, kde se změna koncentruje, kvantifikovat příspěvky dostupných oblastí, oddělit doložené souvislosti od hypotéz a určit, co z dostupných dat nelze objektivně potvrdit.
 
