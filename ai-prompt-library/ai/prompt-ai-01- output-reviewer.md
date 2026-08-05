@@ -1,4 +1,4 @@
-# Prompt 034 — AI Output Reviewer
+# Prompt — AI 01 - Output Reviewer
 
 Profesionální prompt pro objektivní kontrolu výstupů vytvořených umělou inteligencí na základě business zadání, vstupních podkladů a požadovaného účelu výstupu.
 
