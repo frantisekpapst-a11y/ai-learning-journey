@@ -1,4 +1,4 @@
-# Prompt 012 — DAX Assistant
+# Prompt — Power BI 05 - DAX Assistant
 
 Vytváří, upravuje a vysvětluje DAX výrazy používané v Power BI bez hodnocení výkonu, datového modelu, optimalizace nebo technické implementace.
 
