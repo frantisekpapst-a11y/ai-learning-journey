@@ -1,4 +1,4 @@
-# Prompt 007 — SQL Query Reviewer
+# Prompt - SQL 02 - Query Reviewer
 
 Provádí odbornou revizi existujícího SQL dotazu z pohledu správnosti, souladu s business zadáním, čitelnosti a kvality bez vytváření nového SQL řešení.
 
