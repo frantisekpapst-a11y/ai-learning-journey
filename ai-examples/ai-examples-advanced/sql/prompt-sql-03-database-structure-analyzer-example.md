@@ -1,4 +1,4 @@
-# Database Structure Analyzer
+# Prompt - SQL 03 - Database Structure Analyzer
 
 # Prompt
 
