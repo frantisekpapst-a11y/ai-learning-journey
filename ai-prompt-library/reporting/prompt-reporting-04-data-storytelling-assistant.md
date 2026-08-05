@@ -1,4 +1,4 @@
-# Prompt 030 — Data Storytelling Assistant
+# Prompt — Reporting 04 - Data Storytelling Assistant
 
 Profesionální prompt pro vytvoření objektivního datového příběhu na základě dokončené datové analýzy. Prompt převádí analytické výsledky do logicky strukturovaného příběhu určeného pro management, prezentace a business stakeholdery, aniž by vytvářel nepodložené interpretace nebo kauzální závěry.
 
