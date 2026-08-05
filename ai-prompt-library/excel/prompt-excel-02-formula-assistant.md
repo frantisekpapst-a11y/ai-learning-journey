@@ -1,4 +1,4 @@
-# Prompt 002 — Excel Formula Assistant
+# Prompt — Excel 02 - Formula Assistant
 
 Profesionální prompt pro návrh nejvhodnějšího excelového vzorce nebo kombinace funkcí pro řešení konkrétního analytického úkolu.
 
