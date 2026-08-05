@@ -1,4 +1,4 @@
-# Prompt - Analytics 02 - Business Requirements Analyzer
+# Prompt - Analytics 01 - Business Requirements Analyzer
 
 ## Prompt
 
