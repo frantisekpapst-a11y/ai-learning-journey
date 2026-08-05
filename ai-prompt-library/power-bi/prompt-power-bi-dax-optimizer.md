@@ -1,4 +1,4 @@
-# Prompt 014 — DAX Optimizer
+# Prompt — Power BI - DAX Optimizer
 
 Provádí odbornou analýzu existujících DAX výrazů a identifikuje možnosti jejich optimalizace z pohledu výkonu, efektivity, čitelnosti a udržovatelnosti bez automatického přepisování DAX, kontroly business správnosti nebo hodnocení datového modelu.
 
