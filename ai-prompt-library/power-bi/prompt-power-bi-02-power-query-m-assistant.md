@@ -1,4 +1,4 @@
-# Prompt 031 — Power Query M Assistant
+# Prompt — Power BI 02 - Power Query M Assistant
 
 Profesionální prompt pro vytváření, úpravu a vysvětlování M kódu v Microsoft Power Query na základě business nebo technického zadání.
 
