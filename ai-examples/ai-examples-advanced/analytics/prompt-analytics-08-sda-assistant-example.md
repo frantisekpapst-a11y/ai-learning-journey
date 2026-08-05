@@ -1,4 +1,4 @@
-# Prompt 021 - Statistical Data Analysis (SDA) Assistant
+# Prompt - Analytics 08 - Statistical Data Analysis (SDA) Assistant
 
 # Prompt
 
