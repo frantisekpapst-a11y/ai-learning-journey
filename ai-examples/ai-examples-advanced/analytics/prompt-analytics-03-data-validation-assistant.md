@@ -1,4 +1,4 @@
-# Prompt 019 — Data Validation Assistant
+# Prompt — Analytics 03 - Data Validation Assistant
 
 Jsi senior datový analytik a specialista na kvalitu dat.
 
