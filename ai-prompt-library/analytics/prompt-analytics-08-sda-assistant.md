@@ -1,4 +1,4 @@
-# Prompt 020 — Statistical Data Analysis (SDA) Assistant
+# Prompt 08 — Analytics 08 - Statistical Data Analysis (SDA) Assistant
 
 Profesionální prompt pro interpretaci statistických analýz v business prostředí na základě dostupných dat nebo již vypočtených statistických výsledků.
 
