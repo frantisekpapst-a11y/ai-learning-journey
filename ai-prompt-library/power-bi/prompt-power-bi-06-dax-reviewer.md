@@ -1,4 +1,4 @@
-# Prompt 013 — DAX Reviewer
+# Prompt — Power BI 06 - DAX Reviewer
 
 Provádí odborné review existujících DAX výrazů a hodnotí jejich správnost, čitelnost, udržovatelnost a soulad s business zadáním bez optimalizace výkonu, návrhu nového řešení nebo hodnocení datového modelu.
 
