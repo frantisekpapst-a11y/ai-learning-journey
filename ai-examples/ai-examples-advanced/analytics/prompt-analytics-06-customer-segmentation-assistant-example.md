@@ -1,4 +1,4 @@
-# Prompt 025 — Customer Segmentation Assistant
+# Prompt — Analytics 06 - Customer Segmentation Assistant
 
 # Prompt
 
