@@ -1,4 +1,4 @@
-# Prompt 032 — Power Query Reviewer
+# Prompt — Power BI 03 - Power Query Reviewer
 
 # Prompt
 
