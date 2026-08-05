@@ -1,4 +1,4 @@
-# Prompt 022 — Data Cleaning Assistant
+# Prompt — Analytics 03 - Data Cleaning Assistant
 
 Profesionální prompt pro návrh bezpečného, auditovatelného a nástrojově nezávislého postupu čištění dat na základě potvrzených problémů kvality dat, business pravidel a účelu jejich dalšího použití.
 
