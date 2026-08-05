@@ -1,4 +1,4 @@
-# Prompt 016 — Power BI Data Model Reviewer
+# Prompt — Power BI 04 - Power BI Data Model Reviewer
 
 Provádí odbornou revizi existujícího Power BI datového modelu a hodnotí jeho strukturu, vztahy, kardinality, směry filtrování, granularitu a připravenost pro analytické využití bez hodnocení DAX, Power Query, výkonu modelu nebo návrhu dashboardu.
 
