@@ -1,4 +1,4 @@
-# Prompt 007 - SQL Query Reviewer
+# Prompt - SQL 02 - SQL Query Reviewer
 
 # Prompt
 
