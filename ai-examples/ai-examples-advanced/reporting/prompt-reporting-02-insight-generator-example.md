@@ -1,4 +1,4 @@
-# Prompt 028 — Insight Generator
+# Prompt — Reporting 02 - Insight Generator
 
 ## Prompt
 
