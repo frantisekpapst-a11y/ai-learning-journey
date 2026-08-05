@@ -1,4 +1,4 @@
-# Prompt — Analytics 03 - Data Validation Assistant
+# Prompt — Analytics 02 - Data Validation Assistant
 
 Jsi senior datový analytik a specialista na kvalitu dat.
 
