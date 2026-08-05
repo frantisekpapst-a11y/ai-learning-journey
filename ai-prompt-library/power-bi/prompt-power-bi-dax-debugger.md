@@ -1,4 +1,4 @@
-# Prompt 015 — DAX Debugger
+# Prompt — Power BI - DAX Debugger
 
 Analyzuje chyby v DAX výrazech, identifikuje jejich příčinu a určuje část DAX výrazu vyžadující opravu bez provádění code review, optimalizace nebo automatického přepisování DAX.
 
