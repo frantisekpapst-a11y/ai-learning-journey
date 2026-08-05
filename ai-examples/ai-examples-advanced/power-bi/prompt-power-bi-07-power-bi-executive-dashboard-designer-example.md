@@ -1,4 +1,4 @@
-# Prompt 001 — Power BI Executive Dashboard Designer
+# Prompt — Power BI 07 - Power BI Executive Dashboard Designer
 
 ## Prompt
 
