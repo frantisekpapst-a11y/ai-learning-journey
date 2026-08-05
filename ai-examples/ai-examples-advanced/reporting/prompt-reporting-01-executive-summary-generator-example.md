@@ -1,4 +1,4 @@
-# Prompt 027 - Executive Summary Generator
+# Prompt - Reporting 01 - Executive Summary Generator
 
 ## Prompt
 
