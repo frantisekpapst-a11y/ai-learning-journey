@@ -1,4 +1,4 @@
-# Prompt 020 — Exploratory Data Analysis Assistant
+# Prompt — Analytics 04 - Exploratory Data Analysis Assistant
 
 # Prompt
 
