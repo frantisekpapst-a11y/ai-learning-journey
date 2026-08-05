@@ -1,4 +1,4 @@
-# Prompt 012 - DAX Assistant
+# Prompt - Power BI 05 - DAX Assistant
 
 ## Prompt
 
