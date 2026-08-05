@@ -1,4 +1,4 @@
-# Prompt 030 — Data Storytelling Plan Generator
+# Prompt — Reporting 04 - Data Storytelling Plan Generator
 
 # Prompt
 
