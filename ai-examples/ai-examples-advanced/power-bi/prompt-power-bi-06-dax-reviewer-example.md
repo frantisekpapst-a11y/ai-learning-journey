@@ -1,4 +1,4 @@
-# Prompt 013 — DAX Reviewer
+# Prompt — Power BI 06 - DAX Reviewer
 
 ## Prompt
 
