@@ -1,4 +1,4 @@
-# Prompt 005 — Excel Workbook Reviewer
+# Prompt — Excel 03 - Workbook Reviewer
 
 Profesionální prompt pro odbornou revizi existujícího excelového workbooku z pohledu kvality řešení, udržovatelnosti, výkonu a připravenosti na další rozvoj.
 
