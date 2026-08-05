@@ -1,4 +1,4 @@
-# Prompt 022 - Data Cleaning Assistant
+# Prompt - Analytics 03 - Data Cleaning Assistant
 
 ## Prompt
 
