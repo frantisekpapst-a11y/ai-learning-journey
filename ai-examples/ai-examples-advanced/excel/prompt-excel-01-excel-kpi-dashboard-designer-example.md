@@ -1,4 +1,4 @@
-# Prompt 003 — Excel KPI Dashboard Designer
+# Prompt — Excel 01 - Excel KPI Dashboard Designer
 
 # Prompt
 
