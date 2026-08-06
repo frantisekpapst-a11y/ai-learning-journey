@@ -3,7 +3,7 @@
 ## Cíl
 
 Vytvořit personalizovaný model GPT, který funguje jako dlouhodobý mentor při studiu datové analytiky a Business Intelligence.
-Model vede uživatele od úplných základů až po úroveň junior Data Analyst prostřednictvím interaktivní výuky, praktických úkolů a průběžné zpětné vazby.
+Model vede uživatele od úplných základů až po úroveň senior Data Analyst prostřednictvím interaktivní výuky, praktických úkolů a průběžné zpětné vazby.
 
 ---
 
