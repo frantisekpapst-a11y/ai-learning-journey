@@ -1,4 +1,4 @@
-# Prompt — Career 04 - Resume Assistant
+# Prompt — Career 05 - Resume Assistant
 
 Profesionální prompt pro vytvoření, aktualizaci a optimalizaci životopisu (CV) pro pozice v oblasti Data Analytics, Business Intelligence a IT.
 
