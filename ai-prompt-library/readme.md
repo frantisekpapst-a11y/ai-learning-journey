@@ -1,7 +1,3 @@
-# 2. Dataset Recommendation Assistant ⭐⭐⭐⭐☆
-# 3. Learning Project Generator ⭐⭐⭐⭐⭐
-# 4. Interview Question Generator ⭐⭐⭐⭐⭐
-
 # AI Prompt Library
 
 Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence a produktivitu.
