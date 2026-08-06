@@ -60,6 +60,61 @@ Jednotlivé prompty jsou navrženy tak, aby se navzájem doplňovaly a zbytečn�
 
 ---
 
+# Aktuální prompty
+
+## AI
+- AI Output Reviewer
+- Prompt Reviewer & Optimizer
+
+## Analytics
+- Business Requirements Analyzer
+- Data Validation Assistant
+- Data Cleaning Assistant
+- Exploratory Data Analysis (EDA) Assistant
+- Trend Analysis Assistant
+- Customer Segmentation Assistant
+- Root Cause Analysis Assistant
+- Statistical Data Analysis (SDA) Assistant
+- KPI Designer
+
+## Career
+- Learning Project Generator
+- Dataset Recommendation Assistant
+- GitHub Portfolio Reviewer
+- Portfolio Project Reviewer
+- Resume Assistant
+- Cover Letter Assistant
+- Interview Assistant
+
+## Excel
+- KPI Dashboard Designer
+- Formula Assistant
+- Workbook Reviewer
+
+## Power BI
+- Query Transformation Assistant
+- Power Query M Assistant
+- Power Query Reviewer
+- Data Model Reviewer
+- DAX Assistant
+- DAX Reviewer
+- Executive Dashboard Designer
+- Dashboard Reviewer
+- Performance Reviewer
+
+## Reporting
+- Executive Summary Generator
+- Insight Generator
+- Data Visualization Advisor
+- Data Storytelling Assistant
+
+## SQL
+- SQL Query Assistant
+- SQL Query Reviewer
+- Database Structure Analyzer
+
+---
+
 # Struktura promptů
 
 Každý prompt používá jednotnou strukturu:
