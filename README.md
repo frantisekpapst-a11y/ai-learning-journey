@@ -4,10 +4,8 @@ Repozitář dokumentující moje studium umělé inteligence a její praktické 
 
 Obsah vznikal především v návaznosti na dva kurzy umělé inteligence od **ITnetwork**:
 
-1. **Základy umělé inteligence**
-2. **AI – Mistrovství produktivity s umělou inteligencí**
-
-Pro účely tohoto repozitáře jsou výstupy z prvního kurzu označeny jako **Basic** a výstupy z navazujícího kurzu jako **Advanced**.
+1. **Základy umělé inteligence** - výstupy jsou označeny jako **Basic**
+2. **AI – Mistrovství produktivity s umělou inteligencí** - výstupy jsou označeny jako **Advanced**.
 
 Získané znalosti jsem průběžně rozšiřoval prostřednictvím vlastních případových studií, praktických ukázek, analytických workflow a knihovny znovupoužitelných promptů.
 
@@ -53,30 +51,49 @@ ai-learning-journey/
 └── README.md
 ```
 
-## Přehled jednotlivých částí
+---
 
-| Složka | Obsah |
-|---|---|
-| `ai-case-studies` | Základní a pokročilé případové studie |
-| `ai-certificates` | Certifikáty a osvědčení z absolvovaných kurzů |
-| `ai-cheatsheets` | Stručné referenční materiály |
-| `ai-examples` | Praktické testovací příklady a výstupy AI |
-| `ai-mini-tests` | Testy základních a pokročilých znalostí |
-| `ai-other-courses` | Materiály z doplňkových kurzů mimo ITnetwork |
-| `ai-playbooks` | Strukturované postupy pro práci s AI |
-| `ai-prompt-library` | Knihovna znovupoužitelných promptů |
-| `ai-resources` | Doplňkové studijní zdroje |
+# Hlavní oblasti rozvoje
+
+Repozitář je zaměřen především na:
+
+- Prompt Engineering,
+- AI-assisted Data Analytics,
+- Business Intelligence,
+- AI Productivity,
+- AI Workflow Design,
+- automatizaci,
+- validaci AI výstupů,
+- AI Governance,
+- AI Risk Management,
+- dokumentaci AI řešení,
+- kritické myšlení,
+- Vibe Coding.
+
+---
+
+# Prezentované dovednosti
+
+Prostřednictvím jednotlivých částí repozitáře jsou prezentovány zejména tyto dovednosti:
+
+- návrh strukturovaných promptů,
+- iterace a optimalizace promptů,
+- kritické hodnocení AI výstupů,
+- převod business problému do AI workflow,
+- práce s analytickým kontextem,
+- návrh KPI,
+- práce s datovou kvalitou,
+- reporting a data storytelling,
+- dokumentace v Markdownu,
+- ochrana citlivých informací,
+- identifikace rizik a omezení,
+- návrh AI asistentů a agentních frameworků.
 
 ---
 
 # Hlavní vzdělávání — ITnetwork
 
-Většina obsahu repozitáře vznikla během studia dvou kurzů od **ITnetwork**.
-
-Pro přehlednost jsou výstupy rozděleny na:
-
-- **Basic** — výstupy navazující na kurz Základy umělé inteligence,
-- **Advanced** — výstupy navazující na kurz AI – Mistrovství produktivity s umělou inteligencí.
+Většina obsahu repozitáře vznikla během studia dvou kurzů od **ITnetwork** (Základy umělé inteligence a Mistrovství produktivity s umělou inteligencí).
 
 Na oba kurzy navazují:
 
@@ -93,14 +110,6 @@ Certifikáty jsou uloženy ve složce [`ai-certificates`](./ai-certificates).
 ## Základy umělé inteligence — Basic
 
 Kurz **Základy umělé inteligence** poskytl teoretický i praktický základ pro práci s generativní AI.
-
-Obsahoval:
-
-- 17 interaktivních lekcí,
-- 15 samostatných úloh,
-- 7 vědomostních testů,
-- závěrečný test,
-- certifikát absolventa.
 
 ### Hlavní oblasti kurzu
 
@@ -124,17 +133,6 @@ Kurz byl zaměřen zejména na:
 - halucinace AI modelů,
 - trendy a budoucí vývoj AI.
 
-### Praktické zaměření
-
-Součástí kurzu byly řešené úlohy zaměřené na:
-
-- formulaci promptů,
-- iterativní úpravy zadání,
-- práci s textovými a grafickými výstupy,
-- využití AI v běžných pracovních situacích,
-- tvorbu vlastních GPT,
-- identifikaci rizik a omezení AI.
-
 ### Výstupy v repozitáři
 
 Na tento kurz navazují především části označené jako `basic`, například:
@@ -145,9 +143,6 @@ Na tento kurz navazují především části označené jako `basic`, napříkla
 - základní mini test,
 - základní cheatsheet.
 
-Zdroj kurzu:  
-https://www.itnetwork.cz/ai/zaklady
-
 ---
 
 ## AI – Mistrovství produktivity s umělou inteligencí — Advanced
@@ -155,14 +150,6 @@ https://www.itnetwork.cz/ai/zaklady
 Kurz **AI – Mistrovství produktivity s umělou inteligencí** navázal na základní znalosti a zaměřil se především na praktické zapojení AI do pracovního i osobního života.
 
 Pro účely tohoto repozitáře je obsah tohoto kurzu označen jako **Advanced**.
-
-Kurz obsahoval:
-
-- 23 lekcí,
-- 24 samostatných úloh,
-- 9 vědomostních testů,
-- závěrečný test,
-- certifikát absolventa.
 
 ### Hlavní oblasti kurzu
 
@@ -222,22 +209,6 @@ Kurz byl zaměřen na praktické využití AI v následujících oblastech:
 - interakce s agentem v ChatGPT,
 - návrh vícekrokových workflow.
 
-### Praktické zaměření
-
-Součástí kurzu byly praktické úlohy zaměřené například na:
-
-- tvorbu a úpravu textů,
-- datové analýzy,
-- návrh vizualizací,
-- organizaci schůzek,
-- zpracování e-mailové komunikace,
-- týmovou spolupráci,
-- použití AI v marketingu, IT a grafice,
-- bezpečné použití AI v oblasti zdraví, financí a práva,
-- vzdělávání,
-- budování kariéry,
-- návrh osobních a pracovních AI workflow.
-
 ### Výstupy v repozitáři
 
 Na tento kurz navazují především části označené jako `advanced`, například:
@@ -248,9 +219,6 @@ Na tento kurz navazují především části označené jako `advanced`, napří
 - pokročilý mini test,
 - pokročilý cheatsheet,
 - [`ai-prompt-library`](./ai-prompt-library).
-
-Zdroj kurzu:  
-https://www.itnetwork.cz/ai/produktivita
 
 ---
 
@@ -302,35 +270,15 @@ Probírané oblasti zahrnovaly:
 
 [`AI Prompt Library`](./ai-prompt-library) je samostatný projekt uvnitř tohoto repozitáře.
 
-Jde o kurátorovanou knihovnu znovupoužitelných promptů zaměřených na:
+Jde o kurátorovanou knihovnu znovupoužitelných promptů, které nejsou koncipovány jako jednorázové dotazy. Každý představuje strukturované workflow určené pro opakované použití a přizpůsobení konkrétnímu zadání.
 
-- práci s AI výstupy,
-- datovou analytiku,
-- Business Intelligence,
-- Excel,
-- SQL,
-- Power Query,
-- Power BI,
-- DAX,
-- reporting,
-- tvorbu portfolia,
-- profesní rozvoj datového analytika.
+Prompty byly vytvořeny v **ChatGPT 5.6** a v tomto modelu také testovány, iterovány a postupně zpřesňovány na realistických scénářích.
 
-Prompty nejsou koncipovány jako jednorázové dotazy. Každý představuje strukturované workflow určené pro opakované použití a přizpůsobení konkrétnímu zadání.
+Další iterace jsou vhodné především na základě praktického používání.
 
-## Tematické oblasti knihovny
+Při využití jiných generativních modelů AI (například **Gemini**, **Claude** nebo **MS Copilot**), je vhodné prompty znovu otestovat, protože jednotlivé modely mohou instrukce interpretovat odlišně.
 
-Knihovna je rozdělena do následujících částí:
-
-- AI,
-- Analytics,
-- Career,
-- Excel,
-- Power BI,
-- Reporting,
-- SQL.
-
-Jednotlivé prompty se zaměřují například na:
+Jednotlivé prompty se zaměřují např. na:
 
 - revizi AI výstupů,
 - kontrolu a optimalizaci promptů,
@@ -355,31 +303,13 @@ Jednotlivé prompty se zaměřují například na:
 - data storytelling,
 - SQL dotazy a databázovou strukturu.
 
-## Vývoj knihovny
-
-Prompty byly vytvořeny v **ChatGPT 5.6** a v tomto modelu také testovány, iterovány a postupně zpřesňovány na realistických scénářích.
-
-Další iterace jsou vhodné především na základě praktického používání.
-
-Při využití jiných generativních modelů, například **Gemini**, **Claude** nebo **Microsoft Copilot**, je vhodné prompty znovu otestovat, protože jednotlivé modely mohou instrukce interpretovat odlišně.
-
-## Propojení s praktickými příklady
-
 Knihovna promptů je přímo propojena se složkou:
 
 [`ai-examples/ai-examples-advanced`](./ai-examples/ai-examples-advanced)
 
-Tato složka kopíruje tematickou strukturu knihovny:
+Tato složka kopíruje tematickou strukturu knihovny. 
 
-- AI,
-- Analytics,
-- Career,
-- Excel,
-- Power BI,
-- Reporting,
-- SQL.
-
-Každý zpracovaný příklad obsahuje:
+Každý příklad obsahuje:
 
 1. finální verzi promptu po předchozích iteracích,
 2. realistické testovací zadání,
@@ -557,7 +487,7 @@ Projekt není hotovým softwarem. Představuje návrh profesionálního AI-assis
 - ChatGPT,
 - Claude,
 - Gemini,
-- Microsoft Copilot.
+- MS Copilot.
 
 ## AI research
 
@@ -578,46 +508,6 @@ Projekt není hotovým softwarem. Představuje návrh profesionálního AI-assis
 - Midjourney.
 
 Použité nástroje se v jednotlivých částech repozitáře liší.
-
-Hlavním prostředím pro návrh, testování a iteraci promptů byl **ChatGPT 5.6**.
-
----
-
-# Hlavní oblasti rozvoje
-
-Repozitář je zaměřen především na:
-
-- Prompt Engineering,
-- AI-assisted Data Analytics,
-- Business Intelligence,
-- AI Productivity,
-- AI Workflow Design,
-- automatizaci,
-- validaci AI výstupů,
-- AI Governance,
-- AI Risk Management,
-- dokumentaci AI řešení,
-- kritické myšlení,
-- Vibe Coding.
-
----
-
-# Prezentované dovednosti
-
-Prostřednictvím jednotlivých částí repozitáře jsou prezentovány zejména tyto dovednosti:
-
-- návrh strukturovaných promptů,
-- iterace a optimalizace promptů,
-- kritické hodnocení AI výstupů,
-- převod business problému do AI workflow,
-- práce s analytickým kontextem,
-- návrh KPI,
-- práce s datovou kvalitou,
-- reporting a data storytelling,
-- dokumentace v Markdownu,
-- ochrana citlivých informací,
-- identifikace rizik a omezení,
-- návrh AI asistentů a agentních frameworků.
 
 ---
 
@@ -661,9 +551,3 @@ Výstupy generativní AI v tomto repozitáři představují vzdělávací a demo
 Neměly by být automaticky považovány za odborně ověřené závěry ani bez další kontroly používány jako podklad pro zdravotní, právní, finanční nebo jiná významná rozhodnutí.
 
 Za finální interpretaci, ověření a použití výstupů vždy odpovídá člověk.
-
----
-
-# Autor
-
-**František Papst**
