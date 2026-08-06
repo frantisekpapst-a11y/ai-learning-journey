@@ -1,23 +1,62 @@
 # AI Prompt Library
 
-Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence a produktivitu.
+Kurátorovaná knihovna znovupoužitelných AI promptů pro datovou analytiku, Business Intelligence, reporting a profesní rozvoj.
 
 ---
 
 # O knihovně
 
-Tento repozitář obsahuje postupně rozšiřovanou knihovnu znovupoužitelných AI promptů zaměřených na datovou analytiku, Business Intelligence a každodenní práci analytika.
+Tento repozitář obsahuje knihovnu znovupoužitelných AI promptů navržených pro každodenní práci datového analytika, BI analytika i dalších specialistů pracujících s daty.
 
-Nejde o sbírku jednorázových dotazů, ale o promyšlené pracovní postupy (workflows), které lze opakovaně používat, přizpůsobovat konkrétním projektům a průběžně vylepšovat na základě praktických zkušeností.
+Nejde o sbírku jednorázových dotazů, ale o sadu strukturovaných workflow, která lze opakovaně používat, přizpůsobovat konkrétním projektům a dále rozvíjet na základě praktických zkušeností.
+
+Prompty pokrývají celý analytický proces – od analýzy business požadavků přes práci s daty, SQL, Excel, Power BI a reporting. Specifickou sekcí je kariérní rozvoj, kterou autor zpracoval v souvislosti s uplatněním na trhu práce jako datový analytik.
 
 Každý prompt je navržen tak, aby byl:
 
 - znovupoužitelný,
-- snadno přizpůsobitelný,
+- snadno přizpůsobitelný různým scénářům,
 - prakticky využitelný v reálných projektech,
-- ověřený na realistických zadáních.
+- zaměřený na jednu konkrétní úlohu,
+- konzistentní napříč celou knihovnou.
 
-Součástí repozitáře jsou také **[Examples](../ai-examples/ai-examples-advanced/)**, které ukazují použití jednotlivých promptů na realistických business scénářích a demonstrují jeden z možných výstupů generovaných AI.
+---
+
+# Vývoj a testování promptů
+
+Všechny prompty byly vytvořeny v **ChatGPT 5.6** a v tomto modelu také průběžně testovány, iterovány a postupně zpřesňovány na základě realistických testovacích scénářů.
+
+Každý prompt prošel několika iteracemi s cílem dosáhnout:
+
+- jednoznačně definované role AI,
+- konzistentních výstupů,
+- dobré znovupoužitelnosti,
+- omezení rizika halucinací,
+- praktické použitelnosti v běžné analytické práci.
+
+Současná verze představuje stabilní pracovní základ.
+
+Další iterace jsou vhodné zejména při skutečném používání promptů v reálných projektech, kdy lze na základě získaných zkušeností zpřesňovat jejich strukturu, rozsah nebo formulaci.
+
+Stejně tak je vhodné jednotlivé prompty otestovat i v dalších generativních AI modelech (např. **Google Gemini**, **Anthropic Claude** nebo **Microsoft Copilot**), protože jednotlivé modely se mohou lišit ve způsobu interpretace instrukcí i kvalitě výsledných výstupů.
+
+---
+
+# Struktura knihovny
+
+Repozitář je rozdělen do několika tematických oblastí:
+
+- AI
+- Analytics
+- Career
+- Excel
+- Power BI
+- Reporting
+- SQL
+
+Každá oblast obsahuje samostatné prompty zaměřené na konkrétní typ úlohy.
+
+Jednotlivé prompty jsou navrženy tak, aby se navzájem doplňovaly a zbytečně se nepřekrývaly.
 
 ---
 
@@ -25,75 +64,29 @@ Součástí repozitáře jsou také **[Examples](../ai-examples/ai-examples-adva
 
 Každý prompt používá jednotnou strukturu:
 
+- Název
 - Účel
 - Vhodné použití
+- Typické scénáře
+- Typické úlohy
 - Prompt
 - Co tento prompt řeší
-- Další možnosti použití
-- Lessons Learned
 
-Každý příklad (Example) obsahuje:
-
-- Zadání
-- Výstup
+Díky jednotné struktuře lze prompty snadno rozšiřovat, udržovat i opakovaně používat.
 
 ---
 
-# Aktuální prompty
+# Examples
 
-## Business Intelligence
+Součástí repozitáře je také složka **examples**, která kopíruje strukturu celé knihovny promptů.
 
-| ID | Prompt |
-|----|--------|
-| 001 | Power BI Executive Dashboard Designer |
+Každý příklad obsahuje:
 
----
+- finální verzi promptu po předchozích iteracích,
+- testovací zadání,
+- odpovídající výstup generovaný AI.
 
-# Připravované prompty
-
-## Excel
-
-- Excel Formula Assistant
-- Excel KPI Dashboard Designer
-- Power Query Transformation Assistant
-- Excel Workbook Reviewer
-
-## SQL
-
-- SQL Query Generator
-- SQL Query Reviewer
-- SQL Query Optimizer
-- SQL Debugger
-- Database Schema Analyzer
-
-## Power BI
-
-- Power BI Dashboard Reviewer
-- DAX Assistant
-- Power BI Data Model Reviewer
-- Power BI Performance Reviewer
-
-## Datová analytika
-
-- Data Cleaning Assistant
-- Exploratory Data Analysis Assistant
-- KPI Designer
-- Root Cause Analysis Assistant
-- Trend Analysis Assistant
-- Customer Segmentation Assistant
-- Data Validation Assistant
-
-## Business analýza
-
-- Business Requirements Analyzer
-- Executive Summary Generator
-- Business Question Refinement Assistant
-- Requirements-to-KPI Assistant
-
-## AI Quality
-
-- Prompt Reviewer & Optimizer
-- AI Output Reviewer
+Examples neslouží jako jediný správný výsledek, ale jako ukázka jednoho z možných způsobů použití daného promptu na realistickém scénáři.
 
 ---
 
@@ -101,41 +94,39 @@ Každý příklad (Example) obsahuje:
 
 Každý prompt je navržen tak, aby:
 
-- definoval jasnou roli AI,
-- v návaznosti na konkrétní zadání řešil konkrétní analytický úkol,
-- byl obecný a znovupoužitelný pro různé projekty,
-- jasně určoval, jaké informace má obsahovat konkrétní zadání,
-- obsahoval pouze nezbytná pravidla a omezení,
-- definoval očekávaný rozsah a podobu výstupu,
+- definoval jednoznačnou roli AI,
+- řešil jednu konkrétní úlohu,
+- byl obecný a znovupoužitelný,
+- odděloval obecný prompt od konkrétního zadání,
+- obsahoval pouze nezbytná pravidla,
+- vedl AI ke konzistentním výsledkům,
 - minimalizoval riziko halucinací,
-- podporoval konzistentní a opakovatelné výsledky.
+- podporoval transparentní a objektivní práci s informacemi.
 
-Konkrétní business kontext, dostupná data, cílová skupina a požadovaný výsledek jsou doplněny až v zadání připojeném k promptu.
+Konkrétní business kontext, data, cílová skupina i požadovaný výstup jsou vždy součástí až vlastního zadání.
 
-Prompt představuje obecnou a znovupoužitelnou instrukci. Zadání následně doplňuje konkrétní situaci, data a business potřebu.
-
-Prompty nejsou pevné šablony dokumentů. Jejich cílem je vést AI k vytvoření kvalitního řešení, nikoli vynutit jediný správný formát nebo totožnou odpověď napříč různými AI modely.
+Prompt představuje obecnou instrukci, zatímco zadání popisuje konkrétní situaci.
 
 ---
 
 # Lessons Learned
 
-- Prompt není pouze otázka, ale strukturované zadání, které AI jednoznačně definuje očekávaný úkol.
-- Jasně definovaná role AI významně zvyšuje kvalitu, konzistenci a relevanci výsledků.
-- Obecný a znovupoužitelný prompt doplněný konkrétním zadáním je efektivnější než vytváření nového promptu pro každý scénář.
-- Prompt by měl AI vést k požadovanému výsledku, nikoli ji svazovat zbytečnými pravidly nebo implementačními detaily.
-- Omezení domýšlení dat, datových struktur nebo dalších chybějících informací pomáhá výrazně snižovat riziko halucinací.
-- Každý prompt v této knihovně řeší jeden konkrétní typ úlohy a je navržen tak, aby se nepřekrýval s ostatními prompty.
-- Všechny prompty jsou průběžně testovány na realistických business scénářích a iterativně vylepšovány na základě získaných zkušeností.
+Během návrhu a iterací celé knihovny se potvrdilo několik obecných principů:
+
+- Prompt není pouze otázka, ale strukturované zadání definující očekávaný úkol.
+- Jasně definovaná role AI významně zvyšuje kvalitu a konzistenci výstupů.
+- Obecný prompt doplněný konkrétním zadáním je dlouhodobě efektivnější než vytváření nového promptu pro každý scénář.
+- Oddělení obecného promptu od konkrétního zadání výrazně zvyšuje znovupoužitelnost.
+- Omezení domýšlení chybějících informací pomáhá snižovat riziko halucinací.
+- Každý prompt by měl řešit pouze jednu jasně vymezenou oblast.
+- Největší přínos mají prompty, které jsou opakovaně ověřovány na realistických scénářích a průběžně upravovány podle zkušeností z praktického používání.
 
 ---
 
-# Status
+# Upozornění
 
-| Položka | Hodnota |
-|----------|---------|
-| Projekt | AI Prompt Library |
-| Verze | 1.0 |
-| Stav | In Development |
-| Autor | František Papst |
-| Licence | MIT License |
+Výstupy generativní AI by měly být vždy považovány za návrh řešení, nikoli za automaticky správný výsledek.
+
+Před použitím v produkčním prostředí nebo při důležitých business rozhodnutích je vhodné výstupy ověřit z pohledu věcné správnosti, úplnosti i souladu s konkrétním kontextem řešeného problému.
+
+Tato knihovna představuje praktický základ, který lze dále rozšiřovat a iterativně zlepšovat podle potřeb jednotlivých projektů i vývoje generativních AI modelů.
