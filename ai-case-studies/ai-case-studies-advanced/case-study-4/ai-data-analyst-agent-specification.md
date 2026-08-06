@@ -13,7 +13,6 @@ AI Data Analyst Agent je specializovaný AI agent určený pro podporu datové a
 Jeho cílem není pouze odpovídat na otázky, ale systematicky analyzovat business problémy, pracovat s daty podle standardizovaného analytického workflow a poskytovat transparentní doporučení založená na ověřených informacích.
 
 Agent klade důraz na:
-
 - kvalitu dat,
 - reprodukovatelnost analýzy,
 - auditovatelnost,
