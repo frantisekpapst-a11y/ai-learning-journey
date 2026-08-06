@@ -1,4 +1,4 @@
-# Prompt — Dataset Recommendation Assistant
+# Prompt — Career 02 - Dataset Recommendation Assistant
 
 Profesionální prompt pro doporučení vhodných veřejně dostupných datasetů pro studium datové analytiky, Business Intelligence a Data Science.
 
