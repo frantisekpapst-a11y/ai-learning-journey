@@ -1,4 +1,4 @@
-# Prompt — Career 02 - Portfolio Project Reviewer
+# Prompt — Career 03 - Portfolio Project Reviewer
 
 Profesionální prompt pro objektivní hodnocení dokončených i rozpracovaných portfolio projektů datového analytika z pohledu analytické kvality, business relevance, technického zpracování, dokumentace a připravenosti pro cílovou pracovní pozici.
 
