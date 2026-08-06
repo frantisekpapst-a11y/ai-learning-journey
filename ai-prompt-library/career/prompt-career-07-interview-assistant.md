@@ -1,4 +1,4 @@
-# Prompt — Career 06 - Interview Assistant
+# Prompt — Career 07 - Interview Assistant
 
 Profesionální prompt pro přípravu na pracovní pohovory v oblasti Data Analytics, Business Intelligence a IT.
 
