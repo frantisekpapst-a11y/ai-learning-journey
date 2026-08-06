@@ -14,7 +14,9 @@
 
 Management společnosti požádal analytický tým o vyhodnocení výsledků za **2. čtvrtletí 2025**.
 
-Analýza byla dokončena, ale vedení nechce číst několikastránkový technický report. Potřebuje pouze:
+Analýza byla dokončena, ale vedení nechce číst několikastránkový technický report.
+
+Potřebuje pouze:
 
 - hlavní zjištění,
 - klíčové KPI,
