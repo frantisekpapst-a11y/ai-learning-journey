@@ -1,4 +1,4 @@
-# Case Study 2 – AI Sentiment Analysis pro e-shop
+# Case Study 2 – AI Sentiment Analysis for E-shop
 
 ## Cíl
 
