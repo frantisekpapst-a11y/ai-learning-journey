@@ -546,11 +546,9 @@ Výstupy generativní AI v tomto repozitáři představují vzdělávací a demo
 
 Neměly by být automaticky považovány za odborně ověřené závěry ani bez další kontroly používány jako podklad pro zdravotní, právní, finanční nebo jiná významná rozhodnutí.
 
+Za finální interpretaci, ověření a použití výstupů vždy odpovídá člověk.
+
 ---
 
 # Autor
 ## **František Papst**
-
-
-
-Za finální interpretaci, ověření a použití výstupů vždy odpovídá člověk.
