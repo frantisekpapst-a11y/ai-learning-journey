@@ -2,14 +2,14 @@
 
 Repozitář dokumentující moje studium umělé inteligence a její praktické využití v datové analytice, Business Intelligence, automatizaci, produktivitě a AI-assisted workflow.
 
-Obsah vznikal především v návaznosti na dva kurzy umělé inteligence od **ITnetwork**:
+Obsah vznikal především v návaznosti na dva kurzy AI od **ITnetwork**:
 
 1. **Základy umělé inteligence** - výstupy jsou označeny jako **Basic**
 2. **AI – Mistrovství produktivity s umělou inteligencí** - výstupy jsou označeny jako **Advanced**.
 
-Získané znalosti jsem průběžně rozšiřoval prostřednictvím vlastních případových studií, praktických ukázek, analytických workflow a knihovny znovupoužitelných promptů.
+Získané znalosti jsem průběžně rozšiřoval prostřednictvím vlastních case studies, praktických příkladů, analytických workflow a knihovny znovupoužitelných promptů.
 
-Doplňkovou část tvoří materiály z dalších kurzů zaměřených na praktické používání AI nástrojů a základy vibe codingu.
+Doplňkovou část tvoří materiály z dalšího kurzu zaměřeného na praktické používání AI nástrojů a základů vibe codingu.
 
 ---
 
@@ -17,13 +17,12 @@ Doplňkovou část tvoří materiály z dalších kurzů zaměřených na prakti
 
 Cílem tohoto repozitáře je:
 
-- dokumentovat dlouhodobý rozvoj v oblasti umělé inteligence,
+- dokumentovat dlouhodobý rozvoj v oblasti AI,
 - převádět získané znalosti do praktických výstupů,
 - vytvářet vlastní AI case studies,
 - budovat znovupoužitelná AI workflow,
 - rozvíjet schopnost kriticky hodnotit výstupy generativní AI,
-- propojovat AI s datovou analytikou a Business Intelligence,
-- budovat veřejné portfolio AI projektů.
+- propojovat AI s datovou analytikou a Business Intelligence.
 
 ---
 
@@ -81,11 +80,9 @@ Prostřednictvím jednotlivých částí repozitáře jsou prezentovány zejmén
 - kritické hodnocení AI výstupů,
 - převod business problému do AI workflow,
 - práce s analytickým kontextem,
-- návrh KPI,
 - práce s datovou kvalitou,
 - reporting a data storytelling,
 - dokumentace v Markdownu,
-- ochrana citlivých informací,
 - identifikace rizik a omezení,
 - návrh AI asistentů a agentních frameworků.
 
@@ -107,7 +104,7 @@ Certifikáty jsou uloženy ve složce [`ai-certificates`](./ai-certificates).
 
 ---
 
-## Základy umělé inteligence — Basic
+## Základy umělé inteligence — Basics
 
 Kurz **Základy umělé inteligence** poskytl teoretický i praktický základ pro práci s generativní AI.
 
@@ -130,8 +127,7 @@ Kurz byl zaměřen zejména na:
 - princip fungování a architekturu LLM,
 - datové korpusy,
 - etické otázky,
-- halucinace AI modelů,
-- trendy a budoucí vývoj AI.
+- halucinace AI modelů.
 
 ### Výstupy v repozitáři
 
@@ -139,9 +135,9 @@ Na tento kurz navazují především části označené jako `basic`, napříkla
 
 - [`ai-case-studies-basic`](./ai-case-studies/ai-case-studies-basic),
 - [`ai-examples-basics.md`](./ai-examples/ai-examples-basics.md),
-- základní AI playbook,
-- základní mini test,
-- základní cheatsheet.
+- AI playbook základy,
+- mini testy základy,
+- cheatsheet základy.
 
 ---
 
@@ -215,16 +211,16 @@ Na tento kurz navazují především části označené jako `advanced`, napří
 
 - [`ai-case-studies-advanced`](./ai-case-studies/ai-case-studies-advanced),
 - [`ai-examples-advanced`](./ai-examples/ai-examples-advanced),
-- pokročilý AI playbook,
-- pokročilý mini test,
-- pokročilý cheatsheet,
+- AI playbook pokročilý,
+- mini testy pokročilý,
+- cheatsheet pokročilý,
 - [`ai-prompt-library`](./ai-prompt-library).
 
 ---
 
 # Další absolvované kurzy
 
-Materiály z ostatních kurzů jsou odděleny ve složce [`ai-other-courses`](./ai-other-courses).
+Materiály z dalších dvou kurzů jsou odděleny ve složce [`ai-other-courses`](./ai-other-courses).
 
 ## AI Starter Pack
 
@@ -503,7 +499,7 @@ Projekt není hotovým softwarem. Představuje návrh profesionálního AI-assis
 
 - Zapier.
 
-## Generativní nástroje
+## Grafika
 
 - Midjourney.
 
@@ -536,7 +532,7 @@ Během studia a tvorby jednotlivých výstupů se opakovaně potvrdilo několik 
 - První výstup AI není vhodné automaticky považovat za finální.
 - AI nenahrazuje kritické myšlení ani odborné znalosti.
 - Výstupy je nutné ověřovat, zejména při práci s čísly, citacemi, zdravím, právem nebo důležitými business rozhodnutími.
-- AI může vytvářet přesvědčivě formulované, ale nesprávné informace.
+- AI může vytvářet přesvědčivě formulované, ale přesto nesprávné informace (může tzv. halucinovat).
 - Business kontext je stejně důležitý jako samotná data.
 - Iterativní práce zpravidla vede ke kvalitnějším a přesnějším výstupům.
 - AI je nejefektivnější jako asistent a podpora rozhodování, nikoli jako náhrada člověka.
@@ -549,5 +545,12 @@ Během studia a tvorby jednotlivých výstupů se opakovaně potvrdilo několik 
 Výstupy generativní AI v tomto repozitáři představují vzdělávací a demonstrační příklady.
 
 Neměly by být automaticky považovány za odborně ověřené závěry ani bez další kontroly používány jako podklad pro zdravotní, právní, finanční nebo jiná významná rozhodnutí.
+
+---
+
+# Autor
+## **František Papst**
+
+
 
 Za finální interpretaci, ověření a použití výstupů vždy odpovídá člověk.
