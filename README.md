@@ -1,4 +1,4 @@
-# AI Data Analytics Portfolio 🤖
+# 🤖 AI Data Analytics Portfolio
 
 Repozitář dokumentující moje studium umělé inteligence a její praktické využití v datové analytice, Business Intelligence, automatizaci, produktivitě a AI-assisted workflow.
 
@@ -13,9 +13,9 @@ Doplňkovou část tvoří materiály z dalšího kurzu zaměřeného na praktic
 
 ---
 
-# Cíle repozitáře
+# 🎯 Cíl projektu
 
-Cílem tohoto repozitáře je:
+Cílem je:
 
 - dokumentovat dlouhodobý rozvoj v oblasti AI,
 - převádět získané znalosti do praktických výstupů,
@@ -26,10 +26,10 @@ Cílem tohoto repozitáře je:
 
 ---
 
-# Struktura repozitáře
+# 📁 Struktura repozitáře
 
 ```text
-ai-learning-journey/
+ai-data-analytics-portfolio/
 │
 ├── ai-case-studies/
 │   ├── ai-case-studies-basic/
@@ -52,7 +52,7 @@ ai-learning-journey/
 
 ---
 
-# Hlavní oblasti rozvoje
+# 🧠 Hlavní oblasti rozvoje
 
 Repozitář je zaměřen především na:
 
@@ -315,18 +315,20 @@ Příklady dokumentují praktické použití promptů a jeden z možných výsle
 
 ---
 
-# Portfolio AI Case Studies
+# 📊 Portfolio AI Case Studies
 
 Případové studie jsou rozděleny do dvou částí:
 
 - [`ai-case-studies-basic`](./ai-case-studies/ai-case-studies-basic),
 - [`ai-case-studies-advanced`](./ai-case-studies/ai-case-studies-advanced).
 
+Jsou inspirované kurzy ITnetvwork. Nejedná se tedy o case studies nebo příklady řešené přímo v rámci těchto kurzů, které jsem řešil rovněž, ale nemohou zde být z důvodu licenčních ustanovení.
+
 ---
 
 # Basic Case Studies
 
-## Case Study 01 — Personalized GPT Mentor for Data Analytics
+## 📘 Case Study 01 — Personalized GPT Mentor for Data Analytics
 
 Personalizovaný GPT mentor zaměřený na dlouhodobé studium datové analytiky a Business Intelligence.
 
@@ -347,7 +349,7 @@ Projekt reaguje na časté problémy samostudia, například nejasnou studijní 
 
 ---
 
-## Case Study 02 — AI Sentiment Analysis for E-shop
+## 📘 Case Study 02 — AI Sentiment Analysis for E-shop
 
 Návrh využití AI pro automatizovanou analýzu přibližně 50 000 zákaznických recenzí.
 
@@ -369,7 +371,7 @@ Projekt pracuje s kategoriemi `Positive`, `Negative`, `Neutral` a `Mixed` a zdů
 
 # Advanced Case Studies
 
-## Case Study 01 — AI-Assisted Executive Summary for Quarterly Sales Analysis
+## 📘 Case Study 01 — AI-Assisted Executive Summary for Quarterly Sales Analysis
 
 Případová studie ukazuje využití AI při převodu technického analytického reportu do stručného Executive Summary pro management.
 
@@ -387,7 +389,7 @@ Hlavním poznatkem je, že AI může tvorbu reportingu výrazně urychlit, ale v
 
 ---
 
-## Case Study 02 — AI-Powered Office Workflow Assistant
+## 📘 Case Study 02 — AI-Powered Office Workflow Assistant
 
 Případová studie demonstruje využití AI při běžných administrativních činnostech analytického týmu.
 
@@ -406,7 +408,7 @@ Projekt ukazuje potenciál AI pro úsporu času, standardizaci dokumentace a lep
 
 ---
 
-## Case Study 03 — AI Personal Advisor Framework: Health
+## 📘 Case Study 03 — AI Personal Advisor Framework: Health
 
 Vzdělávací framework pro bezpečné a odpovědné využívání AI při práci se zdravotními informacemi.
 
@@ -440,7 +442,7 @@ Framework neposkytuje diagnózu ani léčbu a nenahrazuje zdravotnického odborn
 
 ---
 
-## Case Study 04 — AI Data Analyst Agent
+## 📘 Case Study 04 — AI Data Analyst Agent
 
 Platformně nezávislý framework pro strukturovanou analýzu business dat.
 
@@ -503,6 +505,8 @@ Projekt není hotovým softwarem. Představuje návrh profesionálního AI-assis
 
 - Midjourney.
 
+## GitHub
+
 Použité nástroje se v jednotlivých částech repozitáře liší.
 
 ---
@@ -523,7 +527,7 @@ Repozitář zaměřený na Power BI, Power Query, datové modelování, DAX, rep
 
 ---
 
-# Lessons Learned
+# Lessons 🎯 Learned
 
 Během studia a tvorby jednotlivých výstupů se opakovaně potvrdilo několik principů:
 
@@ -540,7 +544,7 @@ Během studia a tvorby jednotlivých výstupů se opakovaně potvrdilo několik 
 
 ---
 
-# Upozornění
+# 📌 Poznámka autora
 
 Výstupy generativní AI v tomto repozitáři představují vzdělávací a demonstrační příklady.
 
