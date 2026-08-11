@@ -1,4 +1,4 @@
-# AI Learning Journey 🤖
+# AI Data Analytics Portfolio 🤖
 
 Repozitář dokumentující moje studium umělé inteligence a její praktické využití v datové analytice, Business Intelligence, automatizaci, produktivitě a AI-assisted workflow.
 
